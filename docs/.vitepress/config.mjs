@@ -9,15 +9,17 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
+      { text: '文章', link: '/markdown-examples' },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '文章',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: 'Slider', link: '/slider' },
+          { text: 'Listbox', link: '/listbox' },
         ],
       },
     ],
