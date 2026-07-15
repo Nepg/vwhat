@@ -23,28 +23,27 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
+
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
-      
+
       - name: Install dependencies
-        run: npm ci # 或者 npm install
-      
+        run: npm ci
+
       - name: Build VitePress
-        run: npm run docs:build # 关键：确保 package.json 里有这个脚本
-      
+        run: npm run docs:build
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      
+
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3 # 这里用 v3 更稳
+        uses: actions/upload-pages-artifact@v3
         with:
-          # 👇👇👇 核心修复点：把 dist 改成 VitePress 的真实输出路径
-          path: './docs/.vitepress/dist' 
-      
+          path: './docs/.vitepress/dist'
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
