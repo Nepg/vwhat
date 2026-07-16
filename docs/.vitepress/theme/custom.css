@@ -71,7 +71,8 @@ html {
   box-shadow: 0 8px 30px rgba(255, 255, 255, 0.08); /* 加一点柔和发光 */
 }
 
-/* 让文章正文变大一点 */
-.vp-doc {
-  font-size: 18px;
+@media (min-width: 1024px) {
+  .vp-doc {
+    font-size: 18px;
+  }
 }
