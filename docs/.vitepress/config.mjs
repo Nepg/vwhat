@@ -16,12 +16,12 @@ export default defineConfig({
       {
         text: '索引',
         items: [
+          { text: '中文教程', link: '/中文教程' },
+          { text: 'Guide_EN', link: '/Guide_EN' },
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' },
           { text: 'Slider', link: '/slider' },
           { text: 'Listbox', link: '/listbox' },
-          { text: 'Guide_EN', link: '/Guide_EN' },
-          { text: '中文教程', link: '/中文教程' },
         ],
       },
     ],
@@ -43,6 +43,14 @@ export default defineConfig({
       formatOptions: {
         dateStyle: 'full',
         timeStyle: 'medium',
+      },
+    },
+  },
+  markdown: {
+    code: {
+      themes: {
+        light: 'github-light',
+        dark: 'github-dark',
       },
     },
   },

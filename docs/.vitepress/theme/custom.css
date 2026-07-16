@@ -1,7 +1,31 @@
+/* 强制显示滚动条，消除切换抖动 */
+html {
+  overflow-y: scroll;
+}
+
+/* 可选：精致滚动条样式（适配亮色/深色） */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--vp-c-text-3);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--vp-c-text-2);
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: var(--vp-c-text-2);
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: var(--vp-c-text-1);
+}
 :root {
   /* 默认链接颜色（原来指向 indigo-1） */
-  --vp-c-brand-1: #0078d6; /* 比如改成 Element Plus 蓝 */
-
+  --vp-c-brand-1: #0078d6;
   /* 悬浮时的颜色（原来指向 indigo-2） */
   --vp-c-brand-2: #0078d6; /* 悬浮变浅蓝 */
   /* 激活/点击时的颜色（原来指向 indigo-3） */
