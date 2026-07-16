@@ -3,22 +3,22 @@
 layout: home
 
 hero:
-  name: 'What can I saw ?'
-  text: 'A VitePress Site'
-  tagline: My great project tagline
+  # name: 'What can I saw ?'
+  text: '403 禁止访问 😯'
+  tagline: 总有些门是对你关闭的
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 看看允许的内容 →
       link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+    # - theme: alt
+    #   text: API Examples
+    #   link: /api-examples
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+# features:
+#   - title: Feature A
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature B
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature C
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---

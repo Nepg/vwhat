@@ -1,0 +1,48 @@
+:root {
+  /* 默认链接颜色（原来指向 indigo-1） */
+  --vp-c-brand-1: #0078d6; /* 比如改成 Element Plus 蓝 */
+
+  /* 悬浮时的颜色（原来指向 indigo-2） */
+  --vp-c-brand-2: #0078d6; /* 悬浮变浅蓝 */
+  /* 激活/点击时的颜色（原来指向 indigo-3） */
+  --vp-c-brand-3: #0078d6; /* 点击变深蓝 */
+}
+
+.dark {
+  /* 在深色背景下，颜色需要更亮或调整色相以保证可读性 */
+  --vp-c-brand-1: #4cc2ff; /* 深色模式下的默认链接颜色（更亮） */
+  --vp-c-brand-2: #4cc2ff; /* 深色模式下的悬浮颜色 */
+  --vp-c-brand-3: #4cc2ff; /* 深色模式下的激活颜色 */
+}
+
+/* ===== 首页唯一按钮（方向三：暗黑冷淡风） ===== */
+.VPHomeHero .VPButton.brand {
+  background: transparent;
+  border: 2px solid var(--vp-c-text-1);
+  color: var(--vp-c-text-1);
+  border-radius: 30px;
+  padding: 10px 42px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  transition: all 0.3s ease;
+}
+
+.VPHomeHero .VPButton.brand:hover {
+  background: var(--vp-c-text-1);
+  color: var(--vp-c-bg);
+  transform: scale(1.2);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== 深色模式下的颜色强化（替换掉原来的灰） ===== */
+.dark .VPHomeHero .VPButton.brand {
+  border-color: #d0d0d0; /* 更亮的银灰边框 */
+  color: #d0d0d0; /* 更亮的文字 */
+}
+
+.dark .VPHomeHero .VPButton.brand:hover {
+  background: #ffffff; /* 悬浮时填充亮银灰 */
+  color: #1a1a1a; /* 文字反色为深色，形成清晰对比 */
+  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.08); /* 加一点柔和发光 */
+}
