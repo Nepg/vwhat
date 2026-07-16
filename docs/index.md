@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  # name: 'What can I saw ?'
+  # name: 'What can I say ?'
   text: '403 禁止访问 😯'
   tagline: 总有些门是对你关闭的
   actions:

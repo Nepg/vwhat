@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/vwhat/',
-  title: 'What can I saw ？',
+  title: 'What can I say ？',
   description: 'A VitePress Site',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
