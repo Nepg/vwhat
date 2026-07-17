@@ -4,12 +4,12 @@ layout: home
 
 hero:
   # name: 'What can I say ?'
-  text: '403 禁止访问 😯'
-  tagline: 总有些门是对你关闭的
+  text: '这里没有东西 😶'
+  tagline: 就像你试图敲开的门，背后或许也只是另一堵墙。
   actions:
     - theme: brand
-      text: 看看允许的内容 →
-      link: /markdown-examples
+      text: 看看别处？ →
+      link: /中文教程
     # - theme: alt
     #   text: API Examples
     #   link: /api-examples
