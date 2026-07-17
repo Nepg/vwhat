@@ -37,6 +37,8 @@ title: 资源集成
 | 📦  | 迅雷             | [官网](https://dl.xunlei.com/)                   | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 会员和非会员是两个世界，你懂的                  |
 | 🧹  | Motrix           | [官网](https://motrix.app/)                      | [阿里](https://www.alipan.com/s/xxxx) | 开源全平台下载器，界面好看，但有时不如 IDM 顺手 |
 | 🧹  | LocalSend        | [官网](https://localsend.org/zh-TW/download)     | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 开源跨平台局域网传输工具                        |
+| 🧹  | Chrome           | [官网](https://www.google.cn/chrome/)            | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 浏览器                                          |
+| 🧹  | 网易UU远程       | [官网](https://uuyc.163.com/)                    | —                                     | 远程                                            |
 
 ## 游戏相关
 
@@ -76,7 +78,9 @@ title: 资源集成
 | :-: | :---------------------------------- | :------------------------------------------------------------ | :----------------------------------- | :------------------------------------------------------------------------------------- |
 | 🧹  | Win10_KMS_V3                        | —                                                             | [蓝奏](https://wwi.lanzoui.com/xxxx) | 懂的都懂                                                                               |
 | 🧹  | NTPWEdit 0.7                        | [官网](http://www.cdslow.org.ru/en/ntpwedit/)                 | [蓝奏](https://wwi.lanzoui.com/xxxx) | 懂的都懂                                                                               |
-| 🧹  | 360驱动大师                         | —                                                             | [蓝奏](https://wwi.lanzoui.com/xxxx) | 仅存的不限速版本                                                                       |
-| 🧹  | 驱动总裁                            | [官网](https://www.sysceo.com/software-softwarei-id-258.html) | [蓝奏](https://wwi.lanzoui.com/xxxx) | 一键安装可能会安装不适配的驱动导致蓝屏等各种问题，斟酌使用，好在不限速。安装完小心广告 |
 | 🧹  | MSDN系统库                          | [官网](https://www.xitongku.com/index.html)                   | —                                    | 原版镜像聚集地，不用再去百度找“纯净版”踩坑                                             |
 | 🧹  | Microsoft Software Download Listing | [官网](https://msdl.gravesoft.dev/#)                          | —                                    | 微软官方下载索引的第三方整理版，比微软官网好用一万倍                                   |
+| 🧹  | Ventoy                              | [官网](https://www.ventoy.net/cn/)                            | [蓝奏](https://wwi.lanzoui.com/xxxx) | 新一代多系统启动U盘解决方案                                                            |
+| 🧹  | 微PE工具箱                          | [官网](https://www.wepe.com.cn/)                              | [蓝奏](https://wwi.lanzoui.com/xxxx) | 微pe                                                                                   |
+| 🧹  | 360驱动大师                         | —                                                             | [蓝奏](https://wwi.lanzoui.com/xxxx) | 仅存的不限速版本                                                                       |
+| 🧹  | 驱动总裁                            | [官网](https://www.sysceo.com/software-softwarei-id-258.html) | [蓝奏](https://wwi.lanzoui.com/xxxx) | 一键安装可能会安装不适配的驱动导致蓝屏等各种问题，斟酌使用，好在不限速。安装完小心广告 |
