@@ -38,12 +38,15 @@ export default defineConfig({
     //   pattern: 'https://github.com/your-repo/edit/main/docs/:path',
     //   text: '在 GitHub 上编辑此页',
     // },
-    // lastUpdated: {
-    //   text: '最后更新于',
-    //   formatOptions: {
-    //     dateStyle: 'full',
-    //     timeStyle: 'medium',
-    //   },
-    // },
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium',
+      },
+    },
+    search: {
+      provider: 'local',
+    },
   },
 });
