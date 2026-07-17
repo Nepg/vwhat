@@ -133,3 +133,17 @@ html {
   white-space: normal;
   word-break: break-word;
 }
+@media (max-width: 640px) {
+  .vp-doc .table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .vp-doc table {
+    width: auto;
+    min-width: 100%;
+  }
+  .vp-doc table th,
+  .vp-doc table td {
+    white-space: nowrap !important; /* 覆盖之前的 normal 设置，所有单元格不换行 */
+  }
+}
