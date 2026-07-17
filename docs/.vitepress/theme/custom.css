@@ -113,3 +113,23 @@ html {
 .top-title {
   font-weight: var(--vp-font-weight-semibold) !important;
 }
+/* ===== 资源表格：仅官网/网盘不换行 ===== */
+.vp-doc table {
+  width: 100%;
+  table-layout: auto; /* 让浏览器根据内容自动分配宽度，不会强制撑开 */
+}
+
+/* 只针对第3列（官网）和第4列（网盘）禁止换行 */
+.vp-doc table th:nth-child(3),
+.vp-doc table td:nth-child(3),
+.vp-doc table th:nth-child(4),
+.vp-doc table td:nth-child(4) {
+  white-space: nowrap; /* 不换行 */
+}
+
+/* 附注列（第5列）允许正常换行，避免长文本溢出 */
+.vp-doc table th:nth-child(5),
+.vp-doc table td:nth-child(5) {
+  white-space: normal;
+  word-break: break-word;
+}
