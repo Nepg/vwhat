@@ -31,26 +31,30 @@ title: 资源集成
 | 🧹  | DirectX_Repair   | —                                                | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 它总说“修复完成”，但你永远不知道它到底修了什么  |
 | ⚡  | WizTree          | —                                                | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 它能告诉你硬盘空间去哪了，但不会帮你清          |
 | 📦  | Everything       | [官网](https://www.voidtools.com/)               | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 搜索快到让你怀疑人生，但前提是你记得文件名      |
-| 🧹  | Bandizip         | [官网](https://www.bandisoft.com/bandizip/)      | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 解压工具界的颜值担当，可惜后来加广告了          |
+| 🧹  | Bandizip         | [官网](https://www.bandisoft.com/bandizip/)      | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 一个很好的解压工具，可惜后来加广告了            |
 | 🖥️  | NanaZip          | [官网](https://nanazip.org/)                     | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 对比 Bandizip，你猜谁更好用？                   |
-| ⚡  | IDM              | [官网](https://www.internetdownloadmanager.com/) | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 下载界的常青树，永远在弹“更新”窗口              |
+| ⚡  | IDM              | [官网](https://www.internetdownloadmanager.com/) | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 永远在弹“更新”口                                |
 | 📦  | 迅雷             | [官网](https://dl.xunlei.com/)                   | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 会员和非会员是两个世界，你懂的                  |
 | 🧹  | Motrix           | [官网](https://motrix.app/)                      | [阿里](https://www.alipan.com/s/xxxx) | 开源全平台下载器，界面好看，但有时不如 IDM 顺手 |
+| 🧹  | LocalSend        | [官网](https://localsend.org/zh-TW/download)     | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 开源跨平台局域网传输工具                        |
 
 ## 游戏相关
 
-|     | 名称               | 官网                                                           | 网盘                                 | 附注                                          |
-| :-: | :----------------- | :------------------------------------------------------------- | :----------------------------------- | :-------------------------------------------- |
-| 🛠️  | Steam              | [官网](https://store.steampowered.com/)                        | —                                    | 它不生产游戏，只是游戏的搬运工（钱也是）      |
-| ⚡  | Epic               | [官网](https://www.epicgames.com/site/home?lang=zh-CN)         | —                                    | 每周送游戏，但你可能根本不会玩                |
-| ⚡  | WeGame             | [官网](https://www.wegame.com.cn/home/)                        | —                                    | 腾讯的游戏平台，你懂的                        |
-| 🧹  | 小叽资源           | [官网](https://steamzg.com/)                                   | —                                    | 你以为是游戏资源站，其实是“懂的都懂”          |
-| 🖥️  | Watt Toolkit       | [官网](https://weixin.qq.com/)                                 | —                                    | 原名 Steam++，改了个名字之后依然好用          |
-| 📦  | 迅游加速器         | [官网](https://www.xunyou.com/)                                | —                                    | 加速 Steam 商店用的，偶尔也能抢救一下你家网络 |
-| 🛠️  | 网易UU加速器       | [官网](https://uu.163.com/)                                    | —                                    | 和迅游是死对头，你选哪个取决于充了哪个会员    |
-| 🧹  | 我的世界启动器 PCL | [官网](https://afdian.com/a/LTCat)                             | [蓝奏](https://wwi.lanzoui.com/xxxx) | 玩之前记得装 Java，不然你会看到一堆红色报错   |
-| 🖥️  | JAVA 8             | [官网](https://www.java.com/zh-CN/download/manual.jsp)         | [蓝奏](https://wwi.lanzoui.com/xxxx) | 请下载 64 位版，32 位版留给上古机器           |
-| 📦  | JAVA               | [官网](https://www.oracle.com/cn/java/technologies/downloads/) | —                                    | 你装 JRE 还是 JDK？你也不知道                 |
+|     | 名称               | 官网                                                           | 网盘                                 | 附注                                        |
+| :-: | :----------------- | :------------------------------------------------------------- | :----------------------------------- | :------------------------------------------ |
+| 🛠️  | Steam              | [官网](https://store.steampowered.com/)                        | —                                    | 它不生产游戏，只是游戏的搬运工（钱也是）    |
+| ⚡  | Epic               | [官网](https://www.epicgames.com/site/home?lang=zh-CN)         | —                                    | 每周送游戏，但你可能根本不会玩              |
+| ⚡  | WeGame             | [官网](https://www.wegame.com.cn/home/)                        | —                                    | 腾讯的游戏平台，你懂的                      |
+| 🧹  | 小叽资源           | [官网](https://steamzg.com/)                                   | —                                    | 你以为是游戏资源站，其实是“懂的都懂”        |
+| 🖥️  | Watt Toolkit       | [官网](https://weixin.qq.com/)                                 | —                                    | 原名 Steam++，改了个名字之后依然好用        |
+| 📦  | 迅游加速器         | [官网](https://www.xunyou.com/)                                | —                                    | 加速 Steam 商店用的，除非你有充钱           |
+| 🛠️  | 网易UU加速器       | [官网](https://uu.163.com/)                                    | —                                    | 和迅游是死对头，你选哪个取决于充了哪个会员  |
+| 🧹  | 我的世界启动器 PCL | [官网](https://afdian.com/a/LTCat)                             | [蓝奏](https://wwi.lanzoui.com/xxxx) | 玩之前记得装 Java，不然你会看到一堆红色报错 |
+| 🖥️  | JAVA 8             | [官网](https://www.java.com/zh-CN/download/manual.jsp)         | [蓝奏](https://wwi.lanzoui.com/xxxx) | 请下载 64 位版，32 位版留给上古机器         |
+| 📦  | JAVA               | [官网](https://www.oracle.com/cn/java/technologies/downloads/) | —                                    | 你装 JRE 还是 JDK？你也不知道               |
+| 🧹  | RuTracker.org      | [官网](https://rutracker.net/forum/index.php)                  | —                                    | 毛子老牌资源站                              |
+| 🧹  | byrutgame.org      | [官网](https://byrutgame.org/)                                 | —                                    | 俄罗斯人做汉化，汉化完顺便发资源            |
+| 🧹  | online-fix         | [官网](https://online-fix.me/)                                 | —                                    | 如果你的游戏没有联机选项，它给你造一个。    |
 
 ## 媒体与办公
 
@@ -65,3 +69,14 @@ title: 资源集成
 | 🧹  | QQ               | [官网](https://im.qq.com/download)         | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 它还在，你还在，但聊天记录早没了                       |
 | 🖥️  | 微信             | [官网](https://weixin.qq.com/)             | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 它只记得扫码登录，不记得你                             |
 | 🧹  | MarkText         | [官网](https://marktext.me/)               | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 写 Markdown 的安静角落，但它只在你写完后才觉得它好用   |
+
+## 系统相关
+
+|     | 名称                                | 官网                                                          | 网盘                                 | 附注                                                                                   |
+| :-: | :---------------------------------- | :------------------------------------------------------------ | :----------------------------------- | :------------------------------------------------------------------------------------- |
+| 🧹  | Win10_KMS_V3                        | —                                                             | [蓝奏](https://wwi.lanzoui.com/xxxx) | 懂的都懂                                                                               |
+| 🧹  | NTPWEdit 0.7                        | [官网](http://www.cdslow.org.ru/en/ntpwedit/)                 | [蓝奏](https://wwi.lanzoui.com/xxxx) | 懂的都懂                                                                               |
+| 🧹  | 360驱动大师                         | —                                                             | [蓝奏](https://wwi.lanzoui.com/xxxx) | 仅存的不限速版本                                                                       |
+| 🧹  | 驱动总裁                            | [官网](https://www.sysceo.com/software-softwarei-id-258.html) | [蓝奏](https://wwi.lanzoui.com/xxxx) | 一键安装可能会安装不适配的驱动导致蓝屏等各种问题，斟酌使用，好在不限速。安装完小心广告 |
+| 🧹  | MSDN系统库                          | [官网](https://www.xitongku.com/index.html)                   | —                                    | 原版镜像聚集地，不用再去百度找“纯净版”踩坑                                             |
+| 🧹  | Microsoft Software Download Listing | [官网](https://msdl.gravesoft.dev/#)                          | —                                    | 微软官方下载索引的第三方整理版，比微软官网好用一万倍                                   |
