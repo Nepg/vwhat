@@ -30,6 +30,10 @@ html {
   --vp-c-brand-2: #0078d6; /* 悬浮变浅蓝 */
   /* 激活/点击时的颜色（原来指向 indigo-3） */
   --vp-c-brand-3: #0078d6; /* 点击变深蓝 */
+
+  --vp-font-weight-normal: 600;
+  --vp-font-weight-semibold: 700;
+  --vp-font-weight-bold: 800;
 }
 
 .dark {
@@ -75,4 +79,37 @@ html {
   .vp-doc {
     font-size: 18px;
   }
+}
+
+.VPContent h1 {
+  font-weight: var(--vp-font-weight-bold) !important;
+}
+
+.VPContent h2 {
+  font-weight: 700 !important;
+}
+
+.VPContent h3 {
+  font-weight: var(--vp-font-weight-semibold) !important;
+}
+/* 侧边栏列表 */
+.VPSidebarItem .text {
+  font-weight: var(--vp-font-weight-normal) !important;
+}
+/* 未知 */
+/* .VPOutlineItem {
+  font-weight: var(--vp-font-weight-normal) !important;
+} */
+
+/* .VPSidebarGroup .title {
+  font-weight: 600 !important;
+} */
+
+/* 正文、链接、按钮 */
+.VPContent p,
+.VPContent li,
+.VPContent a,
+.VPButton,
+.top-title {
+  font-weight: var(--vp-font-weight-semibold) !important;
 }

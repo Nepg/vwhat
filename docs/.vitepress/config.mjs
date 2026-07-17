@@ -29,7 +29,7 @@ export default defineConfig({
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
     // ],
-    outline: { label: '本页目录' },
+    outline: { label: '目录' },
     docFooter: { prev: false, next: false },
     darkModeSwitchLabel: '切换主题',
     sidebarMenuLabel: '菜单',
@@ -45,13 +45,5 @@ export default defineConfig({
     //     timeStyle: 'medium',
     //   },
     // },
-  },
-  markdown: {
-    code: {
-      themes: {
-        light: 'github-light',
-        dark: 'github-dark',
-      },
-    },
   },
 });
