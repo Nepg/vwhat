@@ -5,6 +5,9 @@ export default defineConfig({
   base: '/vwhat/',
   title: 'What can I say ？',
   description: 'A VitePress Site',
+  rewrites: {
+    404: '404.html', // 确保 404.md 或 404.html 能被正确路由
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -44,9 +47,6 @@ export default defineConfig({
         dateStyle: 'full',
         timeStyle: 'medium',
       },
-    },
-    search: {
-      provider: 'local',
     },
   },
 });
