@@ -49,7 +49,7 @@
 |  <img src="/icons/xunyou.ico">   | 迅游加速器           | [官网](https://www.xunyou.com/)                                | —                                    | 免费加速steam。至于其它，你得先过了充钱那一关                              |
 |    <img src="/icons/uu.ico">     | 网易UU加速器         | [官网](https://uu.163.com/)                                    | —                                    | 和迅游是死对头                                                             |
 |   <img src="/icons/PCL2.ico">    | 我的世界启动器 PCL 2 | [官网](https://afdian.com/a/LTCat)                             | [蓝奏](https://wwi.lanzoui.com/xxxx) | 玩之前记得装 Java，不然你会看到一堆红色报错                                |
-|   <img src="/icons/java8.png">   | Java 8               | [官网](https://www.java.com/zh-CN/download/manual.jsp)         | [蓝奏](https://wwi.lanzoui.com/xxxx) | 请下载 64 位版，32 位版是留给上古机器的                                    |
+|   <img src="/icons/java.png">    | Java 8               | [官网](https://www.java.com/zh-CN/download/manual.jsp)         | [蓝奏](https://wwi.lanzoui.com/xxxx) | 请下载 64 位版，32 位版是留给上古机器的                                    |
 |  <img src="/icons/oracle.png">   | Java                 | [官网](https://www.oracle.com/cn/java/technologies/downloads/) | —                                    | 你装 JRE 还是 JDK？你也不知道，就像你不知道自己到底想要什么。              |
 | <img src="/icons/rutracker.ico"> | RuTracker.org        | [官网](https://rutracker.net/forum/index.php)                  | —                                    | 俄罗斯老牌资源站，需要注册，但注册页面的俄语验证码会把你劝退。             |
 | <img src="/icons/byrutgame.png"> | byrutgame.org        | [官网](https://byrutgame.org/)                                 | —                                    | 俄罗斯人做汉化，汉化完顺手就把资源打包发了。懂的自然懂，而我硬是要不懂装懂 |
