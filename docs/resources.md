@@ -23,13 +23,13 @@
 | 🛠️  | Dism++            | [官网](https://www.chuyu.me/zh-Hans/)            | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 好软件，好到我不用想怎么介绍它，反正你用了就知道了                                                                |
 | ⚡  | Geek Uninstaller  | [官网](https://geekuninstaller.com/)             | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 不能批量卸载，所以我更推荐隔壁那位                                                                                |
 | 🧹  | HiBit Uninstaller | [官网](https://hibit-uninstaller.com/zh/)        | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 功能比 Geek 强，但居然要安装。你俩能不能打一架？                                                                  |
-| 🧹  | CCleaner          | [官网](https://www.ccleaner.com/)                | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 我只用它清理注册表，至于有没有用，我也不知道                                                                      |
+| 🧹  | CCleaner          | [官网](https://www.ccleaner.com/)                | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 我定期用它清理注册表，至于有没有用，我也不知道                                                                    |
 | 🧹  | 微软常用运行库    | —                                                | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 很多游戏不会告诉你缺什么，只会直接消失，装了这个至少能有个报错弹窗                                                |
 | 🧹  | DirectX_Repair    | —                                                | [蓝奏](https://wwi.lanzoui.com/xxxx)  | dx修复，起不起作用，你的电脑会告诉你                                                                              |
 | ⚡  | WizTree           | —                                                | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 它能告诉你硬盘空间去哪了，但不会帮你清。这很像心理医生———他能告诉你焦虑从哪来，但你依然焦虑，只是现在你知道了原因 |
-| 📦  | Everything        | [官网](https://www.voidtools.com/)               | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 搜索快到让你怀疑人生，前提是你记得文件名                                                                          |
+| 📦  | Everything        | [官网](https://www.voidtools.com/)               | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 搜索快到让你怀疑人生，前提是你记得文件名。而你不记得。因为你连三天前吃过什么都想不起来                            |
 | 🧹  | Bandizip          | [官网](https://www.bandisoft.com/bandizip/)      | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 曾经是个好解压工具，只是后来加了广告                                                                              |
-| 🖥️  | NanaZip           | [官网](https://nanazip.org/)                     | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 对比 Bandizip，你猜谁更好用？                                                                                     |
+| 🖥️  | NanaZip           | [官网](https://nanazip.org/)                     | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 对比 Bandizip，你猜谁更好用？ 答案是：你在纠结这个问题的时候，已经浪费了可以解压 100 个文件的时间。               |
 | ⚡  | IDM               | [官网](https://www.internetdownloadmanager.com/) | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 下载速度很稳，更新弹窗也很稳                                                                                      |
 | 📦  | 迅雷              | [官网](https://dl.xunlei.com/)                   | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 浏览器下载文件速度慢时我会粘贴到这里，它有可能变快，当然这只是“可能”                                              |
 | 🧹  | Motrix            | [官网](https://motrix.app/)                      | [阿里](https://www.alipan.com/s/xxxx) | 也是一个下载器。但有时候你急着下东西，它就是不急                                                                  |
@@ -46,7 +46,7 @@
 | ⚡  | WeGame             | [官网](https://www.wegame.com.cn/home/)                        | —                                    | 腾讯的                                                                     |
 | 🧹  | 小叽资源           | [官网](https://steamzg.com/)                                   | —                                    | 你以为是游戏资源站，其实是“懂的都懂”                                       |
 | 🖥️  | Watt Toolkit       | [官网](https://weixin.qq.com/)                                 | —                                    | 原名 Steam++，改了个名字之后依然好用                                       |
-| 📦  | 迅游加速器         | [官网](https://www.xunyou.com/)                                | —                                    | 免费加速steam。其它的话，你得先过了充钱那一关                              |
+| 📦  | 迅游加速器         | [官网](https://www.xunyou.com/)                                | —                                    | 免费加速steam。至于其它，你得先过了充钱那一关                              |
 | 🛠️  | 网易UU加速器       | [官网](https://uu.163.com/)                                    | —                                    | 和迅游是死对头                                                             |
 | 🧹  | 我的世界启动器 PCL | [官网](https://afdian.com/a/LTCat)                             | [蓝奏](https://wwi.lanzoui.com/xxxx) | 玩之前记得装 Java，不然你会看到一堆红色报错                                |
 | 🖥️  | JAVA 8             | [官网](https://www.java.com/zh-CN/download/manual.jsp)         | [蓝奏](https://wwi.lanzoui.com/xxxx) | 请下载 64 位版，32 位版是留给上古机器的                                    |
@@ -59,7 +59,7 @@
 
 |     | 名称             | 官网                                       | 网盘                                  | 附注                                                                                                                             |
 | :-: | :--------------- | :----------------------------------------- | :------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------- |
-| 📦  | Potplayer        | [官网](https://potplayer.tv/)              | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 补帧。它会让你觉得画面变流畅了，就像你告诉自己生活也在变好                                                                       |
+| 📦  | Potplayer        | [官网](https://potplayer.tv/)              | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 开了补帧之后，24fps 变成 60fps，你感觉画面丝滑了，但电影感没了                                                                   |
 | 🧹  | HandBrake        | [官网](https://handbrake.fr/downloads.php) | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 视频转码界的瑞士军刀，虽然你可能只是用它把视频转成 MP4                                                                           |
 | 🛠️  | Snipaste         | [官网](https://zh.snipaste.com/)           | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 截完图贴屏幕上，可以假装自己在认真工作                                                                                           |
 | 🧹  | Pot              | [官网](https://pot-app.com/)               | [阿里](https://www.alipan.com/s/xxxx) | 截图翻译工具，但有时候翻出来的中文比原文还难懂                                                                                   |
@@ -68,7 +68,7 @@
 | 🧹  | QQ               | [官网](https://im.qq.com/download)         | [蓝奏](https://wwi.lanzoui.com/xxxx)  | ？                                                                                                                               |
 | 🖥️  | 微信             | [官网](https://weixin.qq.com/)             | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 无法使用密码和验证码登录，你只能扫码。这完美隐喻了你的处境：你无法通过任何方式证明自己，除了用手机摄像头扫另一个屏幕上的二维码。 |
 | 🧹  | MarkText         | [官网](https://marktext.me/)               | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 一个写 Markdown 的地方，写完了你才发现格式还是乱的                                                                               |
-| 🧹  | iLovePDF         | [官网](https://www.ilovepdf.com/zh-cn)     | —                                     | 万物皆可转 PDF                                                                                                                   |
+| 🧹  | iLovePDF         | [官网](https://www.ilovepdf.com/zh-cn)     | —                                     | Word 转 PDF，Excel 转 PDF，图片转 PDF。这可以把一切变成 PDF，就像你可以把一切变成一团糟                                          |
 
 ## 系统相关
 
