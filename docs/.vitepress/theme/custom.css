@@ -147,3 +147,18 @@ html {
     white-space: nowrap !important; /* 覆盖之前的 normal 设置，所有单元格不换行 */
   }
 }
+
+/* 表格图标列：固定尺寸 + 垂直居中 */
+.vp-doc table td:first-child {
+  width: 48px;
+  padding: 0 4px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.vp-doc table td:first-child img {
+  width: 32px;
+  height: 32px;
+  display: block; /* 消除行高影响 */
+  margin: 0 auto; /* 居中 */
+}
