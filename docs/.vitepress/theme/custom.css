@@ -147,8 +147,8 @@ html {
     white-space: nowrap !important; /* 覆盖之前的 normal 设置，所有单元格不换行 */
   }
   .vp-doc table td:first-child {
-    min-width: 40px; /* 确保宽度不小于高度 */
-    width: 40px; /* 固定宽度，不被压缩 */
+    min-width: 46px; /* 确保宽度不小于高度 */
+    width: 46px; /* 固定宽度，不被压缩 */
     padding: 4px 2px; /* 左右内边距缩小，腾出空间 */
     text-align: center;
     vertical-align: middle;
