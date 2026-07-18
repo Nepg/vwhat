@@ -72,16 +72,17 @@ title: 资源集成
 | 🧹  | QQ               | [官网](https://im.qq.com/download)         | [蓝奏](https://wwi.lanzoui.com/xxxx)  | ？                                                     |
 | 🖥️  | 微信             | [官网](https://weixin.qq.com/)             | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 只能扫码登录，密码和验证码？                           |
 | 🧹  | MarkText         | [官网](https://marktext.me/)               | [蓝奏](https://wwi.lanzoui.com/xxxx)  | 一个写 Markdown 的地方，写完了你才发现格式还是乱的     |
+| 🧹  | iLovePDF         | [官网](https://www.ilovepdf.com/zh-cn)     | —                                     | 万物皆可转 PDF                                         |
 
 ## 系统相关
 
-|     | 名称                                | 官网                                                          | 网盘                                 | 附注                                                                         |
-| :-: | :---------------------------------- | :------------------------------------------------------------ | :----------------------------------- | :--------------------------------------------------------------------------- |
-| 🧹  | Win10_KMS_V3                        | —                                                             | [蓝奏](https://wwi.lanzoui.com/xxxx) | 懂的都懂                                                                     |
-| 🧹  | NTPWEdit 0.7                        | [官网](http://www.cdslow.org.ru/en/ntpwedit/)                 | [蓝奏](https://wwi.lanzoui.com/xxxx) | 如果你输错了5次密码导致锁机30分钟，你就可以用到它，前提是你得先有个PE        |
-| 🧹  | MSDN系统库                          | [官网](https://www.xitongku.com/index.html)                   | —                                    | Windows原版镜像下载网站，不用再去百度找“纯净版”                              |
-| 🧹  | Microsoft Software Download Listing | [官网](https://msdl.gravesoft.dev/#)                          | —                                    | 微软官方Windows镜像的第三方整理版，比微软整理得好                            |
-| 🧹  | Ventoy                              | [官网](https://www.ventoy.net/cn/)                            | [蓝奏](https://wwi.lanzoui.com/xxxx) | 新一代多系统启动U盘解决方案                                                  |
-| 🧹  | 微PE工具箱                          | [官网](https://www.wepe.com.cn/)                              | [蓝奏](https://wwi.lanzoui.com/xxxx) | 老伙计                                                                       |
-| 🧹  | 360驱动大师                         | —                                                             | [蓝奏](https://wwi.lanzoui.com/xxxx) | 仅存的不限速版本                                                             |
-| 🧹  | 驱动总裁                            | [官网](https://www.sysceo.com/software-softwarei-id-258.html) | [蓝奏](https://wwi.lanzoui.com/xxxx) | 一键安装省心，但可能装错驱动让你蓝屏。好在不限速，但安装完记得把广告取消勾选 |
+|     | 名称                                | 官网                                                          | 网盘                                 | 附注                                                                       |
+| :-: | :---------------------------------- | :------------------------------------------------------------ | :----------------------------------- | :------------------------------------------------------------------------- |
+| 🧹  | Win10_KMS_V3                        | —                                                             | [蓝奏](https://wwi.lanzoui.com/xxxx) | 懂的都懂                                                                   |
+| 🧹  | NTPWEdit 0.7                        | [官网](http://www.cdslow.org.ru/en/ntpwedit/)                 | [蓝奏](https://wwi.lanzoui.com/xxxx) | 如果你输错了5次密码导致锁机30分钟，你就可以用到它，前提是你得先有个PE      |
+| 🧹  | MSDN系统库                          | [官网](https://www.xitongku.com/index.html)                   | —                                    | Windows原版镜像下载网站，不用再去百度找“纯净版”                            |
+| 🧹  | Microsoft Software Download Listing | [官网](https://msdl.gravesoft.dev/#)                          | —                                    | 微软官方Windows镜像的第三方整理版，比微软整理得好                          |
+| 🧹  | Ventoy                              | [官网](https://www.ventoy.net/cn/)                            | [蓝奏](https://wwi.lanzoui.com/xxxx) | 把ISO往里一扔，就能启动。                                                  |
+| 🧹  | 微PE工具箱                          | [官网](https://www.wepe.com.cn/)                              | [蓝奏](https://wwi.lanzoui.com/xxxx) | 老伙计，你值得拥有                                                         |
+| 🧹  | 360驱动大师                         | —                                                             | [蓝奏](https://wwi.lanzoui.com/xxxx) | 仅存的不限速版本                                                           |
+| 🧹  | 驱动总裁                            | [官网](https://www.sysceo.com/software-softwarei-id-258.html) | [蓝奏](https://wwi.lanzoui.com/xxxx) | 一键安装省心，但可能装错驱动让你蓝屏。好在不限速，安装完记得把广告取消勾选 |
