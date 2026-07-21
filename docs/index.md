@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 看看别处？ →
-      link: /resources
+      link: /resources_win
     # - theme: alt
     #   text: API Examples
     #   link: /api-examples

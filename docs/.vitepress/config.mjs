@@ -16,7 +16,8 @@ export default defineConfig({
       {
         text: '索引',
         items: [
-          { text: '一些资源', link: '/resources' },
+          { text: '一些资源（win）', link: '/resources_win' },
+          { text: '一些资源（安卓）', link: '/resources_android' },
           { text: '中文教程', link: '/中文教程' },
           { text: 'Guide_EN', link: '/Guide_EN' },
           { text: 'Markdown Examples', link: '/markdown-examples' },
