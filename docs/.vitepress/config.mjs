@@ -18,12 +18,12 @@ export default defineConfig({
         items: [
           { text: '一些资源（win）', link: '/resources_win' },
           { text: '一些资源（安卓）', link: '/resources_android' },
+          {
+            text: '记录一次自己制作ue4数值修改模组的全过程',
+            link: '/UE4_Mod_ValueDev',
+          },
           { text: '中文教程', link: '/中文教程' },
           { text: 'Guide_EN', link: '/Guide_EN' },
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-          { text: 'Slider', link: '/slider' },
-          { text: 'Listbox', link: '/listbox' },
         ],
       },
     ],
