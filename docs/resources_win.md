@@ -18,24 +18,24 @@
 
 ## 工具软件
 
-|                                           | 名称               | 官网                                                         | 网盘                                                                     | 备忘                     |
-| :---------------------------------------: | :----------------- | :----------------------------------------------------------- | :----------------------------------------------------------------------- | :----------------------- |
-|       <img src="/icons/Dism++.ico">       | Dism++             | [官网](https://www.chuyu.me/zh-Hans/)                        | [蓝奏](https://wwanv.lanzoum.com/iIcgD3x6rhsf)                           | 系统优化                 |
-|  <img src="/icons/geekuninstaller.ico">   | Geek Uninstaller   | [官网](https://geekuninstaller.com/)                         | [蓝奏](https://wwanv.lanzoum.com/iPqj03x7zp4d)                           | 卸载软件                 |
-|  <img src="/icons/hibituninstaller.png">  | HiBit Uninstaller  | [官网](https://hibitsoft.ir/Uninstaller.html)                | [蓝奏](https://wwanv.lanzoum.com/iMuL33x7uitg)                           | 能批量卸载软件           |
-|   <img src="/icons/DirectXRepair.ico">    | DirectX_Repair     | —                                                            | [天翼](https://cloud.189.cn/web/share?code=neayqyQVFFRv（访问码：5fw0）) | 修复DX问题               |
-|      <img src="/icons/WizTree.ico">       | WizTree            | [官网](https://diskanalyzer.com/)                            | [蓝奏](https://wwanv.lanzoum.com/iF2iY3x7rksj)                           | 看磁盘空间占用           |
-|     <img src="/icons/Everything.ico">     | Everything         | [官网](https://www.voidtools.com/)                           | [蓝奏](https://wwanv.lanzoum.com/iS6mK3x807pc)                           | 搜文件                   |
-|     <img src="/icons/bandisoft.ico">      | Bandizip           | [官网](https://www.bandisoft.com/bandizip/)                  | [蓝奏](https://wwanv.lanzoum.com/i0O4c3x81aij)                           | 解压                     |
-|      <img src="/icons/nanazip.ico">       | NanaZip            | [官网](https://nanazip.org/)                                 | [蓝奏](https://wwanv.lanzoum.com/ioYXI3x6rn1e)                           | 解压                     |
-|     <img src="/icons/KeePassXC.svg">      | KeePassXC          | [官网](https://github.com/keepassxreboot/keepassxc)          | [蓝奏](https://wwanv.lanzoum.com/izCoD3xuh98b)                           | 密码管理                 |
-|        <img src="/icons/IDM.ico">         | IDM                | [官网](https://www.internetdownloadmanager.com/)             | [蓝奏](https://wwanv.lanzoum.com/iSG9B3x8k37a)                           |                          |
-|       <img src="/icons/xunlei.png">       | 迅雷               | [官网](https://dl.xunlei.com/)                               | [蓝奏](https://wwanv.lanzoum.com/iOo1S3x7kt4h)                           |                          |
-|       <img src="/icons/Motrix.png">       | Motrix             | [官网](https://motrix.app/)                                  | [蓝奏](https://wwanv.lanzoum.com/iOFZ43x6rm9g)                           |                          |
-|     <img src="/icons/LocalSend.png">      | LocalSend          | [官网](https://localsend.org/zh-TW/download)                 | [蓝奏](https://wwanv.lanzoum.com/ibld63x7kzih)                           | 局域网传文件             |
-|       <img src="/icons/chrome.svg">       | Chrome             | [官网](https://www.google.cn/chrome/)                        | [天翼](https://cloud.189.cn/web/share?code=iieuE3viUf22（访问码：tf3e）) |                          |
-| <img src="/icons/ContextMenuManager.ico"> | ContextMenuManager | [官网](https://bluepointlilac.github.io/ContextMenuManager/) | [蓝奏](https://wwanv.lanzoum.com/ip3Ty3x6rvlc)                           | 右键菜单管理             |
-|        <img src="/icons/uuyc.ico">        | 网易UU远程         | [官网](https://uuyc.163.com/)                                | —                                                                        | 远程桌面，向日葵的替代品 |
+|                                           | 名称                              | 官网                                                         | 网盘                                                                     | 备忘                     |
+| :---------------------------------------: | :-------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------------------- | :----------------------- |
+|       <img src="/icons/Dism++.ico">       | Dism++                            | [官网](https://www.chuyu.me/zh-Hans/)                        | [蓝奏](https://wwanv.lanzoum.com/iIcgD3x6rhsf)                           | 系统优化                 |
+|  <img src="/icons/geekuninstaller.ico">   | Geek Uninstaller                  | [官网](https://geekuninstaller.com/)                         | [蓝奏](https://wwanv.lanzoum.com/iPqj03x7zp4d)                           | 卸载软件                 |
+|  <img src="/icons/hibituninstaller.png">  | HiBit Uninstaller                 | [官网](https://hibitsoft.ir/Uninstaller.html)                | [蓝奏](https://wwanv.lanzoum.com/iMuL33x7uitg)                           | 能批量卸载软件           |
+|   <img src="/icons/DirectXRepair.ico">    | DirectX_Repair                    | —                                                            | [天翼](https://cloud.189.cn/web/share?code=neayqyQVFFRv（访问码：5fw0）) | 修复DX问题               |
+|      <img src="/icons/WizTree.ico">       | WizTree                           | [官网](https://diskanalyzer.com/)                            | [蓝奏](https://wwanv.lanzoum.com/iF2iY3x7rksj)                           | 看磁盘空间占用           |
+|     <img src="/icons/Everything.ico">     | Everything                        | [官网](https://www.voidtools.com/)                           | [蓝奏](https://wwanv.lanzoum.com/iS6mK3x807pc)                           | 搜文件                   |
+|     <img src="/icons/bandisoft.ico">      | Bandizip                          | [官网](https://www.bandisoft.com/bandizip/)                  | [蓝奏](https://wwanv.lanzoum.com/i0O4c3x81aij)                           | 解压                     |
+|      <img src="/icons/nanazip.ico">       | NanaZip                           | [官网](https://nanazip.org/)                                 | [蓝奏](https://wwanv.lanzoum.com/ioYXI3x6rn1e)                           | 解压                     |
+|     <img src="/icons/KeePassXC.svg">      | KeePassXC                         | [官网](https://github.com/keepassxreboot/keepassxc)          | [蓝奏](https://wwanv.lanzoum.com/izCoD3xuh98b)                           | 密码管理                 |
+|        <img src="/icons/IDM.ico">         | IDM                               | [官网](https://www.internetdownloadmanager.com/)             | [蓝奏](https://wwanv.lanzoum.com/iSG9B3x8k37a)                           |                          |
+|       <img src="/icons/xunlei.png">       | 迅雷                              | [官网](https://dl.xunlei.com/)                               | [蓝奏](https://wwanv.lanzoum.com/iOo1S3x7kt4h)                           |                          |
+|       <img src="/icons/Motrix.png">       | Motrix                            | [官网](https://motrix.app/)                                  | [蓝奏](https://wwanv.lanzoum.com/iOFZ43x6rm9g)                           |                          |
+|     <img src="/icons/LocalSend.png">      | LocalSend                         | [官网](https://localsend.org/zh-TW/download)                 | [蓝奏](https://wwanv.lanzoum.com/ibld63x7kzih)                           | 局域网传文件             |
+|       <img src="/icons/chrome.svg">       | Chrome                            | [官网](https://www.google.cn/chrome/)                        | [天翼](https://cloud.189.cn/web/share?code=iieuE3viUf22（访问码：tf3e）) |                          |
+| <img src="/icons/ContextMenuManager.ico"> | <small>ContextMenuManager</small> | [官网](https://bluepointlilac.github.io/ContextMenuManager/) | [蓝奏](https://wwanv.lanzoum.com/ip3Ty3x6rvlc)                           | 右键菜单管理             |
+|        <img src="/icons/uuyc.ico">        | 网易UU远程                        | [官网](https://uuyc.163.com/)                                | —                                                                        | 远程桌面，向日葵的替代品 |
 
 ## 游戏相关
 
@@ -76,7 +76,7 @@
 | :------------------------------------: | :------------- | :------------------------------------------------------------ | :----------------------------------------------------------------------- | :----------------------------- |
 |     <img src="/icons/github.svg">      | Win10_KMS_V3   | —                                                             | [蓝奏](https://wwanv.lanzoum.com/irGk63x7ngve)                           |                                |
 |    <img src="/icons/ntpwlogo.png">     | NTPWEdit 0.7   | [官网](http://www.cdslow.org.ru/en/ntpwedit/)                 | [蓝奏](https://wwanv.lanzoum.com/iWPy93x6t1tc)                           | Windows 密码重置，进 PE 才能用 |
-|    <img src="/icons/xitongku.ico">     | MSDN系统库     | [官网](https://www.xitongku.com/index.html)                   | —                                                                        | Windows原版镜像下载            |
+|    <img src="/icons/xitongku.ico">     | MSDN           | [官网](https://www.xitongku.com/index.html)                   | —                                                                        | Windows原版镜像下载            |
 |      <img src="/icons/msdl.ico">       | MSDL           | [官网](https://msdl.gravesoft.dev/#)                          | —                                                                        | 微软镜像的第三方整理站         |
 |     <img src="/icons/ventoy.png">      | Ventoy         | [官网](https://www.ventoy.net/cn/)                            | [蓝奏](https://wwanv.lanzoum.com/iIV8W3x6udpg)                           | 把 ISO 扔进去就能启动          |
 |      <img src="/icons/wepe.png">       | 微PE工具箱     | [官网](https://www.wepe.com.cn/)                              | [天翼](https://cloud.189.cn/web/share?code=N7N7faMjYreu（访问码：q5ee）) | 老伙计                         |
