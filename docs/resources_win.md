@@ -30,8 +30,8 @@
 |      <img src="/icons/nanazip.ico">       | NanaZip                           | [官网](https://nanazip.org/)                                 | [蓝奏](https://wwanv.lanzoum.com/ioYXI3x6rn1e)                           | 解压                 |
 |     <img src="/icons/KeePassXC.svg">      | KeePassXC                         | [官网](https://github.com/keepassxreboot/keepassxc)          | [蓝奏](https://wwanv.lanzoum.com/izCoD3xuh98b)                           | 密码管理             |
 |        <img src="/icons/IDM.ico">         | IDM                               | [官网](https://www.internetdownloadmanager.com/)             | [蓝奏](https://wwanv.lanzoum.com/iSG9B3x8k37a)                           |                      |
-|       <img src="/icons/xunlei.png">       | 迅雷                              | [官网](https://dl.xunlei.com/)                               | [蓝奏](https://wwanv.lanzoum.com/iOo1S3x7kt4h)                           |                      |
 |       <img src="/icons/Motrix.png">       | Motrix                            | [官网](https://motrix.app/)                                  | [蓝奏](https://wwanv.lanzoum.com/iOFZ43x6rm9g)                           |                      |
+|       <img src="/icons/xunlei.png">       | 迅雷                              | [官网](https://dl.xunlei.com/)                               | [蓝奏](https://wwanv.lanzoum.com/iOo1S3x7kt4h)                           |                      |
 |     <img src="/icons/LocalSend.png">      | LocalSend                         | [官网](https://localsend.org/zh-TW/download)                 | [蓝奏](https://wwanv.lanzoum.com/ibld63x7kzih)                           | 局域网传文件         |
 |      <img src="/icons/FastCopy.ico">      | FastCopy                          | [官网](https://fastcopy.jp/)                                 | [蓝奏](https://wwanv.lanzoum.com/imjm83y7s6dc)                           | 快速复制/备份        |
 |       <img src="/icons/chrome.svg">       | Chrome                            | [官网](https://www.google.cn/chrome/)                        | [天翼](https://cloud.189.cn/web/share?code=iieuE3viUf22（访问码：tf3e）) |                      |
@@ -40,21 +40,21 @@
 
 ## 游戏相关
 
-|                                  | 名称               | 官网                                                           | 网盘                                           | 备忘                               |
-| :------------------------------: | :----------------- | :------------------------------------------------------------- | :--------------------------------------------- | :--------------------------------- |
-|   <img src="/icons/steam.ico">   | Steam              | [官网](https://store.steampowered.com/)                        | —                                              |                                    |
-| <img src="/icons/EpicGames.ico"> | Epic               | [官网](https://www.epicgames.com/site/home?lang=zh-CN)         | —                                              |                                    |
-|  <img src="/icons/wegame.ico">   | WeGame             | [官网](https://www.wegame.com.cn/home/)                        | —                                              | 腾讯                               |
-| <img src="/icons/steamzg.webp">  | 小叽资源           | [官网](https://steamzg.com/)                                   | —                                              | 找游戏资源用                       |
-|  <img src="/icons/Steam++.ico">  | Watt Toolkit       | [官网](https://steampp.net/)                                   | —                                              | 加速器，原名Steam++                |
-|  <img src="/icons/xunyou.ico">   | 迅游加速器         | [官网](https://www.xunyou.com/)                                | —                                              |                                    |
-|    <img src="/icons/uu.ico">     | 网易UU加速器       | [官网](https://uu.163.com/)                                    | —                                              |                                    |
-|    <img src="/icons/PCL.ico">    | 我的世界启动器 PCL | [官网](https://afdian.com/a/LTCat)                             | [蓝奏](https://wwanv.lanzoum.com/irwAO3x6rncf) | Minecraft 启动器，要装 Java 才能跑 |
-|   <img src="/icons/java.png">    | Java 8             | [官网](https://www.java.com/zh-CN/download/manual.jsp)         | [蓝奏](https://wwanv.lanzoum.com/io9vF3x7p0ze) | 装 64 位版，别装 32 位             |
-|  <img src="/icons/oracle.png">   | Java               | [官网](https://www.oracle.com/cn/java/technologies/downloads/) | —                                              |                                    |
-| <img src="/icons/rutracker.ico"> | RuTracker.org      | [官网](https://rutracker.net/forum/index.php)                  | —                                              | 俄罗斯资源站                       |
-| <img src="/icons/byrutgame.png"> | byrutgame.org      | [官网](https://byrutgame.org/)                                 | —                                              | 俄罗斯资源站，汉化资源多           |
-|  <img src="/icons/oflogo.png">   | online-fix         | [官网](https://online-fix.me/)                                 | —                                              | 联机补丁                           |
+|                                  | 名称                              | 官网                                                           | 网盘                                           | 备忘                     |
+| :------------------------------: | :-------------------------------- | :------------------------------------------------------------- | :--------------------------------------------- | :----------------------- |
+|   <img src="/icons/steam.ico">   | Steam                             | [官网](https://store.steampowered.com/)                        | —                                              |                          |
+| <img src="/icons/EpicGames.ico"> | Epic                              | [官网](https://www.epicgames.com/site/home?lang=zh-CN)         | —                                              |                          |
+|  <img src="/icons/wegame.ico">   | WeGame                            | [官网](https://www.wegame.com.cn/home/)                        | —                                              | 腾讯                     |
+| <img src="/icons/steamzg.webp">  | 小叽资源                          | [官网](https://steamzg.com/)                                   | —                                              | 找游戏资源用             |
+|  <img src="/icons/Steam++.ico">  | Watt Toolkit                      | [官网](https://steampp.net/)                                   | —                                              | 加速器，原名Steam++      |
+|  <img src="/icons/xunyou.ico">   | 迅游加速器                        | [官网](https://www.xunyou.com/)                                | —                                              |                          |
+|    <img src="/icons/uu.ico">     | 网易UU加速器                      | [官网](https://uu.163.com/)                                    | —                                              |                          |
+|    <img src="/icons/PCL.ico">    | <small>我的世界启动器 PCL</small> | [官网](https://afdian.com/a/LTCat)                             | [蓝奏](https://wwanv.lanzoum.com/irwAO3x6rncf) | 要装 Java 才能跑         |
+|   <img src="/icons/java.png">    | Java 8                            | [官网](https://www.java.com/zh-CN/download/manual.jsp)         | [蓝奏](https://wwanv.lanzoum.com/io9vF3x7p0ze) | 装 64 位版，别装 32 位   |
+|  <img src="/icons/oracle.png">   | Java                              | [官网](https://www.oracle.com/cn/java/technologies/downloads/) | —                                              |                          |
+| <img src="/icons/rutracker.ico"> | RuTracker.org                     | [官网](https://rutracker.net/forum/index.php)                  | —                                              | 俄罗斯资源站             |
+| <img src="/icons/byrutgame.png"> | byrutgame.org                     | [官网](https://byrutgame.org/)                                 | —                                              | 俄罗斯资源站，汉化资源多 |
+|  <img src="/icons/oflogo.png">   | online-fix                        | [官网](https://online-fix.me/)                                 | —                                              | 联机补丁                 |
 
 ## 媒体与办公
 
@@ -75,7 +75,7 @@
 
 |                                        | 名称           | 官网                                                          | 网盘                                                                     | 备忘                           |
 | :------------------------------------: | :------------- | :------------------------------------------------------------ | :----------------------------------------------------------------------- | :----------------------------- |
-|     <img src="/icons/github.svg">      | Win10_KMS_V3   | —                                                             | [蓝奏](https://wwanv.lanzoum.com/irGk63x7ngve)                           |                                |
+|                                        | Win10_KMS_V3   | —                                                             | [蓝奏](https://wwanv.lanzoum.com/irGk63x7ngve)                           |                                |
 |    <img src="/icons/ntpwlogo.png">     | NTPWEdit 0.7   | [官网](http://www.cdslow.org.ru/en/ntpwedit/)                 | [蓝奏](https://wwanv.lanzoum.com/iWPy93x6t1tc)                           | Windows 密码重置，进 PE 才能用 |
 |    <img src="/icons/xitongku.ico">     | MSDN           | [官网](https://www.xitongku.com/index.html)                   | —                                                                        | Windows镜像下载                |
 |      <img src="/icons/msdl.ico">       | MSDL           | [官网](https://msdl.gravesoft.dev/#)                          | —                                                                        | Windows镜像下载                |
