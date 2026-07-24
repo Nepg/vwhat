@@ -1,5 +1,7 @@
 # 一些资源（win）
 
+<div class="resource-table">
+
 ## 硬件检测
 
 |                                       | 名称            | 官网                                                            | 网盘                                                                     | 备忘        |
@@ -84,3 +86,5 @@
 | <img src="/icons/microsoft-color.svg"> | 微软常用运行库 | —                                                             | [蓝奏](https://wwanv.lanzoum.com/iSCjH3x6t0mj)                           | 装机必装                       |
 |     <img src="/icons/360Drv.ico">      | 360驱动大师    | —                                                             | [蓝奏](https://wwanv.lanzoum.com/ipj9C3x7ofsb)                           | 不限速版本                     |
 |     <img src="/icons/DrvCeo.ico">      | 驱动总裁       | [官网](https://www.sysceo.com/software-softwarei-id-258.html) | [蓝奏](https://wwanv.lanzoum.com/iIUzT3x7ok4h)                           | 一键安装驱动，可能装错导致蓝屏 |
+
+</div>

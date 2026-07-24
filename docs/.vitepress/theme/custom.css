@@ -114,65 +114,64 @@ html {
   font-weight: var(--vp-font-weight-semibold) !important;
 }
 /* ===== 资源表格：仅官网/网盘不换行 ===== */
-.vp-doc table {
+.resource-table table {
   width: 100%;
-  table-layout: auto; /* 让浏览器根据内容自动分配宽度，不会强制撑开 */
+  table-layout: auto;
 }
 
-/* 只针对第3列（官网）和第4列（网盘）禁止换行 */
-.vp-doc table th:nth-child(3),
-.vp-doc table td:nth-child(3),
-.vp-doc table th:nth-child(4),
-.vp-doc table td:nth-child(4) {
-  white-space: nowrap; /* 不换行 */
+.resource-table table th:nth-child(3),
+.resource-table table td:nth-child(3),
+.resource-table table th:nth-child(4),
+.resource-table table td:nth-child(4) {
+  white-space: nowrap;
 }
 
-/* 附注列（第5列）允许正常换行，避免长文本溢出 */
-.vp-doc table th:nth-child(5),
-.vp-doc table td:nth-child(5) {
+.resource-table table th:nth-child(5),
+.resource-table table td:nth-child(5) {
   white-space: normal;
   word-break: break-word;
 }
-@media (max-width: 640px) {
-  .vp-doc .table-wrap {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  }
-  .vp-doc table {
-    width: auto;
-    min-width: 100%;
-  }
-  .vp-doc table th,
-  .vp-doc table td {
-    white-space: nowrap !important; /* 覆盖之前的 normal 设置，所有单元格不换行 */
-  }
-  .vp-doc table td:first-child {
-    min-width: 46px; /* 确保宽度不小于高度 */
-    width: 46px; /* 固定宽度，不被压缩 */
-    padding: 4px 2px; /* 左右内边距缩小，腾出空间 */
-    text-align: center;
-    vertical-align: middle;
-  }
 
-  .vp-doc table td:first-child img {
-    width: 32px;
-    height: 32px;
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-/* 表格图标列：固定尺寸 + 垂直居中 */
-.vp-doc table td:first-child {
+/* 图标列 */
+.resource-table table td:first-child {
   width: 48px;
   padding: 0 4px;
   text-align: center;
   vertical-align: middle;
 }
 
-.vp-doc table td:first-child img {
+.resource-table table td:first-child img {
   width: 32px;
   height: 32px;
-  display: block; /* 消除行高影响 */
-  margin: 0 auto; /* 居中 */
+  display: block;
+  margin: 0 auto;
+}
+
+/* 移动端 */
+@media (max-width: 640px) {
+  .resource-table .table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .resource-table table {
+    width: auto;
+    min-width: 100%;
+  }
+  .resource-table table th,
+  .resource-table table td {
+    white-space: nowrap !important;
+  }
+  .resource-table table td:first-child {
+    min-width: 46px;
+    width: 46px;
+    padding: 4px 2px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .resource-table table td:first-child img {
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin: 0 auto;
+  }
 }
