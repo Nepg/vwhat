@@ -84,6 +84,7 @@
 |     <img src="/icons/ventoy.png">      | Ventoy         | [官网](https://www.ventoy.net/cn/)                            | [蓝奏](https://wwanv.lanzoum.com/iIV8W3x6udpg)                           |                                |
 |      <img src="/icons/wepe.png">       | 微PE工具箱     | [官网](https://www.wepe.com.cn/)                              | [天翼](https://cloud.189.cn/web/share?code=N7N7faMjYreu（访问码：q5ee）) |                                |
 | <img src="/icons/microsoft-color.svg"> | 微软常用运行库 | —                                                             | [蓝奏](https://wwanv.lanzoum.com/iSCjH3x6t0mj)                           | 装机必装                       |
+|     <img src="/icons/github.svg">      | Win11Debloat   | [官网](https://github.com/Raphire/Win11Debloat)               | [蓝奏](https://wwanv.lanzoum.com/iGjab3yfrukf)                           | win11快速精简                  |
 |     <img src="/icons/360Drv.ico">      | 360驱动大师    | —                                                             | [蓝奏](https://wwanv.lanzoum.com/ipj9C3x7ofsb)                           | 不限速版本                     |
 |     <img src="/icons/DrvCeo.ico">      | 驱动总裁       | [官网](https://www.sysceo.com/software-softwarei-id-258.html) | [蓝奏](https://wwanv.lanzoum.com/iIUzT3x7ok4h)                           | 一键安装驱动，可能装错导致蓝屏 |
 

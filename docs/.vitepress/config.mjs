@@ -41,7 +41,7 @@ export default defineConfig({
     //   text: '在 GitHub 上编辑此页',
     // },
     lastUpdated: {
-      text: '最后更新于',
+      text: '最后编辑于',
       formatOptions: {
         dateStyle: 'full',
         timeStyle: 'medium',
