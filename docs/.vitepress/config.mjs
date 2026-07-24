@@ -19,7 +19,7 @@ export default defineConfig({
           { text: '一些资源（win）', link: '/resources_win' },
           { text: '一些资源（安卓）', link: '/resources_android' },
           {
-            text: '制作 Humanitz 数值修改模组',
+            text: '制作 UE4 数值修改模组（HumanitZ）',
             link: '/UE4_Mod_ValueDev',
           },
           { text: '中文教程', link: '/中文教程' },
