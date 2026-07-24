@@ -180,4 +180,13 @@ html {
   .vp-doc:not(.resource-table) table td:nth-child(2) {
     white-space: nowrap !important;
   }
+  /* 第三列：文字可以换行，但代码不要换行 */
+  .vp-doc:not(.resource-table) table td:nth-child(3) {
+    min-width: 120px;
+  }
+
+  .vp-doc:not(.resource-table) table td:nth-child(3) code {
+    white-space: nowrap !important;
+    word-break: keep-all;
+  }
 }
