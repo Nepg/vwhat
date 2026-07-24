@@ -1,3 +1,5 @@
+<div class="ue4-mod-article">
+
 # 制作 UE4 数值修改模组（HumanitZ）
 
 ## 问题
@@ -104,3 +106,5 @@ HumanitZ 无头服务器，马铃薯堆叠上限为 1。服务端无现成 Mod�
 | 脚本跑完没生效 | 修改后未保存 | 执行脚本后记得保存，否则修改不生效 |
 
 ![9](/UE4_Mod_ValueDev/9.png)
+
+</div>

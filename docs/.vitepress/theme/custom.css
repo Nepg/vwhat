@@ -1,9 +1,13 @@
+/* ========================================
+   1. 全局基础样式
+   ======================================== */
+
 /* 强制显示滚动条，消除切换抖动 */
 html {
   overflow-y: scroll;
 }
 
-/* 可选：精致滚动条样式（适配亮色/深色） */
+/* 精致滚动条样式（适配亮色/深色） */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -23,27 +27,34 @@ html {
 .dark ::-webkit-scrollbar-thumb:hover {
   background: var(--vp-c-text-1);
 }
-:root {
-  /* 默认链接颜色（原来指向 indigo-1） */
-  --vp-c-brand-1: #0078d6;
-  /* 悬浮时的颜色（原来指向 indigo-2） */
-  --vp-c-brand-2: #0078d6; /* 悬浮变浅蓝 */
-  /* 激活/点击时的颜色（原来指向 indigo-3） */
-  --vp-c-brand-3: #0078d6; /* 点击变深蓝 */
 
+/* ========================================
+   2. 品牌色与字体
+   ======================================== */
+
+:root {
+  /* 品牌色（亮色模式） */
+  --vp-c-brand-1: #0078d6;
+  --vp-c-brand-2: #0078d6;
+  --vp-c-brand-3: #0078d6;
+
+  /* 字体粗细 */
   --vp-font-weight-normal: 600;
   --vp-font-weight-semibold: 700;
   --vp-font-weight-bold: 800;
 }
 
 .dark {
-  /* 在深色背景下，颜色需要更亮或调整色相以保证可读性 */
-  --vp-c-brand-1: #4cc2ff; /* 深色模式下的默认链接颜色（更亮） */
-  --vp-c-brand-2: #4cc2ff; /* 深色模式下的悬浮颜色 */
-  --vp-c-brand-3: #4cc2ff; /* 深色模式下的激活颜色 */
+  /* 品牌色（深色模式） */
+  --vp-c-brand-1: #4cc2ff;
+  --vp-c-brand-2: #4cc2ff;
+  --vp-c-brand-3: #4cc2ff;
 }
 
-/* ===== 首页唯一按钮（方向三：暗黑冷淡风） ===== */
+/* ========================================
+   3. 首页专属按钮
+   ======================================== */
+
 .VPHomeHero .VPButton.brand {
   background: transparent;
   border: 2px solid var(--vp-c-text-1);
@@ -55,7 +66,6 @@ html {
   letter-spacing: 0.3px;
   transition: all 0.3s ease;
 }
-
 .VPHomeHero .VPButton.brand:hover {
   background: var(--vp-c-text-1);
   color: var(--vp-c-bg);
@@ -63,17 +73,19 @@ html {
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
 }
 
-/* ===== 深色模式下的颜色强化（替换掉原来的灰） ===== */
 .dark .VPHomeHero .VPButton.brand {
-  border-color: #d0d0d0; /* 更亮的银灰边框 */
-  color: #d0d0d0; /* 更亮的文字 */
+  border-color: #d0d0d0;
+  color: #d0d0d0;
+}
+.dark .VPHomeHero .VPButton.brand:hover {
+  background: #ffffff;
+  color: #1a1a1a;
+  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.08);
 }
 
-.dark .VPHomeHero .VPButton.brand:hover {
-  background: #ffffff; /* 悬浮时填充亮银灰 */
-  color: #1a1a1a; /* 文字反色为深色，形成清晰对比 */
-  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.08); /* 加一点柔和发光 */
-}
+/* ========================================
+   4. 全局字体 & 标题
+   ======================================== */
 
 @media (min-width: 1024px) {
   .vp-doc {
@@ -84,26 +96,17 @@ html {
 .VPContent h1 {
   font-weight: var(--vp-font-weight-bold) !important;
 }
-
 .VPContent h2 {
   font-weight: 700 !important;
 }
-
 .VPContent h3 {
   font-weight: var(--vp-font-weight-semibold) !important;
 }
-/* 侧边栏列表 */
+
+/* 侧边栏 */
 .VPSidebarItem .text {
   font-weight: var(--vp-font-weight-normal) !important;
 }
-/* 未知 */
-/* .VPOutlineItem {
-  font-weight: var(--vp-font-weight-normal) !important;
-} */
-
-/* .VPSidebarGroup .title {
-  font-weight: 600 !important;
-} */
 
 /* 正文、链接、按钮 */
 .VPContent p,
@@ -113,12 +116,18 @@ html {
 .top-title {
   font-weight: var(--vp-font-weight-semibold) !important;
 }
-/* ===== 资源表格：仅官网/网盘不换行 ===== */
+
+/* ========================================
+   5. 资源表（resources_win.md）
+   包裹容器：<div class="resource-table">
+   ======================================== */
+
 .resource-table table {
   width: 100%;
   table-layout: auto;
 }
 
+/* 官网 & 网盘列不换行 */
 .resource-table table th:nth-child(3),
 .resource-table table td:nth-child(3),
 .resource-table table th:nth-child(4),
@@ -126,20 +135,20 @@ html {
   white-space: nowrap;
 }
 
+/* 附注列允许换行 */
 .resource-table table th:nth-child(5),
 .resource-table table td:nth-child(5) {
   white-space: normal;
   word-break: break-word;
 }
 
-/* 图标列 */
+/* 图标列固定尺寸 */
 .resource-table table td:first-child {
   width: 48px;
   padding: 0 4px;
   text-align: center;
   vertical-align: middle;
 }
-
 .resource-table table td:first-child img {
   width: 32px;
   height: 32px;
@@ -147,7 +156,7 @@ html {
   margin: 0 auto;
 }
 
-/* 移动端 */
+/* 资源表移动端 */
 @media (max-width: 640px) {
   .resource-table .table-wrap {
     overflow-x: auto;
@@ -174,18 +183,37 @@ html {
     display: block;
     margin: 0 auto;
   }
+}
 
-  /* 仅对非资源表的普通表格生效 */
-  .vp-doc:not(.resource-table) table td:first-child,
-  .vp-doc:not(.resource-table) table td:nth-child(2) {
+/* ========================================
+   6. UE4 文章表格（UE4_Mod_ValueDev.md）
+   包裹容器：<div class="ue4-mod-article">
+   ======================================== */
+
+/* 桌面端 */
+.ue4-mod-article table td:first-child,
+.ue4-mod-article table td:nth-child(2) {
+  white-space: nowrap;
+}
+.ue4-mod-article table td:nth-child(3) {
+  min-width: 200px;
+}
+.ue4-mod-article table td:nth-child(3) code {
+  white-space: nowrap;
+  word-break: keep-all;
+}
+
+/* 移动端 */
+@media (max-width: 640px) {
+  .ue4-mod-article table td:first-child,
+  .ue4-mod-article table td:nth-child(2) {
     white-space: nowrap !important;
   }
-  /* 第三列：文字可以换行，但代码不要换行 */
-  .vp-doc:not(.resource-table) table td:nth-child(3) {
+  .ue4-mod-article table td:nth-child(3) {
     min-width: 120px;
+    word-break: break-word;
   }
-
-  .vp-doc:not(.resource-table) table td:nth-child(3) code {
+  .ue4-mod-article table td:nth-child(3) code {
     white-space: nowrap !important;
     word-break: keep-all;
   }
