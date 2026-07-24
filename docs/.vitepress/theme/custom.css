@@ -174,4 +174,10 @@ html {
     display: block;
     margin: 0 auto;
   }
+
+  /* 仅对非资源表的普通表格生效 */
+  .vp-doc:not(.resource-table) table td:first-child,
+  .vp-doc:not(.resource-table) table td:nth-child(2) {
+    white-space: nowrap !important;
+  }
 }
