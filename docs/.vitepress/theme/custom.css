@@ -174,10 +174,4 @@ html {
     display: block;
     margin: 0 auto;
   }
-  .vp-doc:not(.resource-table) table th:first-child,
-  .vp-doc:not(.resource-table) table td:first-child,
-  .vp-doc:not(.resource-table) table th:nth-child(2),
-  .vp-doc:not(.resource-table) table td:nth-child(2) {
-    white-space: nowrap !important;
-  }
 }
