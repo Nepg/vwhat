@@ -59,19 +59,20 @@
 
 ## 媒体与办公
 
-|                                       | 名称             | 官网                                            | 网盘                                                                     | 备忘                                |
-| :-----------------------------------: | :--------------- | :---------------------------------------------- | :----------------------------------------------------------------------- | :---------------------------------- |
-|      <img src="/icons/mpv.ico">       | mpv-lazy         | [官网](https://github.com/hooke007/mpv_PlayKit) | [天翼](https://cloud.189.cn/web/share?code=B3MNBvVzueAb（访问码：bb8g）) | 补帧懒人包，hooke007 维护，解压即用 |
-|   <img src="/icons/potplayer.png">    | Potplayer        | [官网](https://potplayer.tv/)                   | [蓝奏](https://wwi.lanzoui.com/xxxx)                                     | 播放器，现改用 mpv-lazy，留个备份   |
-|   <img src="/icons/HandBrake.png">    | HandBrake        | [官网](https://handbrake.fr/downloads.php)      | [蓝奏](https://wwanv.lanzoum.com/iqlCC3x6scfi)                           | 视频转码                            |
-|    <img src="/icons/Snipaste.svg">    | Snipaste         | [官网](https://zh.snipaste.com/)                | [蓝奏](https://wwanv.lanzoum.com/iySFm3x6rohg)                           | 截图贴屏                            |
-|     <img src="/icons/Glance.ico">     | Glance           | [官网](https://github.com/Harukaon/Glance)      | [蓝奏](https://wwanv.lanzoum.com/ivFyp3y7sdde)                           | 截图翻译                            |
-| <img src="/icons/OfficeToolPlus.ico"> | Office Tool Plus | [官网](https://otp.landian.vip/zh-cn/)          | —                                                                        | 部署 Office，比官方安装器少弹窗     |
-|      <img src="/icons/wps.png">       | WPS              | [官网](https://www.wps.cn/)                     | [天翼](https://cloud.189.cn/web/share?code=MnaeumbYv2Iz（访问码：pbb1）) |                                     |
-|     <img src="/icons/chrome.svg">     | Chrome           | [官网](https://www.google.cn/chrome/)           | [天翼](https://cloud.189.cn/web/share?code=iieuE3viUf22（访问码：tf3e）) |                                     |
-|       <img src="/icons/qq.ico">       | QQ               | [官网](https://im.qq.com/download)              | —                                                                        |                                     |
-|     <img src="/icons/weixin.png">     | 微信             | [官网](https://weixin.qq.com/)                  | —                                                                        |                                     |
-|    <img src="/icons/ilovepdf.png">    | iLovePDF         | [官网](https://www.ilovepdf.com/zh-cn)          | —                                                                        | 在线 PDF 转换工具                   |
+|                                       | 名称                              | 官网                                                                     | 网盘                                                                     | 备忘                                |
+| :-----------------------------------: | :-------------------------------- | :----------------------------------------------------------------------- | :----------------------------------------------------------------------- | :---------------------------------- |
+|      <img src="/icons/mpv.ico">       | mpv-lazy                          | [官网](https://github.com/hooke007/mpv_PlayKit)                          | [天翼](https://cloud.189.cn/web/share?code=B3MNBvVzueAb（访问码：bb8g）) | 补帧懒人包，hooke007 维护，解压即用 |
+|   <img src="/icons/potplayer.png">    | Potplayer                         | [官网](https://potplayer.tv/)                                            | [蓝奏](https://wwi.lanzoui.com/xxxx)                                     | 播放器，现改用 mpv-lazy，留个备份   |
+|   <img src="/icons/HandBrake.png">    | HandBrake                         | [官网](https://handbrake.fr/downloads.php)                               | [蓝奏](https://wwanv.lanzoum.com/iqlCC3x6scfi)                           | 视频转码                            |
+|    <img src="/icons/Snipaste.svg">    | Snipaste                          | [官网](https://zh.snipaste.com/)                                         | [蓝奏](https://wwanv.lanzoum.com/iySFm3x6rohg)                           | 截图贴屏                            |
+|     <img src="/icons/Glance.ico">     | Glance                            | [官网](https://github.com/Harukaon/Glance)                               | [蓝奏](https://wwanv.lanzoum.com/ivFyp3y7sdde)                           | 截图翻译                            |
+| <img src="/icons/OfficeToolPlus.ico"> | Office Tool Plus                  | [官网](https://otp.landian.vip/zh-cn/)                                   | —                                                                        | 部署 Office，比官方安装器少弹窗     |
+|      <img src="/icons/wps.png">       | WPS                               | [官网](https://www.wps.cn/)                                              | [天翼](https://cloud.189.cn/web/share?code=MnaeumbYv2Iz（访问码：pbb1）) |                                     |
+|     <img src="/icons/chrome.svg">     | Chrome                            | [官网](https://www.google.cn/chrome/)                                    | [天翼](https://cloud.189.cn/web/share?code=iieuE3viUf22（访问码：tf3e）) |                                     |
+|   <img src="/icons/ug_chrome.ico">    | <small>ungoogled-chromium</small> | [官网](https://github.com/ungoogled-software/ungoogled-chromium-windows) | [天翼](https://cloud.189.cn/web/share?code=AvEVza7Jruyi（访问码：3usg）) |                                     |
+|       <img src="/icons/qq.ico">       | QQ                                | [官网](https://im.qq.com/download)                                       | —                                                                        |                                     |
+|     <img src="/icons/weixin.png">     | 微信                              | [官网](https://weixin.qq.com/)                                           | —                                                                        |                                     |
+|    <img src="/icons/ilovepdf.png">    | iLovePDF                          | [官网](https://www.ilovepdf.com/zh-cn)                                   | —                                                                        | 在线 PDF 转换工具                   |
 
 ## 系统
 
