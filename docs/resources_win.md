@@ -37,6 +37,7 @@
 | <img src="/icons/ContextMenuManager.ico"> | <small>ContextMenuManager</small> | [官网](https://bluepointlilac.github.io/ContextMenuManager/) | [蓝奏](https://wwanv.lanzoum.com/ip3Ty3x6rvlc)                           | 右键菜单管理      |
 |     <img src="/icons/natpierce.ico">      | 皎月连                            | [官网](https://www.natpierce.cn/)                            | —                                                                        | p2p内网穿透       |
 |      <img src="/icons/RustDesk.ico">      | RustDesk                          | [官网](https://github.com/rustdesk/rustdesk)                 | [蓝奏](https://wwanv.lanzoum.com/iIxas3yrwsbg)                           | 搭配p2p可实现远程 |
+|        <img src="/icons/uuyc.ico">        | 网易UU远程                        | [官网](https://uuyc.163.com/)                                | —                                                                        | 远程              |
 
 ## 游戏
 
