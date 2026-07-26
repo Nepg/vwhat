@@ -15,8 +15,7 @@ HumanitZ 无头服务器，马铃薯堆叠上限为 1。服务端无现成 Mod�
 ### 1. 获取 AES 密钥
 
 - 工具：`AES_finder.exe`
-- 操作：与 `HumanitZServer-Win64-Shipping.exe` 同目录，启动服务器后运行 `AES_finder.exe`，生成 `key.txt`
-- 结果：获取 AES 密钥
+- 操作：与 `HumanitZServer-Win64-Shipping.exe` 同目录，启动服务器后运行 `AES_finder.exe`，将会自动生成 `key.txt`
 
 ![1](/UE4_Mod_ValueDev/1.png)
 
@@ -25,8 +24,8 @@ HumanitZ 无头服务器，马铃薯堆叠上限为 1。服务端无现成 Mod�
 - 工具：`FModel`
 - 操作：
   - 选定 HumanitZServer 目录
-  - 输入 AES 密钥
   - 选择 UE4 版本 4.27
+  - 输入 AES 密钥
 
   ![2](/UE4_Mod_ValueDev/2.png)
 
@@ -41,12 +40,12 @@ HumanitZ 无头服务器，马铃薯堆叠上限为 1。服务端无现成 Mod�
 ![3](/UE4_Mod_ValueDev/3.png)
 
 - 关键文件定位：
-  - 通过客户端 Mod（Ultimate_Ztack 里的 `main.lua`）分析得知
+  通过客户端 Mod（Ultimate_Ztack 里的 `main.lua`）分析得知
   - 物品总表：`DT_ItemDatabase`
   - 路径：`/Game/TSS_Game/Data/Localization/DT_ItemDatabase`
+    ![4](/UE4_Mod_ValueDev/4.png)
   - 堆叠属性：`MaxStackSize`
-
-![4](/UE4_Mod_ValueDev/4.png)
+  - 导出`.uasset、.uexp`
 
 ### 3. 编辑
 
@@ -62,9 +61,12 @@ HumanitZ 无头服务器，马铃薯堆叠上限为 1。服务端无现成 Mod�
 ### 4. 打包
 
 - 工具：`repak`
-- 命令：
+- 操作：
+  - 命令行执行：
 
-  `repak.exe pack 文件夹名称 输出文件名.pak`
+  ```bash
+    repak.exe pack 文件夹名称 输出文件名.pak
+  ```
 
 - 踩坑记录：
 
@@ -92,12 +94,13 @@ HumanitZ 无头服务器，马铃薯堆叠上限为 1。服务端无现成 Mod�
 3. 编辑脚本
    ![8](/UE4_Mod_ValueDev/8.png)
 
-- 脚本生成：
+- 脚本生成
   - 分析 UAssetGUI 脚本模板
   - 分析对象数据结构
   - 生成批量修改脚本
   - 配置 `blacklist.txt`，排除特定物品
-- 执行：成功修改全部目标物品
+
+4. 执行：成功修改全部目标物品
 
 - 踩坑记录：
 
