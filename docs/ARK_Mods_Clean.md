@@ -2,9 +2,9 @@
 
 ## 下载
 
-### 客户端模组清理脚本：[点击下载](https://wwanv.lanzoum.com/iyU6f3zmzlah)
+客户端模组清理脚本：[点击下载](https://wwanv.lanzoum.com/iyU6f3zmzlah)
 
-### 服务端模组清理脚本：无
+服务端模组清理脚本：无
 
 ## 使用方法
 
