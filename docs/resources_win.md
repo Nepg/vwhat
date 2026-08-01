@@ -67,13 +67,12 @@
 |   <img src="/icons/HandBrake.png">    | HandBrake                         | [官网](https://handbrake.fr/downloads.php)                               | [蓝奏](https://wwanv.lanzoum.com/iqlCC3x6scfi)                           | 视频转码                            |
 |    <img src="/icons/Snipaste.svg">    | Snipaste                          | [官网](https://zh.snipaste.com/)                                         | [蓝奏](https://wwanv.lanzoum.com/iySFm3x6rohg)                           | 截图贴屏                            |
 |     <img src="/icons/Glance.ico">     | Glance                            | [官网](https://github.com/Harukaon/Glance)                               | [蓝奏](https://wwanv.lanzoum.com/ivFyp3y7sdde)                           | 截图翻译                            |
-| <img src="/icons/OfficeToolPlus.ico"> | Office Tool Plus                  | [官网](https://otp.landian.vip/zh-cn/)                                   | —                                                                        | 部署 Office，比官方安装器少弹窗     |
-|      <img src="/icons/wps.png">       | WPS                               | [官网](https://www.wps.cn/)                                              | [天翼](https://cloud.189.cn/web/share?code=MnaeumbYv2Iz（访问码：pbb1）) |                                     |
+| <img src="/icons/OfficeToolPlus.ico"> | Office Tool Plus                  | [官网](https://otp.landian.vip/zh-cn/)                                   | —                                                                        | 部署 Office比官方安装器少弹窗       |
+|   <img src="/icons/ONLYOFFICE.ico">   | ONLYOFFICE                        | [官网](https://www.onlyoffice.com/zh/download-desktop)                   | [天翼](https://cloud.189.cn/web/share?code=MnaeumbYv2Iz（访问码：pbb1）) | 文档、表格、PPT...                  |
 |     <img src="/icons/chrome.svg">     | Chrome                            | [官网](https://www.google.cn/chrome/)                                    | [天翼](https://cloud.189.cn/t/3qmYnmriYbYn（访问码：vpt9）)              |                                     |
 |   <img src="/icons/ug_chrome.ico">    | <small>ungoogled-chromium</small> | [官网](https://github.com/ungoogled-software/ungoogled-chromium-windows) | [天翼](https://cloud.189.cn/web/share?code=AvEVza7Jruyi（访问码：3usg）) |                                     |
 |       <img src="/icons/qq.ico">       | QQ                                | [官网](https://im.qq.com/download)                                       | —                                                                        |                                     |
 |     <img src="/icons/weixin.png">     | 微信                              | [官网](https://weixin.qq.com/)                                           | —                                                                        |                                     |
-|    <img src="/icons/ilovepdf.png">    | iLovePDF                          | [官网](https://www.ilovepdf.com/zh-cn)                                   | —                                                                        | 在线 PDF 转换工具                   |
 
 ## 系统
 
