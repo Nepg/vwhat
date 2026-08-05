@@ -28,6 +28,15 @@ export default defineConfig({
           { text: 'Guide_EN', link: '/Guide_EN' },
         ],
       },
+      {
+        text: '其它',
+        items: [
+          {
+            text: 'LocalSend在银河麒麟V10桌面无法启动解决办法',
+            link: '/LocalSend在银河麒麟V10桌面无法启动解决办法',
+          },
+        ],
+      },
     ],
 
     // socialLinks: [
