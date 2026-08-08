@@ -39,6 +39,10 @@ export default defineConfig({
             text: '从麒麟软件商店安装企业微信后无法打开的问题',
             link: '/从麒麟软件商店安装企业微信后无法打开的问题',
           },
+          {
+            text: 'CrossOver创建容器命令',
+            link: '/CrossOver创建容器命令',
+          },
         ],
       },
     ],
