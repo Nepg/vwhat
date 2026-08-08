@@ -19,13 +19,12 @@ pkill -f wineserver
 
 ## 二、容器（Bottle）创建基础信息
 
-| 项目         | 说明                                   |
-| ------------ | -------------------------------------- |
-| 主命令路径   | `/opt/cxoffice/bin/cxbottle`           |
-| `--bottle`   | 自定义容器名称                         |
-| `--template` | 指定 Windows 系统模板                  |
-| 默认存储路径 | `~/.cxoffice/`                         |
-| 查看容器列表 | `ls ~/.cxoffice/` 或 `cxbottle --list` |
+| 项目         | 说明                         |
+| ------------ | ---------------------------- |
+| 主命令路径   | `/opt/cxoffice/bin/cxbottle` |
+| `--bottle`   | 自定义容器名称               |
+| `--template` | 指定 Windows 系统模板        |
+| 默认存储路径 | `~/.cxoffice/`               |
 
 ### 2.1 Win7 64 位容器
 
