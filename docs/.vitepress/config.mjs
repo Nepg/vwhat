@@ -32,8 +32,12 @@ export default defineConfig({
         text: '其它',
         items: [
           {
-            text: 'LocalSend在银河麒麟V10桌面无法启动解决办法',
-            link: '/LocalSend在银河麒麟V10桌面无法启动解决办法',
+            text: 'LocalSend在麒麟V10无法启动解决办法',
+            link: '/LocalSend在麒麟V10无法启动解决办法',
+          },
+          {
+            text: '从麒麟软件商店安装企业微信后无法打开的问题',
+            link: '/从麒麟软件商店安装企业微信后无法打开的问题',
           },
         ],
       },
