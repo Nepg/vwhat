@@ -26,7 +26,9 @@ pkill -f wineserver
 | `--template` | 指定 Windows 系统模板        |
 | 默认存储路径 | `~/.cxoffice/`               |
 
-### 2.1 Win7 64 位容器
+### 2.1 Win7容器
+
+64位
 
 ```bash
 /opt/cxoffice/bin/cxbottle --create --bottle="win7_64bit" --template=win7_64
@@ -41,13 +43,15 @@ env WINEARCH=win64 /opt/cxoffice/bin/cxbottle --create --bottle="win7_64bit" --t
 
 :::
 
-### 2.2 Win7 32 位容器
+32 位
 
 ```bash
 /opt/cxoffice/bin/cxbottle --create --bottle="win7_32bit" --template=win7
 ```
 
-### 2.3 Win10 64 位容器
+### 2.3 Win10 容器
+
+64 位
 
 ```bash
 /opt/cxoffice/bin/cxbottle --create --bottle="win10_64bit" --template=win10_64
@@ -62,7 +66,7 @@ env WINEARCH=win64 /opt/cxoffice/bin/cxbottle --create --bottle="win10_64bit" --
 
 :::
 
-### 2.4 Win10 32 位容器
+32 位
 
 ```bash
 /opt/cxoffice/bin/cxbottle --create --bottle="win10_32bit" --template=win10
