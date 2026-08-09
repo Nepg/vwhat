@@ -47,6 +47,10 @@ export default defineConfig({
             text: 'UOSLiveCD环境安装衍星LiveCD工具',
             link: '/UOSLiveCD环境安装衍星LiveCD工具',
           },
+          {
+            text: '衍星LiveCD工具安装包提取',
+            link: '/衍星LiveCD工具安装包提取',
+          },
         ],
       },
     ],

@@ -1,4 +1,4 @@
-# UOS LiveCD 环境衍星 LiveCD Tools 2.0 手动安装操作手册
+# UOS LiveCD 环境安装 衍星LiveCD工具
 
 ## 基础说明
 
@@ -73,16 +73,12 @@ apt install -f
 sudo -i
 ```
 
-2. 临时关闭 ELF 强制签名校验（程序启动校验拦截时执行）
-
-::: details
+2. 临时关闭 ELF 强制签名校验
 
 ```bash
 echo 0 > /usr/share/deepin-elf-verify/mode
 systemctl restart deepin-elf-verify.service
 ```
-
-:::
 
 3. 解压压缩包至系统根目录
 
