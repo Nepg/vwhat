@@ -43,6 +43,10 @@ export default defineConfig({
             text: 'CrossOver创建容器命令',
             link: '/CrossOver创建容器命令',
           },
+          {
+            text: 'UOSLiveCD环境安装衍星LiveCD工具',
+            link: '/UOSLiveCD环境安装衍星LiveCD工具',
+          },
         ],
       },
     ],
