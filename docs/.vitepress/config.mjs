@@ -36,8 +36,8 @@ export default defineConfig({
             link: '/LocalSend在麒麟V10无法启动解决办法',
           },
           {
-            text: '从麒麟软件商店安装企业微信后无法打开的问题',
-            link: '/从麒麟软件商店安装企业微信后无法打开的问题',
+            text: '麒麟V10软件商店企业微信wine版无法打开',
+            link: '/麒麟V10软件商店企业微信wine版无法打开',
           },
           {
             text: 'CrossOver创建容器命令',

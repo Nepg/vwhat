@@ -109,16 +109,16 @@ html {
 }
 
 /* 正文、链接、按钮 */
-.VPContent p,
+/* .VPContent p,
 .VPContent li,
 .VPContent a,
 .VPButton,
 .top-title {
   font-weight: var(--vp-font-weight-semibold) !important;
-}
+} */
 
 /* ========================================
-   5. 资源表（resources_win.md）
+   5. 一些资源
    包裹容器：<div class="resource-table">
    ======================================== */
 
@@ -156,7 +156,7 @@ html {
   margin: 0 auto;
 }
 
-/* 资源表移动端 */
+/* 一些资源移动端 */
 @media (max-width: 640px) {
   .resource-table .table-wrap {
     overflow-x: auto;
