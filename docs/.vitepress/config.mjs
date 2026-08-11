@@ -51,6 +51,10 @@ export default defineConfig({
             text: '衍星LiveCD工具提取',
             link: '/衍星LiveCD工具提取',
           },
+          {
+            text: 'arm实施',
+            link: '/arm实施',
+          },
         ],
       },
     ],
