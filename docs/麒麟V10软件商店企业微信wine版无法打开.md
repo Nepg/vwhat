@@ -80,79 +80,97 @@ sudo apt install kylin-kwre-wecom -y
 
 ## 二、ARM 架构解决方案
 
-> **适用场景**：ARM64（飞腾、鲲鹏等）环境，系统 glibc < 2.34，且存在系统预加载库冲突。
->
-> **核心思路**：利用 `kylin-kwre-wecom` 容器环境，手动升级容器内企业微信版本，并更换 CrossOver 23 引擎解决新版登录黑屏问题。
+> 适用场景：ARM64（飞腾、鲲鹏等）环境，系统 glibc < 2.34，且存在系统预加载库冲突。
+
+> 核心思路：利用 kylin-kwre-wecom 提供的 ExaGear + CrossOver 容器环境，手动升级容器内企业微信主程序，并配置CrossOver 21 Wine以解决新版登录后的黑屏报错等问题。
 
 ### 2.1 安装 kwre 版企业微信
 
-执行以下命令，安装麒麟软件仓库中的 `kylin-kwre-wecom`。该步骤自动创建用于运行企业微信的 Wine 容器（容器名称固定为 `wecom`）：
+执行以下命令，安装麒麟软件仓库中的 kylin-kwre-wecom。该步骤会自动创建用于运行企业微信的 CrossOver 容器（容器名称固定为 wecom）：
 
 ```bash
 sudo apt update
 sudo apt install kylin-kwre-wecom -y
 ```
 
-> `kylin-kwre-wecom` 的版本为 `4.1.16.6007`，该版本扫码登录时会提示版本过低，需后续升级。
+> kylin-kwre-wecom 当前版本为 4.1.16.6007，该版本扫码登录时会提示「客户端版本过低」，需在后续步骤中升级。
 
 ### 2.2 获取最新版 Windows 客户端安装程序
 
-从企业微信官方网站下载 Windows 平台的最新安装包（示例文件名为 `WeCom_5.0.9.6063.exe`），并将文件保存至当前用户的桌面目录。
+从企业微信官方网站下载 Windows 平台的最新安装包（示例文件名 WeCom_5.0.9.6063.exe），并将文件保存至当前用户的桌面目录。
 
-### 2.3 使用 CrossOver 21 执行安装包以更新容器内程序文件
+### 2.3 使用 CrossOver 21 执行安装包，更新容器内程序文件
 
-调用 CrossOver 21 的 Wine 二进制文件，指定容器 `wecom`，运行下载的安装包，完成企业微信的版本更新：
+调用 CrossOver 21 自带的 Wine 二进制文件，指定容器 wecom，运行下载的安装包，完成企业微信的版本更新：
 
 ```bash
 /opt/cxoffice21/bin/wine --bottle wecom "/home/用户名/桌面/WeCom_5.0.9.6063.exe"
 ```
 
 > 将命令中的 “用户名” 替换为当前实际登录的用户名。
+
+### 2.4 登录后黑屏/闪退问题的初步处理
+
+升级至 5.0.9.6063 后，登录可能出现窗口黑屏、闪退或弹出「错误报告」对话框。可尝试通过调整 Wine 配置缓解：
+
+禁用硬件加速相关库
+执行以下命令打开 Wine 配置工具：
+
+```bash
+/opt/cxoffice21/bin/wine --bottle wecom winecfg
+```
+
+切换到 “显示” 选项卡，取消勾选“允许窗口管理器装饰”（如有）。
+
+切换到 “函数库” 选项卡，在“新增函数库顶替”中分别输入 d3d10core、d3d11、dxgi，并将各自对应的“顶替”设置为 “停用”（强制使用 Wine 内置实现，避免调用 GPU 加速）。
+
+点击“应用”保存，然后重新启动企业微信：
+
+```bash
+/opt/cxoffice21/bin/wine --bottle wecom "C:\Program Files\WXWork\WXWork.exe"
+```
+
+如果依然崩溃，继续执行下一步。
+
+### 2.5 重新安装 CrossOver 核心包
+
+执行以下命令，重装 CrossOver 运行时组件，修复可能缺失或损坏的依赖：
+
+```bash
+sudo apt install --reinstall kylin-kwre-crossover -y
+```
+
+### 2.6 验证 CrossOver 21 的 Wine 可执行文件路径
+
+检查 /opt/cxoffice21/bin/wine 文件是否存在：
+
+```bash
+ls /opt/cxoffice21/bin/wine
+```
+
+> 若命令输出该路径，则表示 CrossOver 21 引擎已就绪。
+
+### 2.7 重启电脑
+
+### 2.8 使用 CrossOver 21 引擎启动企业微信
+
+调用 CrossOver 21 的 Wine 命令，指定容器 wecom，运行已升级的企业微信主程序（WXWork.exe）：
+
+```bash
+/opt/cxoffice21/bin/wine --bottle wecom "C:\Program Files\WXWork\WXWork.exe"
+```
+
+> 验证结果：
 >
-> **安装过程中的异常处理**：进度至 93% 时可能提示「不能打开要写入的文件: WXWork.exe」，选择 **忽略**，完成剩余文件解压。
+> 二维码正常渲染显示；
+>
+> 扫码不再提示「客户端版本过低」；
+>
+> 登录后界面正常，无黑屏及闪退。
 
-### 2.4 安装 CrossOver 23 引擎
+### 2.9 备选方案
 
-企业微信版本 `5.0.9.6063` 在使用 CrossOver 21 引擎登录后会出现窗口黑屏、闪退及 “错误报告” 对话框。为此，需要部署 CrossOver 23 引擎。
-
-将 CrossOver 23 的 Debian 安装包（文件名为 `kylin-kwre-crossover23_0.1-1_arm64.deb`）存放于桌面，并执行安装：
-
-```bash
-cd ~/桌面
-sudo dpkg -i kylin-kwre-crossover23_0.1-1_arm64.deb
-```
-
-若安装时提示缺少依赖项，则执行以下命令修复依赖关系：
-
-```bash
-sudo apt --fix-broken install -y
-```
-
-### 2.5 验证 CrossOver 23 的 Wine 可执行文件路径
-
-检查 `/opt/cxoffice23/bin/wine` 文件是否存在，以确认新引擎安装成功：
-
-```bash
-ls /opt/cxoffice23/bin/wine
-```
-
-若命令输出该文件路径，则表示 CrossOver 23 引擎已就绪。
-
-### 2.6 使用 CrossOver 23 引擎启动企业微信
-
-调用 CrossOver 23 的 Wine 命令，指定容器 `wecom`，运行已升级的企业微信主程序（`WXWork.exe`），启动应用：
-
-```bash
-/opt/cxoffice23/bin/wine --bottle wecom "C:\Program Files\WXWork\WXWork.exe"
-```
-
-**验证结果**：
-
-- 二维码正常渲染显示；
-- 扫码不再提示「客户端版本过低」；
-- 登录后界面正常，无黑屏及闪退。
-
----
+如果以上步骤后仍程序崩溃，可尝试安装星火应用商店版企业微信（com.qq.weixin.work.deepin）
 
 ## 三、x86 架构解决方案
 
