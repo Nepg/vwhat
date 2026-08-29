@@ -5,6 +5,7 @@ export default defineConfig({
   base: '/vwhat/',
   title: 'What can I say ？',
   description: 'A VitePress Site',
+  head: [['link', { rel: 'icon', href: '/vwhat/favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
