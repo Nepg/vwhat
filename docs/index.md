@@ -2,19 +2,19 @@
 layout: home
 
 hero:
-  text: '这里没有东西 😶'
-  tagline: 就像你试图敲开的门，背后或许也只是另一堵墙。
-  actions: [] # 可以删除或保留空数组
+  text: '这里的东西可能有用'
+  tagline: 但“有用”本身也值得怀疑
+  actions: []
 
 features:
-  - title: 一些资源（win）
-    details: Windows 平台实用软件整理
+  - title: Windows 平台软件整理
+    details:
     link: /resources_win
-  - title: 一些资源（安卓）
-    details: ？
+  - title: Android 软件整理
+    details:
     link: /resources_android
   - title: ARK服务端常用
-    details: ？
+    details: “ 占位符 ”
     link: /ARK_Mods_Cmd
 ---
 

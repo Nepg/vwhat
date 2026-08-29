@@ -1,4 +1,4 @@
-# 一些资源（win）
+# Windows
 
 <div class="resource-table">
 
