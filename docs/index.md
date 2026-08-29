@@ -20,8 +20,6 @@ features:
 
 ## 全部文章
 
-### 索引
-
 - [ARK模组清理](/ARK_Mods_Clean)
 - [制作 UE4 数值修改模组（HumanitZ）](/UE4_Mod_ValueDev)
 - [中文教程](/中文教程)
