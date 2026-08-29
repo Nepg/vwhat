@@ -8,73 +8,65 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      // { text: 'Home', link: '/' },
+      { text: '首页', link: '/' },
       // { text: '文章', link: '/markdown-examples' },
     ],
 
-    sidebar: [
-      {
-        text: '索引',
-        items: [
-          { text: '一些资源（win）', link: '/resources_win' },
-          { text: '一些资源（安卓）', link: '/resources_android' },
-          { text: 'ARK服务端常用', link: '/ARK_Mods_Cmd' },
-          { text: 'ARK模组清理', link: '/ARK_Mods_Clean' },
-          {
-            text: '制作 UE4 数值修改模组（HumanitZ）',
-            link: '/UE4_Mod_ValueDev',
-          },
-          { text: '中文教程', link: '/中文教程' },
-          { text: 'Guide_EN', link: '/Guide_EN' },
-        ],
-      },
-      {
-        text: '其它',
-        items: [
-          {
-            text: 'LocalSend在麒麟V10无法启动解决办法',
-            link: '/LocalSend在麒麟V10无法启动解决办法',
-          },
-          {
-            text: '麒麟V10软件商店企业微信wine版无法打开',
-            link: '/麒麟V10软件商店企业微信wine版无法打开',
-          },
-          {
-            text: 'CrossOver创建容器命令',
-            link: '/CrossOver创建容器命令',
-          },
-          {
-            text: 'UOSLiveCD环境安装衍星LiveCD工具',
-            link: '/UOSLiveCD环境安装衍星LiveCD工具',
-          },
-          {
-            text: '衍星LiveCD工具提取',
-            link: '/衍星LiveCD工具提取',
-          },
-          {
-            text: '国产操作系统打印机正常连接但无法打印',
-            link: '/国产操作系统打印机正常连接但无法打印',
-          },
-          {
-            text: '银河麒麟桌面V10提示系统操作受限',
-            link: '/银河麒麟桌面V10提示系统操作受限',
-          },
-        ],
-      },
-    ],
-
-    // socialLinks: [
-    //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+    // sidebar: [
+    //   {
+    //     text: '索引',
+    //     items: [
+    //       { text: '一些资源（win）', link: '/resources_win' },
+    //       { text: '一些资源（安卓）', link: '/resources_android' },
+    //       { text: 'ARK服务端常用', link: '/ARK_Mods_Cmd' },
+    //       { text: 'ARK模组清理', link: '/ARK_Mods_Clean' },
+    //       {
+    //         text: '制作 UE4 数值修改模组（HumanitZ）',
+    //         link: '/UE4_Mod_ValueDev',
+    //       },
+    //       { text: '中文教程', link: '/中文教程' },
+    //       { text: 'Guide_EN', link: '/Guide_EN' },
+    //     ],
+    //   },
+    //   {
+    //     text: '其它',
+    //     items: [
+    //       {
+    //         text: 'LocalSend在麒麟V10无法启动解决办法',
+    //         link: '/LocalSend在麒麟V10无法启动解决办法',
+    //       },
+    //       {
+    //         text: '麒麟V10软件商店企业微信wine版无法打开',
+    //         link: '/麒麟V10软件商店企业微信wine版无法打开',
+    //       },
+    //       {
+    //         text: 'CrossOver创建容器命令',
+    //         link: '/CrossOver创建容器命令',
+    //       },
+    //       {
+    //         text: 'UOSLiveCD环境安装衍星LiveCD工具',
+    //         link: '/UOSLiveCD环境安装衍星LiveCD工具',
+    //       },
+    //       {
+    //         text: '衍星LiveCD工具提取',
+    //         link: '/衍星LiveCD工具提取',
+    //       },
+    //       {
+    //         text: '国产操作系统打印机正常连接但无法打印',
+    //         link: '/国产操作系统打印机正常连接但无法打印',
+    //       },
+    //       {
+    //         text: '银河麒麟桌面V10提示系统操作受限',
+    //         link: '/银河麒麟桌面V10提示系统操作受限',
+    //       },
+    //     ],
+    //   },
     // ],
     outline: { level: 'deep', label: '目录' },
     docFooter: { prev: false, next: false },
     darkModeSwitchLabel: '切换主题',
     sidebarMenuLabel: '菜单',
     returnToTopLabel: '回到顶部',
-    // editLink: {
-    //   pattern: 'https://github.com/your-repo/edit/main/docs/:path',
-    //   text: '在 GitHub 上编辑此页',
-    // },
     lastUpdated: {
       text: '最后编辑于',
       formatOptions: {

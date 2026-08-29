@@ -4,12 +4,6 @@
 
 ## 管理员指令
 
-- 开启管理员权限（`<Password>`为服务器管理员密码）
-
-  ```bash
-  EnableCheats <Password>
-  ```
-
 - 存档
 
 ```bash
