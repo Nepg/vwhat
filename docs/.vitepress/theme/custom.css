@@ -218,14 +218,8 @@ html {
     word-break: keep-all;
   }
 }
-/* 移动端（≤ 960px）调整大纲按钮位置 */
-@media (max-width: 960px) {
-  .VPLocalNav .container {
-    display: flex;
-    justify-content: flex-end; /* 容器内所有内容右对齐 */
-  }
-  .VPLocalNavOutlineDropdown {
-    order: 2; /* 确保它在最后（如果有其他元素） */
-    margin-left: auto; /* 把它推到最右侧 */
-  }
+/* 调整目录按钮位置 */
+.VPLocalNav .container {
+  display: flex;
+  justify-content: flex-end; /* 容器内所有内容右对齐 */
 }
