@@ -16,7 +16,7 @@
 |  <img src="/icons/crystalmark.ico">   | CrystalDiskInfo | [官网](https://crystalmark.info/en/)                            | [蓝奏](https://wwanv.lanzoum.com/iqPP23x6sspe)                           | 硬盘健康     |
 |  <img src="/icons/ATIWinFlash.ico">   | ATIWinFlash     | —                                                               | [蓝奏](https://wwi.lanzoui.com/xxxx)                                     | 580 刷 BIOS  |
 | <img src="/icons/MSIAfterburner.ico"> | 微星小飞机      | [官网](https://www.msi.com/Landing/afterburner/graphics-cards)  | —                                                                        |              |
-|     <img src="/icons/tbtool.ico">     | 图吧工具箱      | [官网](https://www.tbtool.cn/)                                  | [天翼](https://cloud.189.cn/web/share?code=UzARbqVviMnq（访问码：hxm0）) | 懒人包       |
+|     <img src="/icons/tbtool.ico">     | 图吧工具箱      | [官网](https://www.tbtool.cn/)                                  | [天翼](https://cloud.189.cn/web/share?code=i2auqeEBJjM3（访问码：yej5）) | 懒人包       |
 
 ## 工具软件
 

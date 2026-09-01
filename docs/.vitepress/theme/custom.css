@@ -223,3 +223,9 @@ html {
   display: flex;
   justify-content: flex-end; /* 容器内所有内容右对齐 */
 }
+
+/* 去掉“全部文章”列表中的链接下划线 */
+/* .vp-doc h2 + ul a,
+.vp-doc details ul a {
+  text-decoration: none;
+} */
