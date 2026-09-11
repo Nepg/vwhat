@@ -248,11 +248,11 @@ cp "/home/用户名/桌面/WXWork.exe" \
 
 #### 3.6.2 规避系统预加载库冲突机制
 
-使用 `/opt/cxoffice/bin/wine --bottle wecom`（或 `cxoffice23`）启动时，进程完全隔离在容器空间内；容器拥有独立动态链接加载逻辑，不会读取宿主 `/etc/ld.so.preload` 预加载配置，杜绝 ARM 链接器加载 x86_64 保密库导致崩溃问题。
+使用 `/opt/cxoffice/bin/wine --bottle wecom`，进程完全隔离在容器空间内；容器拥有独立动态链接加载逻辑，不会读取宿主 `/etc/ld.so.preload` 预加载配置，杜绝 ARM 链接器加载 x86_64 保密库导致崩溃问题。
 
 #### 3.6.3 直接替换 exe 主程序可行原理
 
-CrossOver 容器模拟完整 Windows C 盘目录，注册表、运行依赖 DLL、用户配置全部隔离存储在 `~/.cxoffice21/wecom`。`WXWork.exe` 为独立业务主程序，小版本迭代不会变更底层 Wine/CrossOver 依赖，仅替换该文件即可完成升级，无需重建容器。
+CrossOver 容器模拟完整 Windows C 盘目录，注册表、运行依赖 DLL、用户配置全部隔离存储在 `~/.cxoffice/wecom`。`WXWork.exe` 为独立业务主程序，小版本迭代不会变更底层 Wine/CrossOver 依赖，仅替换该文件即可完成升级，无需重建容器。
 
 ---
 
