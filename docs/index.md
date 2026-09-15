@@ -7,26 +7,21 @@ hero:
   actions: []
 
 features:
-  - title: Windows 平台软件整理
-    details:
+  - title: Windows 软件整理
+    details: _
     link: /resources_win
   - title: Android 软件整理
-    details:
+    details: _
     link: /resources_android
-  - title: ARK服务端常用
-    details: “ 占位符 ”
-    link: /ARK_Mods_Cmd
 ---
 
-## 全部文章
+##
 
-- [ARK模组清理](/ARK_Mods_Clean)
+- [方舟模组清理](/ARK_Mods_Clean)
 - [制作 UE4 数值修改模组（HumanitZ）](/UE4_Mod_ValueDev)
-- [中文教程](/中文教程)
-- [Guide_EN](/Guide_EN)
 
 <details>
-<summary><strong>其它</strong>（点击展开）</summary>
+<summary><strong>无关紧要</strong>（点击展开）</summary>
 
 - [LocalSend在麒麟V10无法启动解决办法](/LocalSend在麒麟V10无法启动解决办法)
 - [麒麟V10软件商店企业微信wine版无法打开](/麒麟V10软件商店企业微信wine版无法打开)

@@ -19,7 +19,6 @@ export default defineConfig({
     //     items: [
     //       { text: '一些资源（win）', link: '/resources_win' },
     //       { text: '一些资源（安卓）', link: '/resources_android' },
-    //       { text: 'ARK服务端常用', link: '/ARK_Mods_Cmd' },
     //       { text: 'ARK模组清理', link: '/ARK_Mods_Clean' },
     //       {
     //         text: '制作 UE4 数值修改模组（HumanitZ）',
