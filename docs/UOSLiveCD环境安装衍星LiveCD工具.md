@@ -11,7 +11,7 @@
 | 架构或型号    | 安装包类型 | 文件名                                        |
 | ------------- | ---------- | --------------------------------------------- |
 | x86_64        | Debian     | `com.cnoshome.livecdtools_2.0.0_amd64.deb`    |
-| ARM64         | Debian     | `com.cnoshome.livecdtools_2.0.0_arm64.deb`    |
+| ARM64         | Debian     | `com.cnoshome.livecdtools_2.0.0_arm64_FT.deb` |
 | L420 ~ L540   | tar.gz     | `com.cnoshome.livecdtools_L420-L540.tar.gz`   |
 | W515y ~ W585y | tar.gz     | `com.cnoshome.livecdtools_W515y-W585y.tar.gz` |
 
@@ -36,8 +36,16 @@ systemctl restart deepin-elf-verify.service
 
 3. 执行 deb 包安装操作
 
+### UOS
+
 ```bash
 dpkg -i /home/uos/Desktop/com.cnoshome.livecdtools_2.0.0_amd64.deb
+```
+
+### GXDE-OS-live
+
+```bash
+dpkg -i /home/user/Desktop/com.cnoshome.livecdtools_2.0.0_amd64.deb
 ```
 
 4. 尝试启动并验证程序可用性
@@ -75,7 +83,7 @@ systemctl restart deepin-elf-verify.service
 3. 解压压缩包至系统根目录
 
 ```bash
-tar -xzf /home/uos/Desktop/com.cnoshome.livecdtools_2.0.0_amd64.tar.gz -C /
+tar -xzf /home/uos/Desktop/com.cnoshome.livecdtools_L420-L540.tar.gz -C /
 ```
 
 4. 尝试启动并验证程序可用性
