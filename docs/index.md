@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  text: '这里的东西可能有用'
-  tagline: 但“有用”本身也值得怀疑
+  text: '🤔'
+  tagline:
   actions: []
 
 features:
@@ -32,3 +32,19 @@ features:
 - [银河麒麟桌面V10提示系统操作受限](/银河麒麟桌面V10提示系统操作受限)
 
 </details>
+
+<style>
+
+
+.VPHero .text {
+  font-size: 100px !important; 
+  line-height: 1 !important;
+  margin-bottom: 40px;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.VPHero .text:hover {
+  transform: rotate(15deg) scale(1.2); /* 鼠标放上去它还会歪头 */
+}
+</style>
