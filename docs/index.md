@@ -34,17 +34,82 @@ features:
 </details>
 
 <style>
-
-
+/* 1. 初始状态：隐藏且稍微下沉 */
 .VPHero .text {
-  font-size: 100px !important; 
-  line-height: 1 !important;
-  margin-bottom: 40px;
-  transition: transform 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px) scale(0.9);
+  /* 使用平滑的贝塞尔曲线让出场更有弹性 */
+  transition: opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1), 
+              transform 0.5s cubic-bezier(0.16, 1, 0.3, 1) !important;
   display: inline-block;
+  will-change: opacity, transform;
+  
+  /* 📱 移动端与桌面端自适应的关键：clamp(最小值, 视口宽度比例, 最大值) */
+  font-size: clamp(60px, 15vw, 100px) !important;
+  line-height: 1 !important;
 }
 
-.VPHero .text:hover {
-  transform: rotate(15deg) scale(1.2); /* 鼠标放上去它还会歪头 */
+/* 2. 准备就绪状态：显示并复位 */
+.VPHero .text.is-ready {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* 3. 针对较大屏幕（平板、桌面）单独微调 */
+@media (min-width: 768px) {
+  .VPHero .text {
+    font-size: 100px !important; 
+  }
+  
+  /* 只有桌面端才开启鼠标悬浮效果 */
+  .VPHero .text.is-ready:hover {
+    transform: rotate(15deg) scale(1.2);
+  }
 }
 </style>
+
+<script setup>
+import { onMounted, watch, nextTick } from 'vue'
+import { useRoute } from 'vitepress'
+
+const route = useRoute()
+
+const emojis = ['🤔','🍉','☃️', '🐔','🙂','🛵','🤖', '👽','😯', '😎','🦖', '🚀', '🧐', '😶‍🌫️', '🧑‍🌾','🛌', '🧙‍♂️','🍋', '🫠', '🗿', '🕗','🐾','👾', '🤡','🐱']
+
+const randomizeEmoji = () => {
+  nextTick(() => {
+    // 稍微延迟一点点，确保 DOM 已经渲染
+    setTimeout(() => {
+      const el = document.querySelector('.VPHero .text')
+      if (el) {
+        // 移除 ready 状态，让其变回隐藏
+        el.classList.remove('is-ready')
+        
+        // 随机替换内容
+        el.textContent = emojis[Math.floor(Math.random() * emojis.length)]
+        
+        // 使用 requestAnimationFrame 确保浏览器完成了一次重绘后再显示，让动画生效
+        requestAnimationFrame(() => {
+          // 稍微加一个小延迟，防止移除和添加类名在同一帧导致动画失效
+          setTimeout(() => {
+            el.classList.add('is-ready')
+          }, 100)
+        })
+      }
+    }, 100)
+  })
+}
+
+onMounted(() => {
+  randomizeEmoji()
+})
+
+watch(
+  () => route.path,
+  (newPath) => {
+    if (newPath === '/') {
+      randomizeEmoji()
+    }
+  }
+)
+</script>
