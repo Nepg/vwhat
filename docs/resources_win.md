@@ -4,19 +4,19 @@
 
 ## 硬件
 
-|                                       | 名称            | 官网                                                            | 网盘                                                                     | 备忘         |
-| :-----------------------------------: | :-------------- | :-------------------------------------------------------------- | :----------------------------------------------------------------------- | :----------- |
-|    <img src="/icons/nvidia.svg" >     | NVIDIA          | [官网](https://www.nvidia.cn/drivers/)                          | —                                                                        |              |
-|      <img src="/icons/amd.svg">       | AMD             | [官网](https://www.amd.com/zh-cn/support/download/drivers.html) | —                                                                        |              |
-|      <img src="/icons/ddu.png">       | DDU             | [官网](https://www.wagnardsoft.com/)                            | [蓝奏](https://wwanv.lanzoum.com/iNq3D3x7nbad)                           | 卸显卡驱动   |
-|      <img src="/icons/cpuz.ico">      | CPU-Z           | [官网](https://www.cpuid.com/softwares/cpu-z.html)              | [蓝奏](https://wwanv.lanzoum.com/i6ecK3x7yj3a)                           |              |
-|     <img src="/icons/GPU-Z.ico">      | GPU-Z           | [官网](https://www.techpowerup.com/download/techpowerup-gpu-z/) | [蓝奏](https://wwanv.lanzoum.com/iyjPs3x7ykud)                           |              |
-|     <img src="/icons/aida64.ico">     | AIDA64          | [官网](https://www.aida64.com/downloads)                        | [蓝奏](https://wwanv.lanzoum.com/illkT3x7u2of)                           | 硬件压力测试 |
-|     <img src="/icons/hwinfo.png">     | HWiNFO          | [官网](https://www.hwinfo.com/)                                 | [蓝奏](https://wwanv.lanzoum.com/iTpb53x6ri5i)                           | 硬件温度     |
-|  <img src="/icons/crystalmark.ico">   | CrystalDiskInfo | [官网](https://crystalmark.info/en/)                            | [蓝奏](https://wwanv.lanzoum.com/iqPP23x6sspe)                           | 硬盘健康     |
-|  <img src="/icons/ATIWinFlash.ico">   | ATIWinFlash     | —                                                               | [蓝奏](https://wwi.lanzoui.com/xxxx)                                     | 580 刷 BIOS  |
-| <img src="/icons/MSIAfterburner.ico"> | 微星小飞机      | [官网](https://www.msi.com/Landing/afterburner/graphics-cards)  | —                                                                        |              |
-|     <img src="/icons/tbtool.ico">     | 图吧工具箱      | [官网](https://www.tbtool.cn/)                                  | [天翼](https://cloud.189.cn/web/share?code=i2auqeEBJjM3（访问码：yej5）) | 懒人包       |
+|                                       | 名称            | 官网                                                            | 网盘                                                                     | 备忘        |
+| :-----------------------------------: | :-------------- | :-------------------------------------------------------------- | :----------------------------------------------------------------------- | :---------- |
+|    <img src="/icons/nvidia.svg" >     | NVIDIA          | [官网](https://www.nvidia.cn/drivers/)                          | —                                                                        |             |
+|      <img src="/icons/amd.svg">       | AMD             | [官网](https://www.amd.com/zh-cn/support/download/drivers.html) | —                                                                        |             |
+|      <img src="/icons/ddu.png">       | DDU             | [官网](https://www.wagnardsoft.com/)                            | [蓝奏](https://wwanv.lanzoum.com/iNq3D3x7nbad)                           | 卸显卡驱动  |
+|      <img src="/icons/cpuz.ico">      | CPU-Z           | [官网](https://www.cpuid.com/softwares/cpu-z.html)              | [蓝奏](https://wwanv.lanzoum.com/i6ecK3x7yj3a)                           |             |
+|     <img src="/icons/GPU-Z.ico">      | GPU-Z           | [官网](https://www.techpowerup.com/download/techpowerup-gpu-z/) | [蓝奏](https://wwanv.lanzoum.com/iyjPs3x7ykud)                           |             |
+|     <img src="/icons/aida64.ico">     | AIDA64          | [官网](https://www.aida64.com/downloads)                        | —                                                                        | 压力测试    |
+|     <img src="/icons/hwinfo.png">     | HWiNFO          | [官网](https://www.hwinfo.com/)                                 | [蓝奏](https://wwanv.lanzoum.com/iTpb53x6ri5i)                           | 硬件温度    |
+|  <img src="/icons/crystalmark.ico">   | CrystalDiskInfo | [官网](https://crystalmark.info/en/)                            | [蓝奏](https://wwanv.lanzoum.com/iqPP23x6sspe)                           | 硬盘健康    |
+|  <img src="/icons/ATIWinFlash.ico">   | ATIWinFlash     | —                                                               | [蓝奏](https://wwi.lanzoui.com/xxxx)                                     | 580 刷 BIOS |
+| <img src="/icons/MSIAfterburner.ico"> | 微星小飞机      | [官网](https://www.msi.com/Landing/afterburner/graphics-cards)  | —                                                                        |             |
+|     <img src="/icons/tbtool.ico">     | 图吧工具箱      | [官网](https://www.tbtool.cn/)                                  | [天翼](https://cloud.189.cn/web/share?code=i2auqeEBJjM3（访问码：yej5）) | 懒人包      |
 
 ## 网络、传输
 
