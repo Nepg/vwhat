@@ -44,26 +44,26 @@ features:
   display: inline-block;
   will-change: opacity, transform;
   
-  /* 📱 移动端与桌面端自适应的关键：clamp(最小值, 视口宽度比例, 最大值) */
+  /* 📱 移动端与桌面端自适应的关键 */
   font-size: clamp(60px, 15vw, 100px) !important;
   line-height: 1 !important;
 }
 
-/* 2. 准备就绪状态：显示并复位 */
+/* 2. 准备就绪状态 */
 .VPHero .text.is-ready {
   opacity: 1;
   transform: translateY(0) scale(1);
 }
 
-/* 3. 针对较大屏幕（平板、桌面）单独微调 */
+/* 3. 桌面端样式 */
 @media (min-width: 768px) {
   .VPHero .text {
     font-size: 100px !important; 
   }
   
-  /* 只有桌面端才开启鼠标悬浮效果 */
-  .VPHero .text.is-ready:hover {
-    transform: rotate(15deg) scale(1.2);
+  /* 由 JS 添加该类，触发悬浮放大 */
+  .VPHero .text.is-ready.is-hovered {
+    transform: translateY(0) scale(1.2) rotate(15deg);
   }
 }
 </style>
@@ -74,23 +74,48 @@ import { useRoute } from 'vitepress'
 
 const route = useRoute()
 
-const emojis = ['🤔','💩','🍔','🍉','☃️', '🐔','🙂','🛵','🤖','💧','🌻', '👽','😯','🐮', '😎','🦖', '🚀', '🧐', '😶‍🌫️', '🌽','🧑‍🌾','🛌', '🧙‍♂️','🍋', '🍗','🫠','🐟', '🗿', '🕗','🐾','👾', '🤡','🐱']
+const emojis = ['🤔','👻','💩','🐶','🍊','🕯️','⛏️','🍔','🥵','🍉','🙏','🥚','🚜','🪦','🌏','☃️','💣','🪴','🐔','📦','💡','🐳','🙂','🛵','🛖','🤖','💧','🌳','🌻','🐙', '🍅','👽','😯','🐮', '😎','🦕','🧑‍🦽‍➡️','🚀', '🧐', '😶‍🌫️','🐐', '🌽','🧑‍🌾','🛌', '🍳','🧙‍♂️','🍋', '🍗','🫠','🎁','🐟', '🗿', '🎂','🕗','🐾','👾', '🤡','🐱']
+
+let hoverTimer = null
+
+// 绑定带防抖的 hover 事件
+const bindHoverEvents = (el) => {
+  // 防止 VitePress 水合导致重复绑定
+  if (el.dataset.hasHover) return
+  el.dataset.hasHover = 'true'
+
+  el.addEventListener('mouseenter', () => {
+    // 清除之前的定时器
+    clearTimeout(hoverTimer)
+    // 鼠标悬停超过 500ms 才触发动画（消抖）
+    hoverTimer = setTimeout(() => {
+      el.classList.add('is-hovered')
+    }, 500)
+  })
+
+  el.addEventListener('mouseleave', () => {
+    // 鼠标移开时，立刻清除定时器并移除放大状态
+    clearTimeout(hoverTimer)
+    el.classList.remove('is-hovered')
+  })
+}
 
 const randomizeEmoji = () => {
   nextTick(() => {
-    // 稍微延迟一点点，确保 DOM 已经渲染
     setTimeout(() => {
       const el = document.querySelector('.VPHero .text')
       if (el) {
-        // 移除 ready 状态，让其变回隐藏
+        // 移除 ready 状态和 hover 状态
         el.classList.remove('is-ready')
+        el.classList.remove('is-hovered')
         
         // 随机替换内容
         el.textContent = emojis[Math.floor(Math.random() * emojis.length)]
         
-        // 使用 requestAnimationFrame 确保浏览器完成了一次重绘后再显示，让动画生效
+        // 绑定防抖 hover 事件
+        bindHoverEvents(el)
+        
         requestAnimationFrame(() => {
-          // 稍微加一个小延迟，防止移除和添加类名在同一帧导致动画失效
           setTimeout(() => {
             el.classList.add('is-ready')
           }, 100)
