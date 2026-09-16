@@ -2,7 +2,7 @@
 
 <div class="resource-table">
 
-## 硬件检测
+## 硬件
 
 |                                       | 名称            | 官网                                                            | 网盘                                                                     | 备忘         |
 | :-----------------------------------: | :-------------- | :-------------------------------------------------------------- | :----------------------------------------------------------------------- | :----------- |
@@ -26,7 +26,7 @@
 |  <img src="/icons/Motrix.png">   | Motrix     | [官网](https://motrix.app/)                      | —                                              |                     |
 |    <img src="/icons/fdm.ico">    | FDM        | [官网](https://www.freedownloadmanager.org/)     | [蓝奏](https://wwanv.lanzoum.com/i40HS48mj1di) |                     |
 |  <img src="/icons/xunlei.png">   | 迅雷       | [官网](https://dl.xunlei.com/)                   | [蓝奏](https://wwanv.lanzoum.com/iOo1S3x7kt4h) |                     |
-| <img src="/icons/LocalSend.png"> | LocalSend  | [官网](https://localsend.org/zh-TW/download)     | [蓝奏](https://wwanv.lanzoum.com/ibld63x7kzih) | 局域网传文件        |
+| <img src="/icons/LocalSend.png"> | LocalSend  | [官网](https://localsend.org/zh-TW/download)     | [蓝奏](https://wwanv.lanzoum.com/iIl6o48qvu7c) | 局域网传文件        |
 | <img src="/icons/natpierce.ico"> | 皎月连     | [官网](https://www.natpierce.cn/)                | —                                              | p2p内网穿透         |
 | <img src="/icons/RustDesk.ico">  | RustDesk   | [官网](https://github.com/rustdesk/rustdesk)     | [蓝奏](https://wwanv.lanzoum.com/iIxas3yrwsbg) | 搭配p2p实现远程桌面 |
 |   <img src="/icons/uuyc.ico">    | 网易UU远程 | [官网](https://uuyc.163.com/)                    | —                                              | 远程                |
@@ -38,6 +38,7 @@
 |     <img src="/icons/KeePassXC.svg">      | KeePassXC                         | [官网](https://github.com/keepassxreboot/keepassxc)          | [蓝奏](https://wwanv.lanzoum.com/izCoD3xuh98b) | 密码管理      |
 |      <img src="/icons/FastCopy.ico">      | FastCopy                          | [官网](https://fastcopy.jp/)                                 | [蓝奏](https://wwanv.lanzoum.com/imjm83y7s6dc) | 快速复制/备份 |
 | <img src="/icons/ContextMenuManager.ico"> | <small>ContextMenuManager</small> | [官网](https://bluepointlilac.github.io/ContextMenuManager/) | [蓝奏](https://wwanv.lanzoum.com/ip3Ty3x6rvlc) | 右键菜单管理  |
+|     <img src="/icons/Everything.ico">     | Everything                        | [官网](https://www.voidtools.com/)                           | [蓝奏](https://wwanv.lanzoum.com/iS6mK3x807pc) |               |
 |     <img src="/icons/HandBrake.png">      | HandBrake                         | [官网](https://handbrake.fr/downloads.php)                   | [蓝奏](https://wwanv.lanzoum.com/iqlCC3x6scfi) | 视频转码      |
 |      <img src="/icons/Snipaste.svg">      | Snipaste                          | [官网](https://zh.snipaste.com/)                             | [蓝奏](https://wwanv.lanzoum.com/iySFm3x6rohg) | 截图贴屏      |
 |       <img src="/icons/Glance.ico">       | Glance                            | [官网](https://github.com/Harukaon/Glance)                   | [蓝奏](https://wwanv.lanzoum.com/ivFyp3y7sdde) | 截图翻译      |
@@ -71,12 +72,12 @@
 |    <img src="/icons/qq.ico">     | QQ                                | [官网](https://im.qq.com/download)                                       | —                                                                        |                                     |
 |  <img src="/icons/weixin.png">   | 微信                              | [官网](https://weixin.qq.com/)                                           | —                                                                        |                                     |
 
-## 系统工具
+## 系统
 
 |                                         | 名称              | 官网                                                          | 网盘                                                                     | 备忘                           |
 | :-------------------------------------: | :---------------- | :------------------------------------------------------------ | :----------------------------------------------------------------------- | :----------------------------- |
 |                                         | Win10_KMS_V3      | —                                                             | [蓝奏](https://wwanv.lanzoum.com/irGk63x7ngve)                           |                                |
-|     <img src="/icons/ntpwlogo.png">     | NTPWEdit 0.7      | [官网](http://www.cdslow.org.ru/en/ntpwedit/)                 | [蓝奏](https://wwanv.lanzoum.com/iWPy93x6t1tc)                           | Windows密码管理                |
+|     <img src="/icons/ntpwlogo.png">     | NTPWEdit 0.7      | [官网](http://www.cdslow.org.ru/en/ntpwedit/)                 | [蓝奏](https://wwanv.lanzoum.com/iWPy93x6t1tc)                           | 系统密码管理                   |
 |     <img src="/icons/xitongku.ico">     | MSDN              | [官网](https://www.xitongku.com/index.html)                   | —                                                                        | Windows镜像下载                |
 |       <img src="/icons/msdl.ico">       | MSDL              | [官网](https://msdl.gravesoft.dev/#)                          | —                                                                        | Windows镜像下载                |
 |      <img src="/icons/ventoy.png">      | Ventoy            | [官网](https://www.ventoy.net/cn/)                            | [蓝奏](https://wwanv.lanzoum.com/iIV8W3x6udpg)                           |                                |
@@ -88,8 +89,7 @@
 |      <img src="/icons/DrvCeo.ico">      | 驱动总裁          | [官网](https://www.sysceo.com/software-softwarei-id-258.html) | [蓝奏](https://wwanv.lanzoum.com/iIUzT3x7ok4h)                           | 一键安装驱动，可能装错导致蓝屏 |
 |      <img src="/icons/Dism++.ico">      | Dism++            | [官网](https://www.chuyu.me/zh-Hans/)                         | [蓝奏](https://wwanv.lanzoum.com/iIcgD3x6rhsf)                           | 系统优化                       |
 | <img src="/icons/hibituninstaller.png"> | HiBit Uninstaller | [官网](https://hibitsoft.ir/Uninstaller.html)                 | [蓝奏](https://wwanv.lanzoum.com/i8FX73ysrv3c)                           | 卸载工具                       |
-|     <img src="/icons/WizTree.ico">      | WizTree           | [官网](https://diskanalyzer.com/)                             | [蓝奏](https://wwanv.lanzoum.com/iF2iY3x7rksj)                           | 看磁盘空间占用                 |
-|    <img src="/icons/Everything.ico">    | Everything        | [官网](https://www.voidtools.com/)                            | [蓝奏](https://wwanv.lanzoum.com/iS6mK3x807pc)                           |                                |
+|     <img src="/icons/WizTree.ico">      | WizTree           | [官网](https://diskanalyzer.com/)                             | [蓝奏](https://wwanv.lanzoum.com/iF2iY3x7rksj)                           | 磁盘空间占用                   |
 |    <img src="/icons/7-Zip-zstd.ico">    | 7-Zip-zstd        | [官网](https://github.com/mcmilk/7-Zip-zstd)                  | [蓝奏](https://wwanv.lanzoum.com/iyQdg3y9uipa)                           | 7zip开源改良版                 |
 
 </div>
