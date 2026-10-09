@@ -69,6 +69,7 @@
 | <img src="/icons/potplayer.png"> | Potplayer                         | [官网](https://potplayer.tv/)                                            | [蓝奏](https://wwi.lanzoui.com/xxxx)                                     |                                     |
 |  <img src="/icons/chrome.svg">   | Chrome                            | [官网](https://www.google.cn/chrome/)                                    | [天翼](https://cloud.189.cn/web/share?code=3QVbQjBzmu2q（访问码：5krq）) |                                     |
 | <img src="/icons/ug_chrome.ico"> | <small>ungoogled-chromium</small> | [官网](https://github.com/ungoogled-software/ungoogled-chromium-windows) | [天翼](https://cloud.189.cn/web/share?code=AvEVza7Jruyi（访问码：3usg）) |                                     |
+|  <img src="/icons/PDFgear.png">  | PDFgear                           | [官网](https://www.pdfgear.com/zh/)                                      | —                                                                        | PDF编辑器                           |
 |    <img src="/icons/qq.ico">     | QQ                                | [官网](https://im.qq.com/download)                                       | —                                                                        |                                     |
 |  <img src="/icons/weixin.png">   | 微信                              | [官网](https://weixin.qq.com/)                                           | —                                                                        |                                     |
 
@@ -86,7 +87,6 @@
 |      <img src="/icons/Dism++.ico">       | Dism++            | [官网](https://www.chuyu.me/zh-Hans/)                         | [蓝奏](https://wwanv.lanzoum.com/iIcgD3x6rhsf)                           | 系统优化                       |
 | <img src="/icons/hibituninstaller.png">  | HiBit Uninstaller | [官网](https://hibitsoft.ir/Uninstaller.html)                 | [蓝奏](https://wwanv.lanzoum.com/i8FX73ysrv3c)                           | 卸载工具                       |
 |    <img src="/icons/WinDirStat.ico">     | WinDirStat        | [官网](https://github.com/windirstat/windirstat)              | [蓝奏](https://wwanv.lanzouc.com/iulOw4a2thpi)                           | 磁盘空间占用                   |
-|      <img src="/icons/WizTree.ico">      | WizTree           | [官网](https://diskanalyzer.com/)                             | [蓝奏](https://wwanv.lanzoum.com/iF2iY3x7rksj)                           | 磁盘空间占用                   |
 |    <img src="/icons/7-Zip-zstd.ico">     | 7-Zip-zstd        | [官网](https://github.com/mcmilk/7-Zip-zstd)                  | [蓝奏](https://wwanv.lanzoum.com/iyQdg3y9uipa)                           | 7zip开源改良版                 |
 |     <img src="/icons/ntpwlogo.png">      | NTPWEdit 0.7      | [官网](http://www.cdslow.org.ru/en/ntpwedit/)                 | [蓝奏](https://wwanv.lanzoum.com/iWPy93x6t1tc)                           | 系统密码管理                   |
 |     <img src="/icons/xitongku.ico">      | MSDN              | [官网](https://www.xitongku.com/index.html)                   | —                                                                        | Windows镜像下载                |
