@@ -71,6 +71,7 @@
 |    <img src="/icons/mpv.ico">    | mpv-lazy  | [官网](https://github.com/hooke007/mpv_PlayKit) | [天翼](https://cloud.189.cn/web/share?code=B3MNBvVzueAb（访问码：bb8g）) | 补帧懒人包，hooke007 维护，安装即用 |
 | <img src="/icons/potplayer.png"> | Potplayer | [官网](https://potplayer.tv/)                   | [蓝奏](https://wwi.lanzoui.com/xxxx)                                     |                                     |
 |  <img src="/icons/chrome.svg">   | Chrome    | [官网](https://www.google.cn/chrome/)           | [天翼](https://cloud.189.cn/web/share?code=3QVbQjBzmu2q（访问码：5krq）) |                                     |
+|  <img src="/icons/vivaldi.png">  | Vivaldi   | [官网](https://vivaldi.com/zh-hans/download/)   | [小飞机](https://share.feijipan.com/s/QYyu3cC7)                          |                                     |
 |  <img src="/icons/PDFgear.png">  | PDFgear   | [官网](https://www.pdfgear.com/zh/)             | —                                                                        | PDF编辑器                           |
 |    <img src="/icons/qq.ico">     | QQ        | [官网](https://im.qq.com/download)              | —                                                                        |                                     |
 |  <img src="/icons/weixin.png">   | 微信      | [官网](https://weixin.qq.com/)                  | —                                                                        |                                     |
