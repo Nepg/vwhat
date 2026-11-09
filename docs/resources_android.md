@@ -19,6 +19,6 @@
 |     <img src="/icons/markleaf.ico">     | Markleaf      | [官网](https://github.com/jeiel85/markleaf-android)                            | [小飞机](https://share.feijipan.com/s/0LytL7uN) |                |
 |      <img src="/icons/gogogo.ico">      | 影梭          | [官网](https://github.com/ZCShou/GoGoGo)                                       | [小飞机](https://share.feijipan.com/s/6Wyttcwz) | 模拟定位       |
 | <img src="/icons/appiconextractor.ico"> | 图标提取器    | [官网](https://github.com/0liuuil0/AppIconExtractor)                           | [小飞机](https://share.feijipan.com/s/PxytLjSS) |                |
-|       <img src="/icons/via.ico">        | Via           | [官网](https://viayoo.com/zh-cn/)                                              |                                                 | 浏览器         |
+|       <img src="/icons/via.ico">        | Via           | [官网](https://viayoo.com/zh-cn/)                                              | [小飞机](https://share.feijipan.com/s/lzyuDAzd) | 浏览器         |
 
 </div>

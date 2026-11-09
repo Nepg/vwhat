@@ -4,35 +4,35 @@
 
 ## 硬件
 
-|                                       | 名称            | 官网                                                            | 网盘                                                                     | 备忘        |
-| :-----------------------------------: | :-------------- | :-------------------------------------------------------------- | :----------------------------------------------------------------------- | :---------- |
-|    <img src="/icons/nvidia.svg" >     | NVIDIA          | [官网](https://www.nvidia.cn/drivers/)                          | —                                                                        |             |
-|      <img src="/icons/amd.svg">       | AMD             | [官网](https://www.amd.com/zh-cn/support/download/drivers.html) | —                                                                        |             |
-|      <img src="/icons/ddu.png">       | DDU             | [官网](https://www.wagnardsoft.com/)                            | [蓝奏](https://wwanv.lanzoum.com/iNq3D3x7nbad)                           | 卸显卡驱动  |
-|      <img src="/icons/cpuz.ico">      | CPU-Z           | [官网](https://www.cpuid.com/softwares/cpu-z.html)              | [蓝奏](https://wwanv.lanzoum.com/i6ecK3x7yj3a)                           |             |
-|     <img src="/icons/GPU-Z.ico">      | GPU-Z           | [官网](https://www.techpowerup.com/download/techpowerup-gpu-z/) | [蓝奏](https://wwanv.lanzoum.com/iyjPs3x7ykud)                           |             |
-|     <img src="/icons/aida64.ico">     | AIDA64          | [官网](https://www.aida64.com/downloads)                        | —                                                                        | 压力测试    |
-|     <img src="/icons/hwinfo.png">     | HWiNFO          | [官网](https://www.hwinfo.com/)                                 | [蓝奏](https://wwanv.lanzoum.com/iTpb53x6ri5i)                           | 硬件温度    |
-|  <img src="/icons/crystalmark.ico">   | CrystalDiskInfo | [官网](https://crystalmark.info/en/)                            | [蓝奏](https://wwanv.lanzoum.com/iqPP23x6sspe)                           | 硬盘健康    |
-|  <img src="/icons/ATIWinFlash.ico">   | ATIWinFlash     | —                                                               | [蓝奏](https://wwi.lanzoui.com/xxxx)                                     | 580 刷 BIOS |
-| <img src="/icons/MSIAfterburner.ico"> | 微星小飞机      | [官网](https://www.msi.com/Landing/afterburner/graphics-cards)  | —                                                                        |             |
-|     <img src="/icons/tbtool.ico">     | 图吧工具箱      | [官网](https://www.tbtool.cn/)                                  | [天翼](https://cloud.189.cn/web/share?code=i2auqeEBJjM3（访问码：yej5）) | 懒人包      |
-|      <img src="/icons/360Drv.ico">       | 360驱动大师       | —                                                             | [蓝奏](https://wwanv.lanzoum.com/ipj9C3x7ofsb)                           | 不限速版本                     |
-|      <img src="/icons/DrvCeo.ico">       | 驱动总裁          | [官网](https://www.sysceo.com/software-softwarei-id-258.html) | [蓝奏](https://wwanv.lanzoum.com/iIUzT3x7ok4h)                           | 一键安装驱动，可能装错导致蓝屏 |
+|                                       | 名称            | 官网                                                            | 网盘                                                                     | 备忘                           |
+| :-----------------------------------: | :-------------- | :-------------------------------------------------------------- | :----------------------------------------------------------------------- | :----------------------------- |
+|    <img src="/icons/nvidia.svg" >     | NVIDIA          | [官网](https://www.nvidia.cn/drivers/)                          | —                                                                        |                                |
+|      <img src="/icons/amd.svg">       | AMD             | [官网](https://www.amd.com/zh-cn/support/download/drivers.html) | —                                                                        |                                |
+|      <img src="/icons/ddu.png">       | DDU             | [官网](https://www.wagnardsoft.com/)                            | [蓝奏](https://wwanv.lanzoum.com/iNq3D3x7nbad)                           | 卸显卡驱动                     |
+|      <img src="/icons/cpuz.ico">      | CPU-Z           | [官网](https://www.cpuid.com/softwares/cpu-z.html)              | [蓝奏](https://wwanv.lanzoum.com/i6ecK3x7yj3a)                           |                                |
+|     <img src="/icons/GPU-Z.ico">      | GPU-Z           | [官网](https://www.techpowerup.com/download/techpowerup-gpu-z/) | [蓝奏](https://wwanv.lanzoum.com/iyjPs3x7ykud)                           |                                |
+|     <img src="/icons/aida64.ico">     | AIDA64          | [官网](https://www.aida64.com/downloads)                        | —                                                                        | 压力测试                       |
+|     <img src="/icons/hwinfo.png">     | HWiNFO          | [官网](https://www.hwinfo.com/)                                 | [蓝奏](https://wwanv.lanzoum.com/iTpb53x6ri5i)                           | 硬件温度                       |
+|  <img src="/icons/crystalmark.ico">   | CrystalDiskInfo | [官网](https://crystalmark.info/en/)                            | [蓝奏](https://wwanv.lanzoum.com/iqPP23x6sspe)                           | 硬盘健康                       |
+|  <img src="/icons/ATIWinFlash.ico">   | ATIWinFlash     | [帖子](http://www.smxdiy.com/thread-1079-1-1.html)              | [小飞机](https://share.feijipan.com/s/ioyuB1ug)                          | 580 刷 BIOS                    |
+| <img src="/icons/MSIAfterburner.ico"> | 微星小飞机      | [官网](https://www.msi.com/Landing/afterburner/graphics-cards)  | —                                                                        |                                |
+|     <img src="/icons/tbtool.ico">     | 图吧工具箱      | [官网](https://www.tbtool.cn/)                                  | [天翼](https://cloud.189.cn/web/share?code=i2auqeEBJjM3（访问码：yej5）) | 懒人包                         |
+|     <img src="/icons/360Drv.ico">     | 360驱动大师     | —                                                               | [蓝奏](https://wwanv.lanzoum.com/ipj9C3x7ofsb)                           | 不限速版本                     |
+|     <img src="/icons/DrvCeo.ico">     | 驱动总裁        | [官网](https://www.sysceo.com/software-softwarei-id-258.html)   | [蓝奏](https://wwanv.lanzoum.com/iIUzT3x7ok4h)                           | 一键安装驱动，可能装错导致蓝屏 |
 
 ## 网络、传输
 
-|                                   | 名称       | 官网                                             | 网盘                                           | 备忘                |
-| :-------------------------------: | :--------- | :----------------------------------------------- | :--------------------------------------------- | :------------------ |
-|    <img src="/icons/IDM.ico">     | IDM        | [官网](https://www.internetdownloadmanager.com/) | [蓝奏](https://wwanv.lanzoum.com/iSG9B3x8k37a) |                     |
-|   <img src="/icons/Motrix.png">   | Motrix     | [官网](https://motrix.app/)                      | —                                              |                     |
-|    <img src="/icons/fdm.ico">     | FDM        | [官网](https://www.freedownloadmanager.org/)     | [蓝奏](https://wwanv.lanzoum.com/i40HS48mj1di) |                     |
-|   <img src="/icons/xunlei.png">   | 迅雷       | [官网](https://dl.xunlei.com/)                   | [蓝奏](https://wwanv.lanzoum.com/iOo1S3x7kt4h) |                     |
-| <img src="/icons/LocalSend.png">  | LocalSend  | [官网](https://localsend.org/zh-TW/download)     | [蓝奏](https://wwanv.lanzoum.com/iIl6o48qvu7c) | 局域网传文件        |
-|    <img src="/icons/radminvpn.png">    | Radmin VPN | [官网](https://www.radmin-lan.cn/)                    | [小飞机](https://share.feijipan.com/s/trxocp88)                                               | 远程                |
-| <img src="/icons/natpierce.ico">  | 皎月连     | [官网](https://www.natpierce.cn/)                | —                                              | p2p内网穿透         |
-| <img src="/icons/SubnetDesk.ico"> | SubnetDesk | [官网](https://github.com/zibo-chen/SubnetDesk)  | [蓝奏](https://wwanv.lanzouc.com/iDHGL4a2n2jg) | 搭配p2p实现远程桌面 |
-|    <img src="/icons/uuyc.ico">    | 网易UU远程 | [官网](https://uuyc.163.com/)                    | —                                              | 远程                |
+|                                   | 名称       | 官网                                             | 网盘                                            | 备忘                |
+| :-------------------------------: | :--------- | :----------------------------------------------- | :---------------------------------------------- | :------------------ |
+|    <img src="/icons/IDM.ico">     | IDM        | [官网](https://www.internetdownloadmanager.com/) | [蓝奏](https://wwanv.lanzoum.com/iSG9B3x8k37a)  |                     |
+|   <img src="/icons/Motrix.png">   | Motrix     | [官网](https://motrix.app/)                      | —                                               |                     |
+|    <img src="/icons/fdm.ico">     | FDM        | [官网](https://www.freedownloadmanager.org/)     | [蓝奏](https://wwanv.lanzoum.com/i40HS48mj1di)  |                     |
+|   <img src="/icons/xunlei.png">   | 迅雷       | [官网](https://dl.xunlei.com/)                   | [蓝奏](https://wwanv.lanzoum.com/iOo1S3x7kt4h)  |                     |
+| <img src="/icons/LocalSend.png">  | LocalSend  | [官网](https://localsend.org/zh-TW/download)     | [蓝奏](https://wwanv.lanzoum.com/iIl6o48qvu7c)  | 局域网传文件        |
+| <img src="/icons/radminvpn.png">  | Radmin VPN | [官网](https://www.radmin-lan.cn/)               | [小飞机](https://share.feijipan.com/s/trxocp88) | 远程                |
+| <img src="/icons/natpierce.ico">  | 皎月连     | [官网](https://www.natpierce.cn/)                | —                                               | p2p内网穿透         |
+| <img src="/icons/SubnetDesk.ico"> | SubnetDesk | [官网](https://github.com/zibo-chen/SubnetDesk)  | [蓝奏](https://wwanv.lanzouc.com/iDHGL4a2n2jg)  | 搭配p2p实现远程桌面 |
+|    <img src="/icons/uuyc.ico">    | 网易UU远程 | [官网](https://uuyc.163.com/)                    | —                                               | 远程                |
 
 ## 桌面、效率
 
@@ -42,7 +42,7 @@
 |      <img src="/icons/FastCopy.ico">      | FastCopy                          | [官网](https://fastcopy.jp/)                                 | [蓝奏](https://wwanv.lanzoum.com/imjm83y7s6dc) | 快速复制/备份 |
 | <img src="/icons/ContextMenuManager.ico"> | <small>ContextMenuManager</small> | [官网](https://bluepointlilac.github.io/ContextMenuManager/) | [蓝奏](https://wwanv.lanzoum.com/ip3Ty3x6rvlc) | 右键菜单管理  |
 |     <img src="/icons/Everything.ico">     | Everything                        | [官网](https://www.voidtools.com/)                           | [蓝奏](https://wwanv.lanzoum.com/iS6mK3x807pc) |               |
-|     <img src="/icons/HandBrake.png">      | HandBrake                         | [官网](https://handbrake.fr/downloads.php)                   | [蓝奏](https://wwanv.lanzoum.com/iqlCC3x6scfi) | 视频格式转码      |
+|     <img src="/icons/HandBrake.png">      | HandBrake                         | [官网](https://handbrake.fr/downloads.php)                   | [蓝奏](https://wwanv.lanzoum.com/iqlCC3x6scfi) | 视频格式转码  |
 |      <img src="/icons/Snipaste.svg">      | Snipaste                          | [官网](https://zh.snipaste.com/)                             | [蓝奏](https://wwanv.lanzoum.com/iySFm3x6rohg) | 截图贴屏      |
 |       <img src="/icons/Glance.ico">       | Glance                            | [官网](https://github.com/Harukaon/Glance)                   | [蓝奏](https://wwanv.lanzoum.com/ivFyp3y7sdde) | 截图翻译      |
 
@@ -66,33 +66,33 @@
 
 ## 媒体
 
-|                                  | 名称                              | 官网                                                                     | 网盘                                                                     | 备忘                                |
-| :------------------------------: | :-------------------------------- | :----------------------------------------------------------------------- | :----------------------------------------------------------------------- | :---------------------------------- |
-|    <img src="/icons/mpv.ico">    | mpv-lazy                          | [官网](https://github.com/hooke007/mpv_PlayKit)                          | [天翼](https://cloud.189.cn/web/share?code=B3MNBvVzueAb（访问码：bb8g）) | 补帧懒人包，hooke007 维护，安装即用 |
-| <img src="/icons/potplayer.png"> | Potplayer                         | [官网](https://potplayer.tv/)                                            | [蓝奏](https://wwi.lanzoui.com/xxxx)                                     |                                     |
-|  <img src="/icons/chrome.svg">   | Chrome                            | [官网](https://www.google.cn/chrome/)                                    | [天翼](https://cloud.189.cn/web/share?code=3QVbQjBzmu2q（访问码：5krq）) |                                     |
-| <img src="/icons/ug_chrome.ico"> | <small>ungoogled-chromium</small> | [官网](https://github.com/ungoogled-software/ungoogled-chromium-windows) | [天翼](https://cloud.189.cn/web/share?code=AvEVza7Jruyi（访问码：3usg）) |                                     |
-|  <img src="/icons/PDFgear.png">  | PDFgear                           | [官网](https://www.pdfgear.com/zh/)                                      | —                                                                        | PDF编辑器                           |
-|    <img src="/icons/qq.ico">     | QQ                                | [官网](https://im.qq.com/download)                                       | —                                                                        |                                     |
-|  <img src="/icons/weixin.png">   | 微信                              | [官网](https://weixin.qq.com/)                                           | —                                                                        |                                     |
+|                                  | 名称      | 官网                                            | 网盘                                                                     | 备忘                                |
+| :------------------------------: | :-------- | :---------------------------------------------- | :----------------------------------------------------------------------- | :---------------------------------- |
+|    <img src="/icons/mpv.ico">    | mpv-lazy  | [官网](https://github.com/hooke007/mpv_PlayKit) | [天翼](https://cloud.189.cn/web/share?code=B3MNBvVzueAb（访问码：bb8g）) | 补帧懒人包，hooke007 维护，安装即用 |
+| <img src="/icons/potplayer.png"> | Potplayer | [官网](https://potplayer.tv/)                   | [蓝奏](https://wwi.lanzoui.com/xxxx)                                     |                                     |
+|  <img src="/icons/chrome.svg">   | Chrome    | [官网](https://www.google.cn/chrome/)           | [天翼](https://cloud.189.cn/web/share?code=3QVbQjBzmu2q（访问码：5krq）) |                                     |
+|  <img src="/icons/PDFgear.png">  | PDFgear   | [官网](https://www.pdfgear.com/zh/)             | —                                                                        | PDF编辑器                           |
+|    <img src="/icons/qq.ico">     | QQ        | [官网](https://im.qq.com/download)              | —                                                                        |                                     |
+|  <img src="/icons/weixin.png">   | 微信      | [官网](https://weixin.qq.com/)                  | —                                                                        |                                     |
 
 ## 系统
 
-|                                          | 名称              | 官网                                                          | 网盘                                                                     | 备忘                           |
-| :--------------------------------------: | :---------------- | :------------------------------------------------------------ | :----------------------------------------------------------------------- | :----------------------------- |
-| <img src="/icons/HEU_KMS_Activator.ico"> | HEU_KMS_Activator | [官网](https://github.com/zbezj/HEU_KMS_Activator)            | [蓝奏](https://wwanv.lanzoum.com/i0F3C48qxa5c)                           | dddd                           |
-|     <img src="/icons/windows10.svg">     | Win10_KMS_V3      | —                                                             | [蓝奏](https://wwanv.lanzoum.com/irGk63x7ngve)                           | dddd                           |
-|  <img src="/icons/microsoft-color.svg">  | 微软常用运行库    | —                                                             | [小飞机](https://share.feijipan.com/s/A0xoDw2W)                           |                                |
-|   <img src="/icons/DirectXRepair.ico">   | DirectX_Repair    | —                                                             | [天翼](https://cloud.189.cn/web/share?code=neayqyQVFFRv（访问码：5fw0）) | dx修复                         |
-|     <img src="/icons/windows11.svg">     | Win11Debloat      | [官网](https://github.com/Raphire/Win11Debloat)               | [蓝奏](https://wwanv.lanzoum.com/iGjab3yfrukf)                           | win10、11快速精简              |
-|       <img src="/icons/nanazip.ico">        | NanaZip        | [官网](https://nanazip.org/)                              | [小飞机](https://share.feijipan.com/s/xExo1FtC) |                                |
-|      <img src="/icons/Dism++.ico">       | Dism++            | [官网](https://www.chuyu.me/zh-Hans/)                         | [蓝奏](https://wwanv.lanzoum.com/iIcgD3x6rhsf)                           | 系统优化                       |
-| <img src="/icons/hibituninstaller.png">  | HiBit Uninstaller | [官网](https://hibitsoft.ir/Uninstaller.html)                 | [蓝奏](https://wwanv.lanzoum.com/i8FX73ysrv3c)                           | 卸载工具                       |
-|    <img src="/icons/WinDirStat.ico">     | WinDirStat        | [官网](https://github.com/windirstat/windirstat)              | [蓝奏](https://wwanv.lanzouc.com/iulOw4a2thpi)                           | 磁盘空间占用                   |
-|     <img src="/icons/ntpwlogo.png">      | NTPWEdit 0.7      | [官网](http://www.cdslow.org.ru/en/ntpwedit/)                 | [蓝奏](https://wwanv.lanzoum.com/iWPy93x6t1tc)                           | 系统密码管理                   |
-|     <img src="/icons/xitongku.ico">      | MSDN              | [官网](https://www.xitongku.com/index.html)                   | —                                                                        | Windows镜像下载                |
-|       <img src="/icons/msdl.ico">        | MSDL              | [官网](https://msdl.gravesoft.dev/#)                          | —                                                                        | Windows镜像下载                |
-|      <img src="/icons/ventoy.png">       | Ventoy            | [官网](https://www.ventoy.net/cn/)                            | [蓝奏](https://wwanv.lanzoum.com/iIV8W3x6udpg)                           |                                |
-|       <img src="/icons/wepe.png">        | 微PE工具箱        | [官网](https://www.wepe.com.cn/)                              | [天翼](https://cloud.189.cn/web/share?code=N7N7faMjYreu（访问码：q5ee）) |                                |
+|                                          | 名称                 | 官网                                                       | 网盘                                                                     | 备忘              |
+| :--------------------------------------: | :------------------- | :--------------------------------------------------------- | :----------------------------------------------------------------------- | :---------------- |
+| <img src="/icons/HEU_KMS_Activator.ico"> | HEU_KMS_Activator    | [官网](https://github.com/zbezj/HEU_KMS_Activator)         | [蓝奏](https://wwanv.lanzoum.com/i0F3C48qxa5c)                           | dddd              |
+|     <img src="/icons/windows10.svg">     | Win10_KMS_V3         | —                                                          | [蓝奏](https://wwanv.lanzoum.com/irGk63x7ngve)                           | dddd              |
+|  <img src="/icons/microsoft-color.svg">  | 微软常用运行库       | —                                                          | [小飞机](https://share.feijipan.com/s/A0xoDw2W)                          |                   |
+|   <img src="/icons/DirectXRepair.ico">   | DirectX_Repair       | —                                                          | [天翼](https://cloud.189.cn/web/share?code=neayqyQVFFRv（访问码：5fw0）) | dx修复            |
+|        <img src="/icons/NET.png">        | .NET Desktop Runtime | [官网](https://dotnet.microsoft.com/zh-cn/download/dotnet) | [阿里云](https://www.alipan.com/s/spCsc745c1o)                           | .NET 桌面运行时   |
+|     <img src="/icons/windows11.svg">     | Win11Debloat         | [官网](https://github.com/Raphire/Win11Debloat)            | [蓝奏](https://wwanv.lanzoum.com/iGjab3yfrukf)                           | win10、11快速精简 |
+|      <img src="/icons/nanazip.ico">      | NanaZip              | [官网](https://nanazip.org/)                               | [小飞机](https://share.feijipan.com/s/xExo1FtC)                          |                   |
+|      <img src="/icons/Dism++.ico">       | Dism++               | [官网](https://www.chuyu.me/zh-Hans/)                      | [蓝奏](https://wwanv.lanzoum.com/iIcgD3x6rhsf)                           | 系统优化          |
+| <img src="/icons/hibituninstaller.png">  | HiBit Uninstaller    | [官网](https://hibitsoft.ir/Uninstaller.html)              | [蓝奏](https://wwanv.lanzoum.com/i8FX73ysrv3c)                           | 卸载工具          |
+|    <img src="/icons/WinDirStat.ico">     | WinDirStat           | [官网](https://github.com/windirstat/windirstat)           | [蓝奏](https://wwanv.lanzouc.com/iulOw4a2thpi)                           | 磁盘空间占用      |
+|     <img src="/icons/ntpwlogo.png">      | NTPWEdit 0.7         | [官网](http://www.cdslow.org.ru/en/ntpwedit/)              | [蓝奏](https://wwanv.lanzoum.com/iWPy93x6t1tc)                           | 系统密码管理      |
+|     <img src="/icons/xitongku.ico">      | MSDN                 | [官网](https://www.xitongku.com/index.html)                | —                                                                        | Windows镜像下载   |
+|       <img src="/icons/msdl.ico">        | MSDL                 | [官网](https://msdl.gravesoft.dev/#)                       | —                                                                        | Windows镜像下载   |
+|      <img src="/icons/ventoy.png">       | Ventoy               | [官网](https://www.ventoy.net/cn/)                         | [蓝奏](https://wwanv.lanzoum.com/iIV8W3x6udpg)                           |                   |
+|       <img src="/icons/wepe.png">        | 微PE工具箱           | [官网](https://www.wepe.com.cn/)                           | [天翼](https://cloud.189.cn/web/share?code=N7N7faMjYreu（访问码：q5ee）) |                   |
 
 </div>
