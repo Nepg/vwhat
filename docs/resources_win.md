@@ -54,6 +54,7 @@
 | <img src="/icons/EpicGames.ico"> | Epic                              | [官网](https://www.epicgames.com/site/home?lang=zh-CN)         | —                                              |                          |
 |  <img src="/icons/wegame.ico">   | WeGame                            | [官网](https://www.wegame.com.cn/home/)                        | —                                              | 腾讯                     |
 | <img src="/icons/steamzg.webp">  | 小叽资源                          | [官网](https://steamzg.com/)                                   | —                                              |                          |
+| <img src="/icons/Gamer520.png">  | Gamer520                          | [官网](https://www.gamer520.com/)                              | —                                              |                          |
 |  <img src="/icons/Steam++.ico">  | Watt Toolkit                      | [官网](https://steampp.net/)                                   | —                                              | 加速器，原名Steam++      |
 |  <img src="/icons/xunyou.ico">   | 迅游加速器                        | [官网](https://www.xunyou.com/)                                | —                                              |                          |
 |    <img src="/icons/uu.ico">     | 网易UU加速器                      | [官网](https://uu.163.com/)                                    | —                                              |                          |
