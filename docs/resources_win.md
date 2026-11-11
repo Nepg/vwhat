@@ -8,10 +8,10 @@ const categories = [
       { icon: "/icons/ddu.png", name: "DDU", desc: "卸显卡驱动", website: "https://www.wagnardsoft.com/", pan: "https://wwanv.lanzoum.com/iNq3D3x7nbad" },
       { icon: "/icons/cpuz.ico", name: "CPU-Z", desc: "", website: "https://www.cpuid.com/softwares/cpu-z.html", pan: "https://wwanv.lanzoum.com/i6ecK3x7yj3a" },
       { icon: "/icons/GPU-Z.ico", name: "GPU-Z", desc: "", website: "https://www.techpowerup.com/download/techpowerup-gpu-z/", pan: "https://wwanv.lanzoum.com/iyjPs3x7ykud" },
-      { icon: "/icons/aida64.ico", name: "AIDA64", desc: "压力测试", website: "https://www.aida64.com/downloads" },
+      { icon: "/icons/aida64.png", name: "AIDA64", desc: "压力测试", website: "https://www.aida64.com/downloads" },
       { icon: "/icons/hwinfo.png", name: "HWiNFO", desc: "硬件温度", website: "https://www.hwinfo.com/", pan: "https://wwanv.lanzoum.com/iTpb53x6ri5i" },
       { icon: "/icons/crystalmark.ico", name: "CrystalDiskInfo", desc: "硬盘健康", website: "https://crystalmark.info/en/", pan: "https://wwanv.lanzoum.com/iqPP23x6sspe" },
-      { icon: "/icons/ATIWinFlash.ico", name: "ATIWinFlash", desc: "580 刷 BIOS", website: "http://www.smxdiy.com/thread-1079-1-1.html", pan: "https://share.feijipan.com/s/ioyuB1ug" },
+      { icon: "/icons/ATIWinFlash.png", name: "ATIWinFlash", desc: "580 刷 BIOS", website: "http://www.smxdiy.com/thread-1079-1-1.html", pan: "https://share.feijipan.com/s/ioyuB1ug" },
       { icon: "/icons/MSIAfterburner.ico", name: "微星小飞机", desc: "", website: "https://www.msi.com/Landing/afterburner/graphics-cards" },
       { icon: "/icons/tbtool.ico", name: "图吧工具箱", desc: "懒人包", website: "https://www.tbtool.cn/", pan: "https://cloud.189.cn/web/share?code=i2auqeEBJjM3（访问码：yej5）" },
       { icon: "/icons/360Drv.ico", name: "360驱动大师", desc: "不限速版本", pan: "https://wwanv.lanzoum.com/ipj9C3x7ofsb" },
@@ -57,10 +57,10 @@ const categories = [
       { icon: "/icons/Gamer520.png", name: "Gamer520", desc: "", website: "https://www.gamer520.com/" },
       { icon: "/icons/Steam++.ico", name: "Watt Toolkit", desc: "加速器，原名Steam++", website: "https://steampp.net/" },
       { icon: "/icons/xunyou.ico", name: "迅游加速器", desc: "", website: "https://www.xunyou.com/" },
-      { icon: "/icons/uu.ico", name: "网易UU加速器", desc: "", website: "https://uu.163.com/" },
+      { icon: "/icons/uu.png", name: "网易UU加速器", desc: "", website: "https://uu.163.com/" },
       { icon: "/icons/PCL.ico", name: "我的世界启动器 PCL", desc: "要装 Java", website: "https://afdian.com/a/LTCat", pan: "https://wwanv.lanzoum.com/irwAO3x6rncf" },
-      { icon: "/icons/java.png", name: "Java 8", desc: "装 64 位版，别装 32 位", website: "https://www.java.com/zh-CN/download/manual.jsp", pan: "https://wwanv.lanzoum.com/io9vF3x7p0ze" },
-      { icon: "/icons/oracle.png", name: "Java", desc: "", website: "https://www.oracle.com/cn/java/technologies/downloads/" },
+      { icon: "/icons/java.svg", name: "Java 8", desc: "装 64 位版，别装 32 位", website: "https://www.java.com/zh-CN/download/manual.jsp", pan: "https://wwanv.lanzoum.com/io9vF3x7p0ze" },
+      { icon: "/icons/oracle.svg", name: "Java", desc: "", website: "https://www.oracle.com/cn/java/technologies/downloads/" },
       { icon: "/icons/rutracker.ico", name: "RuTracker.org", desc: "俄罗斯资源站", website: "https://rutracker.net/forum/index.php" },
       { icon: "/icons/byrutgame.png", name: "byrutgame.org", desc: "俄罗斯资源站，汉化资源多", website: "https://byrutgame.org/" },
       { icon: "/icons/oflogo.png", name: "online-fix", desc: "联机补丁", website: "https://online-fix.me/" }
@@ -76,7 +76,7 @@ const categories = [
       { icon: "/icons/vivaldi.png", name: "Vivaldi", desc: "", website: "https://vivaldi.com/zh-hans/download/", pan: "https://share.feijipan.com/s/QYyu3cC7" },
       { icon: "/icons/PDFgear.png", name: "PDFgear", desc: "PDF编辑器", website: "https://www.pdfgear.com/zh/" },
       { icon: "/icons/qq.ico", name: "QQ", desc: "", website: "https://im.qq.com/download" },
-      { icon: "/icons/weixin.png", name: "微信", desc: "", website: "https://weixin.qq.com/" }
+      { icon: "/icons/weChat.png", name: "微信", desc: "", website: "https://weixin.qq.com/" }
     ]
   }
 ,
