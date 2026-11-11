@@ -2,12 +2,11 @@
    1. 全局基础样式
    ======================================== */
 
-/* 强制显示滚动条，消除切换抖动 */
 html {
   overflow-y: scroll;
 }
 
-/* 精致滚动条样式（适配亮色/深色） */
+/* 精致滚动条样式 */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -33,19 +32,15 @@ html {
    ======================================== */
 
 :root {
-  /* 品牌色（亮色模式） */
   --vp-c-brand-1: #0078d6;
   --vp-c-brand-2: #0078d6;
   --vp-c-brand-3: #0078d6;
-
-  /* 字体粗细 */
   --vp-font-weight-normal: 600;
   --vp-font-weight-semibold: 700;
   --vp-font-weight-bold: 800;
 }
 
 .dark {
-  /* 品牌色（深色模式） */
   --vp-c-brand-1: #4cc2ff;
   --vp-c-brand-2: #4cc2ff;
   --vp-c-brand-3: #4cc2ff;
@@ -72,7 +67,6 @@ html {
   transform: scale(1.2);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
 }
-
 .dark .VPHomeHero .VPButton.brand {
   border-color: #d0d0d0;
   color: #d0d0d0;
@@ -84,7 +78,7 @@ html {
 }
 
 /* ========================================
-   4. 全局字体 & 标题
+   4. 全局字体 & 标题 & 导航栏
    ======================================== */
 
 @media (min-width: 1024px) {
@@ -103,129 +97,55 @@ html {
   font-weight: var(--vp-font-weight-semibold) !important;
 }
 
-/* 侧边栏 */
 .VPSidebarItem .text {
   font-weight: var(--vp-font-weight-normal) !important;
 }
 
-/* 正文、链接、按钮 */
-/* .VPContent p,
-.VPContent li,
-.VPContent a,
-.VPButton,
-.top-title {
-  font-weight: var(--vp-font-weight-semibold) !important;
-} */
-
-/* ========================================
-   5. 资源页
-   包裹容器：<div class="resource-table">
-   ======================================== */
-
-.resource-table table {
-  width: 100%;
-  table-layout: auto;
-}
-
-/* 官网 & 网盘列不换行 */
-.resource-table table th:nth-child(3),
-.resource-table table td:nth-child(3),
-.resource-table table th:nth-child(4),
-.resource-table table td:nth-child(4) {
-  white-space: nowrap;
-}
-
-/* 附注列允许换行 */
-.resource-table table th:nth-child(5),
-.resource-table table td:nth-child(5) {
-  white-space: normal;
-  word-break: break-word;
-}
-
-/* 图标列固定尺寸 */
-.resource-table table td:first-child {
-  width: 48px;
-  padding: 0 4px;
-  text-align: center;
-  vertical-align: middle;
-}
-.resource-table table td:first-child img {
-  width: 32px;
-  height: 32px;
-  display: block;
-  margin: 0 auto;
-}
-
-/* 一些资源移动端 */
-@media (max-width: 640px) {
-  .resource-table .table-wrap {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  }
-  .resource-table table {
-    width: auto;
-    min-width: 100%;
-  }
-  .resource-table table th,
-  .resource-table table td {
-    white-space: nowrap !important;
-  }
-  .resource-table table td:first-child {
-    min-width: 46px;
-    width: 46px;
-    padding: 4px 2px;
-    text-align: center;
-    vertical-align: middle;
-  }
-  .resource-table table td:first-child img {
-    width: 32px;
-    height: 32px;
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-/* ========================================
-   6. UE4 文章表格（UE4_Mod_ValueDev.md）
-   包裹容器：<div class="ue4-mod-article">
-   ======================================== */
-
-/* 桌面端 */
-.ue4-mod-article table td:first-child,
-.ue4-mod-article table td:nth-child(2) {
-  white-space: nowrap;
-}
-.ue4-mod-article table td:nth-child(3) {
-  min-width: 200px;
-}
-.ue4-mod-article table td:nth-child(3) code {
-  white-space: nowrap;
-  word-break: keep-all;
-}
-
-/* 移动端 */
-@media (max-width: 640px) {
-  .ue4-mod-article table td:first-child,
-  .ue4-mod-article table td:nth-child(2) {
-    white-space: nowrap !important;
-  }
-  .ue4-mod-article table td:nth-child(3) {
-    min-width: 120px;
-    word-break: break-word;
-  }
-  .ue4-mod-article table td:nth-child(3) code {
-    white-space: nowrap !important;
-    word-break: keep-all;
-  }
-}
-/* 调整目录按钮位置 */
 .VPLocalNav .container {
   display: flex;
-  justify-content: flex-end; /* 容器内所有内容右对齐 */
+  justify-content: flex-end;
 }
 
-/* 去掉“全部文章”列表中的链接下划线 */
-/* .vp-doc h2 + ul a,
-.vp-doc details ul a {
-  text-decoration: none;
-} */
+/* ========================================
+   5. 资源页专属：网格容器 (只负责排版，不碰卡片内部)
+   ======================================== */
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+/* 分类标题微调 */
+.category-block h2 {
+  margin-top: 30px !important;
+  margin-bottom: 10px !important;
+}
+
+/* 移动端：网格间距归零，变成无缝列表 */
+@media (max-width: 768px) {
+  .resource-grid {
+    gap: 0 !important;
+    margin-top: 10px;
+  }
+}
+
+/* ========================================
+   6. 终极解禁：打破 VitePress 默认宽度限制
+   ======================================== */
+
+:root {
+  --vp-layout-max-width: 100% !important;
+}
+
+.VPDoc.has-aside .content-container,
+.VPDoc .container,
+.VPDoc .content,
+.VPDoc .main {
+  max-width: 100% !important;
+}
+
+.VPNavBar .container {
+  max-width: 100% !important;
+}

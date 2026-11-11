@@ -1,8 +1,9 @@
 // https://vitepress.dev/guide/custom-theme
-import { h } from 'vue';
-import DefaultTheme from 'vitepress/theme';
-import './style.css';
-import './custom.css';
+import { h } from "vue";
+import DefaultTheme from "vitepress/theme";
+import "./style.css";
+import "./custom.css";
+import ResourceCard from "./components/ResourceCard.vue";
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -14,5 +15,6 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     // ...
+    app.component("ResourceCard", ResourceCard);
   },
 };

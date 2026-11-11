@@ -1,24 +1,58 @@
-# 安卓
+<script setup>
+const categories = [
+  {
+    title: "未分类",
+    apps: [
+      { icon: "/icons/KeePassDX.png", name: "KeePassDX", desc: "密码管理", website: "https://github.com/Kunzisoft/KeePassDX", pan: "https://wwanv.lanzoum.com/ie9ii3xulztc" },
+      { icon: "/icons/LocalSend.png", name: "LocalSend", desc: "局域网传文件", website: "https://localsend.org/zh-TW/download", pan: "https://wwanv.lanzoum.com/iUhK748qvsyh" },
+      { icon: "/icons/gallery.png", name: "Gallery", desc: "图库", website: "https://github.com/FossifyOrg/Gallery", pan: "https://wwanv.lanzoum.com/iI30N3yfr6fg" },
+      { icon: "/icons/nextplayer.png", name: "Next Player", desc: "视频播放", website: "https://github.com/anilbeesetti/nextplayer", pan: "https://wwanv.lanzoum.com/iHr8C3yfrdib" },
+      { icon: "/icons/foldersync.png", name: "FolderSync", desc: "文件同步", website: "https://foldersync.io/", pan: "https://share.feijipan.com/s/YgyttS1i" },
+      { icon: "/icons/mt.png", name: "MT管理器", desc: "", website: "https://mt2.cn/", pan: "https://share.feijipan.com/s/5wyttyZO" },
+      { icon: "/icons/twinfile.png", name: "Twinfile", desc: "双栏文件管理器", website: "https://github.com/copylee711/twinfile", pan: "https://share.feijipan.com/s/jcytu01u" },
+      { icon: "/icons/snapseed.png", name: "Snapseed", desc: "图片编辑", website: "https://play.google.com/store/apps/details?id=com.niksoftware.snapseed", pan: "https://share.feijipan.com/s/DLytuoLO" },
+      { icon: "/icons/lotus.png", name: "Lotus", desc: "音频播放器", website: "https://github.com/Bjorn99/lotus", pan: "https://share.feijipan.com/s/zDytuKuz" },
+      { icon: "/icons/plees_tracker.png", name: "Plees Tracker", desc: "", website: "https://github.com/vmiklos/plees-tracker", pan: "https://share.feijipan.com/s/n2ytLI6H" },
+      { icon: "/icons/markleaf.png", name: "Markleaf", desc: "", website: "https://github.com/jeiel85/markleaf-android", pan: "https://share.feijipan.com/s/0LytL7uN" },
+      { icon: "/icons/gogogo.png", name: "影梭", desc: "模拟定位", website: "https://github.com/ZCShou/GoGoGo", pan: "https://share.feijipan.com/s/6Wyttcwz" },
+      { icon: "/icons/appiconextractor.png", name: "图标提取器", desc: "", website: "https://github.com/0liuuil0/AppIconExtractor", pan: "https://share.feijipan.com/s/PxytLjSS" },
+      { icon: "/icons/via.png", name: "Via", desc: "浏览器", website: "https://viayoo.com/zh-cn/", pan: "https://share.feijipan.com/s/lzyuDAzd" }
+    ]
+  }
+]
+</script>
 
-<div class="resource-table">
-
-## 未分类
-
-|                                         | 名称          | 官网                                                                           | 网盘                                            | 备忘           |
-| :-------------------------------------: | :------------ | :----------------------------------------------------------------------------- | :---------------------------------------------- | :------------- |
-|    <img src="/icons/KeePassDX.png">     | KeePassDX     | [官网](https://github.com/Kunzisoft/KeePassDX)                                 | [蓝奏](https://wwanv.lanzoum.com/ie9ii3xulztc)  | 密码管理       |
-|    <img src="/icons/LocalSend.png">     | LocalSend     | [官网](https://localsend.org/zh-TW/download)                                   | [蓝奏](https://wwanv.lanzoum.com/iUhK748qvsyh)  | 局域网传文件   |
-|     <img src="/icons/gallery.png">      | Gallery       | [官网](https://github.com/FossifyOrg/Gallery)                                  | [蓝奏](https://wwanv.lanzoum.com/iI30N3yfr6fg)  | 图库           |
-|    <img src="/icons/nextplayer.png">    | Next Player   | [官网](https://github.com/anilbeesetti/nextplayer)                             | [蓝奏](https://wwanv.lanzoum.com/iHr8C3yfrdib)  | 视频播放       |
-|    <img src="/icons/foldersync.png">    | FoderSync     | [官网](https://foldersync.io/)                                                 | [小飞机](https://share.feijipan.com/s/YgyttS1i) | 文件同步       |
-|        <img src="/icons/mt.png">        | MT管理器      | [官网](https://mt2.cn/)                                                        | [小飞机](https://share.feijipan.com/s/5wyttyZO) |                |
-|     <img src="/icons/twinfile.png">     | Twinfile      | [官网](https://github.com/copylee711/twinfile)                                 | [小飞机](https://share.feijipan.com/s/jcytu01u) | 双栏文件管理器 |
-|     <img src="/icons/snapseed.png">     | Snapseed      | [官网](https://play.google.com/store/apps/details?id=com.niksoftware.snapseed) | [小飞机](https://share.feijipan.com/s/DLytuoLO) | 图片编辑       |
-|      <img src="/icons/lotus.png">       | Lotus         | [官网](https://github.com/Bjorn99/lotus)                                       | [小飞机](https://share.feijipan.com/s/zDytuKuz) | 音频播放器     |
-|  <img src="/icons/plees_tracker.png">   | Plees Tracker | [官网](https://github.com/vmiklos/plees-tracker)                               | [小飞机](https://share.feijipan.com/s/n2ytLI6H) |                |
-|     <img src="/icons/markleaf.png">     | Markleaf      | [官网](https://github.com/jeiel85/markleaf-android)                            | [小飞机](https://share.feijipan.com/s/0LytL7uN) |                |
-|      <img src="/icons/gogogo.png">      | 影梭          | [官网](https://github.com/ZCShou/GoGoGo)                                       | [小飞机](https://share.feijipan.com/s/6Wyttcwz) | 模拟定位       |
-| <img src="/icons/appiconextractor.png"> | 图标提取器    | [官网](https://github.com/0liuuil0/AppIconExtractor)                           | [小飞机](https://share.feijipan.com/s/PxytLjSS) |                |
-|       <img src="/icons/via.png">        | Via           | [官网](https://viayoo.com/zh-cn/)                                              | [小飞机](https://share.feijipan.com/s/lzyuDAzd) | 浏览器         |
-
+<div class="category-list">
+  <div v-for="(category, index) in categories" :key="index" class="category-block">
+    <h2 :id="category.title">{{ category.title }}</h2>
+    <div class="resource-grid">
+      <ResourceCard v-for="app in category.apps" :key="app.name" v-bind="app" />
+    </div>
+  </div>
 </div>
+
+<style scoped>
+/* 覆盖当前页面分类标题的默认样式 */
+.vp-doc h2 {
+  border-top: none !important;
+  padding-top: 0 !important;
+  margin-top: 40px !important;
+  margin-bottom: 12px !important;
+}
+
+/* 第一个分类不需要顶部间距 */
+.category-block:first-child h2 {
+  margin-top: 0 !important;
+}
+
+/* 移动端微调 */
+@media (max-width: 768px) {
+  .vp-doc h2 {
+    margin-top: 30px !important;
+    margin-bottom: 10px !important;
+  }
+  .category-block:first-child h2 {
+    margin-top: 0 !important;
+  }
+}
+</style>
