@@ -7,7 +7,16 @@
       <div class="card-main">
         <img :src="withBase(icon)" :alt="name" />
         <div class="card-text">
-          <div class="card-title">{{ name }}</div>
+          <div
+            class="card-title"
+            :class="{
+              'title-short': name.length <= 8,
+              'title-medium': name.length > 8 && name.length <= 12,
+              'title-long': name.length > 12,
+            }"
+          >
+            {{ name }}
+          </div>
           <div class="card-desc" v-if="desc">{{ desc }}</div>
         </div>
       </div>
@@ -57,7 +66,16 @@
         <div class="mobile-main-content">
           <img class="app-logo" :src="withBase(icon)" :alt="name" />
           <div class="card-text">
-            <div class="card-title">{{ name }}</div>
+            <div
+              class="card-title"
+              :class="{
+                'title-short': name.length <= 8,
+                'title-medium': name.length > 8 && name.length <= 12,
+                'title-long': name.length > 12,
+              }"
+            >
+              {{ name }}
+            </div>
             <div class="card-desc" v-if="desc">{{ desc }}</div>
           </div>
         </div>
@@ -105,12 +123,31 @@ defineProps({
 }
 .card-title {
   font-weight: 600;
-  font-size: 16px;
   color: var(--vp-c-text-1);
   margin-bottom: 4px;
+
+  /* 保留截断作为极端情况兜底（比如二三十个字的变态名字） */
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+
+  /* 加上过渡动画，让缩放更平滑 */
+  transition: font-size 0.2s ease;
+}
+
+/* 短名字：正常大小 */
+.title-short {
+  font-size: 16px; /* 桌面端默认 16px，移动端可以在下面媒体查询里覆盖 */
+}
+
+/* 中等名字：稍微缩小 */
+.title-medium {
+  font-size: 14px;
+}
+
+/* 长名字：进一步缩小，保证能看清完整名字 */
+.title-long {
+  font-size: 12px;
 }
 .card-desc {
   font-size: 13px;
@@ -223,6 +260,16 @@ defineProps({
   .app-logo {
     margin-left: 10px;
   }
+
+  .title-short {
+    font-size: 15px;
+  }
+  .title-medium {
+    font-size: 14px;
+  }
+  .title-long {
+    font-size: 13px;
+  } /* 12px 在手机上可能太小，13px 比较舒服 */
 
   /* 1. 干掉卡片圆角、边框、背景，变成列表项 */
   .resource-card {
