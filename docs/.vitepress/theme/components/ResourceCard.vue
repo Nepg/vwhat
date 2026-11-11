@@ -257,9 +257,6 @@ defineProps({
     border-radius: 0;
     box-shadow: none;
   }
-  .resource-card:last-child {
-    border-bottom: none !important;
-  }
 
   /* 2. 显示并重置布局 */
   .mobile-view {

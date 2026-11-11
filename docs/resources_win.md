@@ -4,7 +4,7 @@ const categories = [
     title: "硬件",
     apps: [
       { icon: "/icons/nvidia.svg", name: "NVIDIA", desc: "", website: "https://www.nvidia.cn/drivers/" },
-      { icon: "/icons/amd.svg", name: "AMD", desc: "", website: "https://www.amd.com/zh-cn/support/download/drivers.html" },
+      { icon: "/icons/amd.ico", name: "AMD", desc: "", website: "https://www.amd.com/zh-cn/support/download/drivers.html" },
       { icon: "/icons/ddu.png", name: "DDU", desc: "卸显卡驱动", website: "https://www.wagnardsoft.com/", pan: "https://wwanv.lanzoum.com/iNq3D3x7nbad" },
       { icon: "/icons/cpuz.ico", name: "CPU-Z", desc: "", website: "https://www.cpuid.com/softwares/cpu-z.html", pan: "https://wwanv.lanzoum.com/i6ecK3x7yj3a" },
       { icon: "/icons/GPU-Z.ico", name: "GPU-Z", desc: "", website: "https://www.techpowerup.com/download/techpowerup-gpu-z/", pan: "https://wwanv.lanzoum.com/iyjPs3x7ykud" },
