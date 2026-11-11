@@ -68,6 +68,7 @@
           <div class="card-text">
             <div
               class="card-title"
+              :title="name"
               :class="{
                 'title-short': name.length <= 8,
                 'title-medium': name.length > 8 && name.length <= 12,
@@ -125,30 +126,16 @@ defineProps({
   font-weight: 600;
   color: var(--vp-c-text-1);
   margin-bottom: 4px;
-
-  /* 保留截断作为极端情况兜底（比如二三十个字的变态名字） */
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-
-  /* 加上过渡动画，让缩放更平滑 */
   transition: font-size 0.2s ease;
+
+  /* 桌面端强制统一大小，不管长短 */
+  font-size: 16px;
 }
 
-/* 短名字：正常大小 */
-.title-short {
-  font-size: 16px; /* 桌面端默认 16px，移动端可以在下面媒体查询里覆盖 */
-}
-
-/* 中等名字：稍微缩小 */
-.title-medium {
-  font-size: 14px;
-}
-
-/* 长名字：进一步缩小，保证能看清完整名字 */
-.title-long {
-  font-size: 12px;
-}
+/* 桌面端不需要变小，把这几个类清空，或者直接留给移动端用 */
 .card-desc {
   font-size: 13px;
   color: var(--vp-c-text-2);
@@ -261,16 +248,6 @@ defineProps({
     margin-left: 10px;
   }
 
-  .title-short {
-    font-size: 15px;
-  }
-  .title-medium {
-    font-size: 14px;
-  }
-  .title-long {
-    font-size: 13px;
-  } /* 12px 在手机上可能太小，13px 比较舒服 */
-
   /* 1. 干掉卡片圆角、边框、背景，变成列表项 */
   .resource-card {
     height: 64px;
@@ -319,9 +296,18 @@ defineProps({
     object-fit: contain;
     flex-shrink: 0;
   }
+  .title-short {
+    font-size: 15px !important;
+  }
+  .title-medium {
+    font-size: 14px !important;
+  }
+  .title-long {
+    font-size: 13px !important;
+  }
 
+  /* 删掉了 font-size，只留 margin */
   .card-title {
-    font-size: 15px;
     margin-bottom: 2px;
   }
   .card-desc {
