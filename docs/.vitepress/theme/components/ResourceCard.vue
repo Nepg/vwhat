@@ -29,7 +29,6 @@
           </span>
           官网
         </a>
-        <div class="action-divider" v-if="website && pan"></div>
         <a v-if="pan" :href="pan" target="_blank" class="action-btn">
           <span class="icon">
             <svg
@@ -207,11 +206,6 @@ defineProps({
 .action-btn .icon {
   font-size: 20px;
   margin-bottom: 8px;
-}
-.action-divider {
-  width: 1px;
-  height: 40px;
-  background-color: var(--vp-c-divider);
 }
 
 /* 默认隐藏移动端视图 */
