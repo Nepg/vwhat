@@ -149,3 +149,29 @@ html {
 .VPNavBar .container {
   max-width: 100% !important;
 }
+
+/* 7. 隐藏 VitePress 默认的太阳和月亮图标 */
+.VPSwitchAppearance .sun,
+.VPSwitchAppearance .moon {
+  display: none !important;
+}
+
+/* 用自定义 SVG 替换默认图标 */
+.VPSwitchAppearance .check .icon {
+  display: block;
+  width: 18px; /* 根据你的 SVG 比例调整 */
+  height: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* 浅色模式下的太阳图标 */
+.VPSwitchAppearance .check .icon {
+  background-image: url("/icons/custom-sun.svg");
+}
+
+/* 深色模式下的月亮图标 */
+.dark .VPSwitchAppearance .check .icon {
+  background-image: url("/icons/custom-moon.svg");
+}
