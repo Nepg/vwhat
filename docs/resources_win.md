@@ -52,7 +52,7 @@ const categories = [
     apps: [
       { icon: "/icons/steam.ico", name: "Steam", desc: "", website: "https://store.steampowered.com/" },
       { icon: "/icons/EpicGames.ico", name: "Epic", desc: "", website: "https://www.epicgames.com/site/home?lang=zh-CN" },
-      { icon: "/icons/wegame.ico", name: "WeGame", desc: "腾讯", website: "https://www.wegame.com.cn/home/" },
+      { icon: "/icons/wegame.png", name: "WeGame", desc: "腾讯", website: "https://www.wegame.com.cn/home/" },
       { icon: "/icons/steamzg.webp", name: "小叽资源", desc: "", website: "https://steamzg.com/" },
       { icon: "/icons/Gamer520.png", name: "Gamer520", desc: "", website: "https://www.gamer520.com/" },
       { icon: "/icons/Steam++.ico", name: "Watt Toolkit", desc: "加速器，原名Steam++", website: "https://steampp.net/" },
@@ -75,8 +75,11 @@ const categories = [
       { icon: "/icons/chrome.svg", name: "Chrome", desc: "", website: "https://www.google.cn/chrome/", pan: "https://cloud.189.cn/web/share?code=3QVbQjBzmu2q（访问码：5krq）" },
       { icon: "/icons/vivaldi.png", name: "Vivaldi", desc: "", website: "https://vivaldi.com/zh-hans/download/", pan: "https://share.feijipan.com/s/QYyu3cC7" },
       { icon: "/icons/PDFgear.png", name: "PDFgear", desc: "PDF编辑器", website: "https://www.pdfgear.com/zh/" },
+      { icon: "/icons/wps.png", name: "WPS", desc: "", website: "https://www.wps.cn/", pan: "https://share.feijipan.com/s/fizTfgK1"  },
       { icon: "/icons/qq.ico", name: "QQ", desc: "", website: "https://im.qq.com/download" },
-      { icon: "/icons/weChat.png", name: "微信", desc: "", website: "https://weixin.qq.com/" }
+      { icon: "/icons/weChat.png", name: "微信", desc: "", website: "https://weixin.qq.com/" },
+      { icon: "/icons/SuperKillller.png", name: "360系统急救盘", desc: "杀毒", website: "https://weishi.360.cn/jijiuxiang/", pan: "https://share.feijipan.com/s/a5zTfRZX" },
+      { icon: "/icons/huorong.svg", name: "火绒恶性木马专杀工具", desc: "杀银狐", website: "https://bbs.huorong.cn/thread-18575-1-1.html" , pan :"https://share.feijipan.com/s/VZzTgA0s"}
     ]
   }
 ,
