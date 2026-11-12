@@ -40,13 +40,14 @@ const categories = [
       { icon: "/icons/nanazip.ico", name: "NanaZip", desc: "", website: "https://nanazip.org/", pan: "https://share.feijipan.com/s/xExo1FtC" },
       { icon: "/icons/hibituninstaller.png", name: "HiBit Uninstaller", desc: "卸载工具", website: "https://hibitsoft.ir/Uninstaller.html", pan: "https://wwanv.lanzoum.com/i8FX73ysrv3c" },
       { icon: "/icons/KeePassXC.svg", name: "KeePassXC", desc: "密码管理", website: "https://github.com/keepassxreboot/keepassxc", pan: "https://wwanv.lanzoum.com/izCoD3xuh98b" },
-      { icon: "/icons/FastCopy.ico", name: "FastCopy", desc: "快速复制", website: "https://fastcopy.jp/", pan: "https://wwanv.lanzoum.com/imjm83y7s6dc" },
-      { icon: "/icons/ContextMenuManager.ico", name: "ContextMenuManager", desc: "右键菜单管理", website: "https://bluepointlilac.github.io/ContextMenuManager/", pan: "https://wwanv.lanzoum.com/ip3Ty3x6rvlc" },
       { icon: "/icons/Everything.ico", name: "Everything", desc: "", website: "https://www.voidtools.com/", pan: "https://wwanv.lanzoum.com/iS6mK3x807pc" },
       { icon: "/icons/HandBrake.png", name: "HandBrake", desc: "视频格式转码", website: "https://handbrake.fr/downloads.php", pan: "https://wwanv.lanzoum.com/iqlCC3x6scfi" },
       { icon: "/icons/Snipaste.svg", name: "Snipaste", desc: "截图 / 贴图", website: "https://zh.snipaste.com/", pan: "https://wwanv.lanzoum.com/iySFm3x6rohg" },
       { icon: "/icons/Glance.ico", name: "Glance", desc: "截图翻译", website: "https://github.com/Harukaon/Glance", pan: "https://wwanv.lanzoum.com/ivFyp3y7sdde" },
-      { icon: "/icons/quickscan.png", name: "QuickScan", desc: "屏幕扫码工具", website: "https://github.com/yoli-mi/quickscan", pan: "https://share.feijipan.com/s/7vzFYZ0m" }
+      { icon: "/icons/quickscan.png", name: "QuickScan", desc: "屏幕扫码工具", website: "https://github.com/yoli-mi/quickscan", pan: "https://share.feijipan.com/s/7vzFYZ0m" },   
+      { icon: "/icons/ContextMenuManager.ico", name: "ContextMenuManager", desc: "右键菜单管理", website: "https://bluepointlilac.github.io/ContextMenuManager/", pan: "https://wwanv.lanzoum.com/ip3Ty3x6rvlc" },  
+      { icon: "/icons/FastCopy.ico", name: "FastCopy", desc: "快速复制", website: "https://fastcopy.jp/", pan: "https://wwanv.lanzoum.com/imjm83y7s6dc" }
+
     ]
   }
 ,
@@ -75,6 +76,7 @@ const categories = [
     apps: [
       { icon: "/icons/mpv.ico", name: "mpv-lazy", desc: "补帧懒人包，hooke007 维护，安装即用", website: "https://github.com/hooke007/mpv_PlayKit", pan: "https://cloud.189.cn/web/share?code=B3MNBvVzueAb（访问码：bb8g）" },
       { icon: "/icons/potplayer.png", name: "Potplayer", desc: "", website: "https://potplayer.tv/", pan: "https://wwi.lanzoui.com/xxxx" },
+      { icon: "/icons/MusicPlayer2.png", name: "MusicPlayer2", desc: "众里寻他千百度", website: "https://github.com/zhongyang219/MusicPlayer2", pan: "https://share.feijipan.com/s/lEzFwpBC"  },
       { icon: "/icons/chrome.svg", name: "Chrome", desc: "", website: "https://www.google.cn/chrome/", pan: "https://cloud.189.cn/web/share?code=3QVbQjBzmu2q（访问码：5krq）" },
       { icon: "/icons/vivaldi.png", name: "Vivaldi", desc: "", website: "https://vivaldi.com/zh-hans/download/", pan: "https://share.feijipan.com/s/QYyu3cC7" },
       { icon: "/icons/PDFgear.png", name: "PDFgear", desc: "PDF编辑器", website: "https://www.pdfgear.com/zh/" },
