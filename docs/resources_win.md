@@ -45,7 +45,8 @@ const categories = [
       { icon: "/icons/Everything.ico", name: "Everything", desc: "", website: "https://www.voidtools.com/", pan: "https://wwanv.lanzoum.com/iS6mK3x807pc" },
       { icon: "/icons/HandBrake.png", name: "HandBrake", desc: "视频格式转码", website: "https://handbrake.fr/downloads.php", pan: "https://wwanv.lanzoum.com/iqlCC3x6scfi" },
       { icon: "/icons/Snipaste.svg", name: "Snipaste", desc: "截图 / 贴图", website: "https://zh.snipaste.com/", pan: "https://wwanv.lanzoum.com/iySFm3x6rohg" },
-      { icon: "/icons/Glance.ico", name: "Glance", desc: "截图翻译", website: "https://github.com/Harukaon/Glance", pan: "https://wwanv.lanzoum.com/ivFyp3y7sdde" }
+      { icon: "/icons/Glance.ico", name: "Glance", desc: "截图翻译", website: "https://github.com/Harukaon/Glance", pan: "https://wwanv.lanzoum.com/ivFyp3y7sdde" },
+      { icon: "/icons/quickscan.png", name: "QuickScan", desc: "屏幕扫码工具", website: "https://github.com/yoli-mi/quickscan", pan: "https://share.feijipan.com/s/7vzFYZ0m" }
     ]
   }
 ,
