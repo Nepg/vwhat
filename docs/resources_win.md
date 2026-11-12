@@ -1,7 +1,7 @@
 <script setup>
 const categories = [
   {
-    title: "硬件",
+    title: "硬件、驱动",
     apps: [
       { icon: "/icons/nvidia.svg", name: "NVIDIA", desc: "", website: "https://www.nvidia.cn/drivers/" },
       { icon: "/icons/amd.ico", name: "AMD", desc: "", website: "https://www.amd.com/zh-cn/support/download/drivers.html" },
@@ -13,7 +13,7 @@ const categories = [
       { icon: "/icons/crystalmark.ico", name: "CrystalDiskInfo", desc: "硬盘健康", website: "https://crystalmark.info/en/", pan: "https://wwanv.lanzoum.com/iqPP23x6sspe" },
       { icon: "/icons/ATIWinFlash.png", name: "ATIWinFlash", desc: "580 刷 BIOS", website: "http://www.smxdiy.com/thread-1079-1-1.html", pan: "https://share.feijipan.com/s/ioyuB1ug" },
       { icon: "/icons/MSIAfterburner.ico", name: "微星小飞机", desc: "", website: "https://www.msi.com/Landing/afterburner/graphics-cards" },
-      { icon: "/icons/tbtool.ico", name: "图吧工具箱", desc: "懒人包", website: "https://www.tbtool.cn/", pan: "https://cloud.189.cn/web/share?code=i2auqeEBJjM3（访问码：yej5）" },
+      { icon: "/icons/tbtool.ico", name: "图吧工具箱", desc: "整合包", website: "https://www.tbtool.cn/", pan: "https://cloud.189.cn/web/share?code=i2auqeEBJjM3（访问码：yej5）" },
       { icon: "/icons/360Drv.ico", name: "360驱动大师", desc: "不限速版本", pan: "https://wwanv.lanzoum.com/ipj9C3x7ofsb" },
       { icon: "/icons/DrvCeo.ico", name: "驱动总裁", desc: "一键安装驱动，可能装错导致蓝屏", website: "https://www.sysceo.com/software-softwarei-id-258.html", pan: "https://wwanv.lanzoum.com/iIUzT3x7ok4h" }
     ]
@@ -36,13 +36,15 @@ const categories = [
 ,
   {
     title: "桌面、效率",
-    apps: [
+    apps: [      
+      { icon: "/icons/nanazip.ico", name: "NanaZip", desc: "", website: "https://nanazip.org/", pan: "https://share.feijipan.com/s/xExo1FtC" },
+      { icon: "/icons/hibituninstaller.png", name: "HiBit Uninstaller", desc: "卸载工具", website: "https://hibitsoft.ir/Uninstaller.html", pan: "https://wwanv.lanzoum.com/i8FX73ysrv3c" },
       { icon: "/icons/KeePassXC.svg", name: "KeePassXC", desc: "密码管理", website: "https://github.com/keepassxreboot/keepassxc", pan: "https://wwanv.lanzoum.com/izCoD3xuh98b" },
-      { icon: "/icons/FastCopy.ico", name: "FastCopy", desc: "快速复制/备份", website: "https://fastcopy.jp/", pan: "https://wwanv.lanzoum.com/imjm83y7s6dc" },
+      { icon: "/icons/FastCopy.ico", name: "FastCopy", desc: "快速复制", website: "https://fastcopy.jp/", pan: "https://wwanv.lanzoum.com/imjm83y7s6dc" },
       { icon: "/icons/ContextMenuManager.ico", name: "ContextMenuManager", desc: "右键菜单管理", website: "https://bluepointlilac.github.io/ContextMenuManager/", pan: "https://wwanv.lanzoum.com/ip3Ty3x6rvlc" },
       { icon: "/icons/Everything.ico", name: "Everything", desc: "", website: "https://www.voidtools.com/", pan: "https://wwanv.lanzoum.com/iS6mK3x807pc" },
       { icon: "/icons/HandBrake.png", name: "HandBrake", desc: "视频格式转码", website: "https://handbrake.fr/downloads.php", pan: "https://wwanv.lanzoum.com/iqlCC3x6scfi" },
-      { icon: "/icons/Snipaste.svg", name: "Snipaste", desc: "截图贴屏", website: "https://zh.snipaste.com/", pan: "https://wwanv.lanzoum.com/iySFm3x6rohg" },
+      { icon: "/icons/Snipaste.svg", name: "Snipaste", desc: "截图 / 贴图", website: "https://zh.snipaste.com/", pan: "https://wwanv.lanzoum.com/iySFm3x6rohg" },
       { icon: "/icons/Glance.ico", name: "Glance", desc: "截图翻译", website: "https://github.com/Harukaon/Glance", pan: "https://wwanv.lanzoum.com/ivFyp3y7sdde" }
     ]
   }
@@ -62,13 +64,13 @@ const categories = [
       { icon: "/icons/java.svg", name: "Java 8", desc: "装 64 位版，别装 32 位", website: "https://www.java.com/zh-CN/download/manual.jsp", pan: "https://wwanv.lanzoum.com/io9vF3x7p0ze" },
       { icon: "/icons/oracle.svg", name: "Java", desc: "", website: "https://www.oracle.com/cn/java/technologies/downloads/" },
       { icon: "/icons/rutracker.ico", name: "RuTracker.org", desc: "俄罗斯资源站", website: "https://rutracker.net/forum/index.php" },
-      { icon: "/icons/byrutgame.png", name: "byrutgame.org", desc: "俄罗斯资源站，汉化资源多", website: "https://byrutgame.org/" },
+      { icon: "/icons/byrutgame.png", name: "byrutgame.org", desc: "俄罗斯资源站", website: "https://byrutgame.org/" },
       { icon: "/icons/oflogo.png", name: "online-fix", desc: "联机补丁", website: "https://online-fix.me/" }
     ]
   }
 ,
   {
-    title: "媒体",
+    title: "媒体、日常",
     apps: [
       { icon: "/icons/mpv.ico", name: "mpv-lazy", desc: "补帧懒人包，hooke007 维护，安装即用", website: "https://github.com/hooke007/mpv_PlayKit", pan: "https://cloud.189.cn/web/share?code=B3MNBvVzueAb（访问码：bb8g）" },
       { icon: "/icons/potplayer.png", name: "Potplayer", desc: "", website: "https://potplayer.tv/", pan: "https://wwi.lanzoui.com/xxxx" },
@@ -77,9 +79,7 @@ const categories = [
       { icon: "/icons/PDFgear.png", name: "PDFgear", desc: "PDF编辑器", website: "https://www.pdfgear.com/zh/" },
       { icon: "/icons/wps.png", name: "WPS", desc: "", website: "https://www.wps.cn/", pan: "https://share.feijipan.com/s/fizTfgK1"  },
       { icon: "/icons/qq.ico", name: "QQ", desc: "", website: "https://im.qq.com/download" },
-      { icon: "/icons/weChat.png", name: "微信", desc: "", website: "https://weixin.qq.com/" },
-      { icon: "/icons/SuperKillller.png", name: "360系统急救盘", desc: "杀毒", website: "https://weishi.360.cn/jijiuxiang/", pan: "https://share.feijipan.com/s/a5zTfRZX" },
-      { icon: "/icons/huorong.svg", name: "火绒恶性木马专杀工具", desc: "杀银狐", website: "https://bbs.huorong.cn/thread-18575-1-1.html" , pan :"https://share.feijipan.com/s/VZzTgA0s"}
+      { icon: "/icons/weChat.png", name: "微信", desc: "", website: "https://weixin.qq.com/" }
     ]
   }
 ,
@@ -91,16 +91,16 @@ const categories = [
       { icon: "/icons/microsoft-color.svg", name: "微软常用运行库", desc: "", pan: "https://share.feijipan.com/s/A0xoDw2W" },
       { icon: "/icons/DirectXRepair.ico", name: "DirectX_Repair", desc: "dx修复", pan: "https://cloud.189.cn/web/share?code=neayqyQVFFRv（访问码：5fw0）" },
       { icon: "/icons/NET.png", name: ".NET Desktop Runtime", desc: ".NET 桌面运行时", website: "https://dotnet.microsoft.com/zh-cn/download/dotnet", pan: "https://www.alipan.com/s/spCsc745c1o" },
-      { icon: "/icons/windows11.svg", name: "Win11Debloat", desc: "win10、11快速精简", website: "https://github.com/Raphire/Win11Debloat", pan: "https://wwanv.lanzoum.com/iGjab3yfrukf" },
-      { icon: "/icons/nanazip.ico", name: "NanaZip", desc: "", website: "https://nanazip.org/", pan: "https://share.feijipan.com/s/xExo1FtC" },
+      { icon: "/icons/windows11.svg", name: "Win11Debloat", desc: "win10、11精简", website: "https://github.com/Raphire/Win11Debloat", pan: "https://wwanv.lanzoum.com/iGjab3yfrukf" },
       { icon: "/icons/Dism++.ico", name: "Dism++", desc: "系统优化", website: "https://www.chuyu.me/zh-Hans/", pan: "https://wwanv.lanzoum.com/iIcgD3x6rhsf" },
-      { icon: "/icons/hibituninstaller.png", name: "HiBit Uninstaller", desc: "卸载工具", website: "https://hibitsoft.ir/Uninstaller.html", pan: "https://wwanv.lanzoum.com/i8FX73ysrv3c" },
       { icon: "/icons/WinDirStat.ico", name: "WinDirStat", desc: "磁盘空间占用", website: "https://github.com/windirstat/windirstat", pan: "https://wwanv.lanzouc.com/iulOw4a2thpi" },
-      { icon: "/icons/ntpwlogo.png", name: "NTPWEdit 0.7", desc: "系统密码管理", website: "http://www.cdslow.org.ru/en/ntpwedit/", pan: "https://wwanv.lanzoum.com/iWPy93x6t1tc" },
+      { icon: "/icons/SuperKillller.png", name: "360系统急救箱", desc: "杀毒", website: "https://weishi.360.cn/jijiuxiang/", pan: "https://share.feijipan.com/s/a5zTfRZX" },
+      { icon: "/icons/huorong.svg", name: "火绒恶性木马专杀工具", desc: "杀毒", website: "https://bbs.huorong.cn/thread-18575-1-1.html" , pan :"https://share.feijipan.com/s/VZzTgA0s"},
       { icon: "/icons/xitongku.ico", name: "MSDN", desc: "Windows镜像下载", website: "https://www.xitongku.com/index.html" },
       { icon: "/icons/msdl.ico", name: "MSDL", desc: "Windows镜像下载", website: "https://msdl.gravesoft.dev/#" },
       { icon: "/icons/ventoy.png", name: "Ventoy", desc: "", website: "https://www.ventoy.net/cn/", pan: "https://wwanv.lanzoum.com/iIV8W3x6udpg" },
-      { icon: "/icons/wepe.png", name: "微PE工具箱", desc: "", website: "https://www.wepe.com.cn/", pan: "https://cloud.189.cn/web/share?code=N7N7faMjYreu（访问码：q5ee）" }
+      { icon: "/icons/wepe.png", name: "微PE工具箱", desc: "", website: "https://www.wepe.com.cn/", pan: "https://cloud.189.cn/web/share?code=N7N7faMjYreu（访问码：q5ee）" },
+      { icon: "/icons/ntpwlogo.png", name: "NTPWEdit 0.7", desc: "PE环境使用（系统密码管理）", website: "http://www.cdslow.org.ru/en/ntpwedit/", pan: "https://wwanv.lanzoum.com/iWPy93x6t1tc" }
     ]
   }
 ]
