@@ -35,15 +35,18 @@ html {
   --vp-c-brand-1: #0078d6;
   --vp-c-brand-2: #0078d6;
   --vp-c-brand-3: #0078d6;
-  --vp-font-weight-normal: 600;
-  --vp-font-weight-semibold: 700;
-  --vp-font-weight-bold: 800;
+  --vp-font-weight-normal: 400;
+  --vp-font-weight-semibold: 600;
+  --vp-font-weight-bold: 700;
 }
 
 .dark {
   --vp-c-brand-1: #4cc2ff;
   --vp-c-brand-2: #4cc2ff;
   --vp-c-brand-3: #4cc2ff;
+  --vp-c-bg: #0d1117;
+  --vp-c-bg-alt: #161b22;
+  --vp-c-bg-elv: #21262d;
 }
 
 /* ========================================

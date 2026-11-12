@@ -141,7 +141,6 @@ defineProps({
 .resource-card {
   position: relative;
   height: 90px;
-  border: 1px solid var(--vp-c-divider);
   border-radius: 12px;
   background-color: var(--vp-c-bg-soft);
   overflow: hidden;
@@ -333,7 +332,6 @@ defineProps({
     font-weight: 600;
     font-size: 13px;
     height: 100% !important;
-    border-radius: 0 !important; /* 直角 */
     padding: 0 19px;
     text-decoration: none !important;
     flex-shrink: 0;
