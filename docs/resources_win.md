@@ -78,7 +78,7 @@ const categories = [
       { icon: "/icons/potplayer.png", name: "Potplayer", desc: "", website: "https://potplayer.tv/", pan: "https://wwi.lanzoui.com/xxxx" },
       { icon: "/icons/MusicPlayer2.png", name: "MusicPlayer2", desc: "众里寻他千百度", website: "https://github.com/zhongyang219/MusicPlayer2", pan: "https://share.feijipan.com/s/lEzFwpBC"  },
       { icon: "/icons/chrome.svg", name: "Chrome", desc: "", website: "https://www.google.cn/chrome/", pan: "https://cloud.189.cn/web/share?code=3QVbQjBzmu2q（访问码：5krq）" },
-      { icon: "/icons/vivaldi.png", name: "Vivaldi", desc: "", website: "https://vivaldi.com/zh-hans/download/", pan: "https://share.feijipan.com/s/QYyu3cC7" },
+      { icon: "/icons/helium.png", name: "Helium", desc: "", website: "https://github.com/imputnet/helium", pan: "https://share.feijipan.com/s/buzGTxRA" },
       { icon: "/icons/PDFgear.png", name: "PDFgear", desc: "PDF编辑器", website: "https://www.pdfgear.com/zh/" },
       { icon: "/icons/wps.png", name: "WPS", desc: "", website: "https://www.wps.cn/", pan: "https://share.feijipan.com/s/fizTfgK1"  },
       { icon: "/icons/qq.ico", name: "QQ", desc: "", website: "https://im.qq.com/download" },
