@@ -95,7 +95,7 @@ const categories = [
       { icon: "/icons/DirectXRepair.ico", name: "DirectX_Repair", desc: "dx修复", pan: "https://cloud.189.cn/web/share?code=neayqyQVFFRv（访问码：5fw0）" },
       { icon: "/icons/NET.png", name: ".NET Desktop Runtime", desc: ".NET 桌面运行时", website: "https://dotnet.microsoft.com/zh-cn/download/dotnet", pan: "https://www.alipan.com/s/spCsc745c1o" },
       { icon: "/icons/windows11.svg", name: "Win11Debloat", desc: "win10、11精简", website: "https://github.com/Raphire/Win11Debloat", pan: "https://wwanv.lanzoum.com/iGjab3yfrukf" },
-      { icon: "/icons/Dism++.ico", name: "Dism++", desc: "系统优化", website: "https://www.chuyu.me/zh-Hans/", pan: "https://wwanv.lanzoum.com/iIcgD3x6rhsf" },
+      { icon: "/icons/Dismpp.ico", name: "Dism++", desc: "系统优化", website: "https://www.chuyu.me/zh-Hans/", pan: "https://wwanv.lanzoum.com/iIcgD3x6rhsf" },
       { icon: "/icons/WinDirStat.ico", name: "WinDirStat", desc: "磁盘空间占用", website: "https://github.com/windirstat/windirstat", pan: "https://wwanv.lanzouc.com/iulOw4a2thpi" },
       { icon: "/icons/SuperKillller.png", name: "360系统急救箱", desc: "杀毒", website: "https://weishi.360.cn/jijiuxiang/", pan: "https://share.feijipan.com/s/a5zTfRZX" },
       { icon: "/icons/huorong.svg", name: "火绒恶性木马专杀工具", desc: "杀毒", website: "https://bbs.huorong.cn/thread-18575-1-1.html" , pan :"https://share.feijipan.com/s/VZzTgA0s"},
