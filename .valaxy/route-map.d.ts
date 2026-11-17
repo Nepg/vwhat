@@ -87,9 +87,37 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/ARK_Mods_Clean': RouteRecordInfo<
+      '/posts/ARK_Mods_Clean',
+      '/posts/ARK_Mods_Clean',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/hello-valaxy': RouteRecordInfo<
       '/posts/hello-valaxy',
       '/posts/hello-valaxy',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/resources_android': RouteRecordInfo<
+      '/posts/resources_android',
+      '/posts/resources_android',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/resources_win': RouteRecordInfo<
+      '/posts/resources_win',
+      '/posts/resources_win',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/UE4_Mod_ValueDev': RouteRecordInfo<
+      '/posts/UE4_Mod_ValueDev',
+      '/posts/UE4_Mod_ValueDev',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -178,9 +206,41 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/ARK_Mods_Clean.md': {
+      routes:
+        | '/posts/ARK_Mods_Clean'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/hello-valaxy.md': {
       routes:
         | '/posts/hello-valaxy'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/resources_android.md': {
+      routes:
+        | '/posts/resources_android'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/resources_win.md': {
+      routes:
+        | '/posts/resources_win'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/UE4_Mod_ValueDev.md': {
+      routes:
+        | '/posts/UE4_Mod_ValueDev'
       views:
         | never
       pathParamNames:

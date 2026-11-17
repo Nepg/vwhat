@@ -19,7 +19,15 @@ export default defineValaxyConfig({
   // https://valaxy.site/guide/work-with-ai#mcp
   // mcp: true,
 
-  themeConfig: {},
+  themeConfig: {    
+    eyebrow: 'MY FIELD NOTES',
+    motto: '记录值得留下的事。',
+    accent: '#ffd84a',
+    outline: 'deep',
+    nav: [
+      { text: '首页', link: '/' },
+    ],
+  },
 
   unocss: { safelist },
 })
